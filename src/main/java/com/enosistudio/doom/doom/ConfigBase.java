@@ -129,7 +129,7 @@ public enum ConfigBase {
                 Engine.getCVM().bool(CommandVariable.FR2DEV) ||
                 Engine.getCVM().bool(CommandVariable.COMDEV)
                     ? dstrings.DEVDATA + System.getProperty("file.separator")
-                    : ""
+                    : "app" + System.getProperty("file.separator") + "doom" + System.getProperty("file.separator")
             );
         }
     }
