@@ -11,7 +11,7 @@ public class Main extends javafx.application.Application {
     @Override
     public void start(Stage stage) throws Exception {
 //        DoomFXNode doomNode = Engine.startJavaFX("C:\\ProjectJava\\freedoom1.wad");
-        DoomFXNode doomNode = Engine.startJavaFX("app\\freedoom1.wad");
+        DoomFXNode doomNode = Engine.startJavaFX("app\\doom\\freedoom1.wad");
 
         StackPane root = new StackPane(doomNode);
         // DoomFXNode doit pouvoir grandir au-delà de son prefSize (320×200)
