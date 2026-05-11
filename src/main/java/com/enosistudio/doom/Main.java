@@ -14,9 +14,13 @@ public class Main extends javafx.application.Application {
         DoomFXNode doomNode = Engine.startJavaFX("app\\freedoom1.wad");
 
         StackPane root = new StackPane(doomNode);
-        stage.setScene(new Scene(root));
+        // DoomFXNode doit pouvoir grandir au-delà de son prefSize (320×200)
+        doomNode.setMaxSize(Double.MAX_VALUE, Double.MAX_VALUE);
+
+        Scene scene = new Scene(root, 960, 600);
+        stage.setScene(scene);
         stage.setTitle("Doom FX");
-        stage.setResizable(false);
+        stage.setResizable(true);
         stage.show();
 
         doomNode.requestFocus();
