@@ -1,6 +1,6 @@
 package com.enosistudio.doom.m;
 
-import static data.Limits.*;
+import static com.enosistudio.doom.data.Limits.*;
 
 /** A fucked-up bounding box class.
  *  Fucked-up  because it's supposed to wrap fixed_t's.... no fucking way I'm doing

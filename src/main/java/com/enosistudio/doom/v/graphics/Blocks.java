@@ -18,7 +18,7 @@ package com.enosistudio.doom.v.graphics;
 
 import java.awt.Rectangle;
 import java.lang.reflect.Array;
-import v.scale.VideoScale;
+import com.enosistudio.doom.v.scale.VideoScale;
 
 /**
  * Manipulating Blocks

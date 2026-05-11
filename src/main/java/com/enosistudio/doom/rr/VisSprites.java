@@ -1,20 +1,20 @@
 package com.enosistudio.doom.rr;
 
-import static data.Defines.FF_FRAMEMASK;
-import static data.Defines.FF_FULLBRIGHT;
-import static data.Limits.MAXVISSPRITES;
-import static data.Tables.ANG45;
-import static data.Tables.BITS32;
+import static com.enosistudio.doom.data.Defines.FF_FRAMEMASK;
+import static com.enosistudio.doom.data.Defines.FF_FULLBRIGHT;
+import static com.enosistudio.doom.data.Limits.MAXVISSPRITES;
+import static com.enosistudio.doom.data.Tables.ANG45;
+import static com.enosistudio.doom.data.Tables.BITS32;
 import java.util.Arrays;
-import static m.fixed_t.FRACBITS;
-import static m.fixed_t.FRACUNIT;
-import static m.fixed_t.FixedDiv;
-import static m.fixed_t.FixedMul;
-import p.mobj_t;
-import static p.mobj_t.MF_SHADOW;
+import static com.enosistudio.doom.m.fixed_t.FRACBITS;
+import static com.enosistudio.doom.m.fixed_t.FRACUNIT;
+import static com.enosistudio.doom.m.fixed_t.FixedDiv;
+import static com.enosistudio.doom.m.fixed_t.FixedMul;
+import com.enosistudio.doom.p.mobj_t;
+import static com.enosistudio.doom.p.mobj_t.MF_SHADOW;
 import static com.enosistudio.doom.rr.SceneRenderer.MINZ;
-import utils.C2JUtils;
-import v.graphics.Palettes;
+import com.enosistudio.doom.utils.C2JUtils;
+import com.enosistudio.doom.v.graphics.Palettes;
 
 /** Visualized sprite manager. Depends on: SpriteManager, DoomSystem,
  *  Colormaps, Current View.

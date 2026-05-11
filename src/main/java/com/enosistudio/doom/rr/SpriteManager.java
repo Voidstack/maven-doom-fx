@@ -1,14 +1,14 @@
 package com.enosistudio.doom.rr;
 
-import static data.Defines.PU_CACHE;
-import doom.DoomMain;
+import static com.enosistudio.doom.data.Defines.PU_CACHE;
+import com.enosistudio.doom.doom.DoomMain;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
-import static m.fixed_t.FRACBITS;
-import static utils.C2JUtils.memset;
-import static utils.GenericCopy.malloc;
-import w.lumpinfo_t;
+import static com.enosistudio.doom.m.fixed_t.FRACBITS;
+import static com.enosistudio.doom.utils.C2JUtils.memset;
+import static com.enosistudio.doom.utils.GenericCopy.malloc;
+import com.enosistudio.doom.w.lumpinfo_t;
 
 /** An stand-alone sprite loader. Surprisingly, it is quite a 
  *  separate concern from the renderer, and only needs to communicate 

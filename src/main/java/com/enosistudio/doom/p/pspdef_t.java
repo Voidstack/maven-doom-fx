@@ -4,10 +4,10 @@ import java.io.DataInputStream;
 import java.io.IOException;
 import java.nio.ByteBuffer;
 
-import w.DoomIO;
-import w.IPackableDoomObject;
-import w.IReadableDoomObject;
-import data.state_t;
+import com.enosistudio.doom.w.DoomIO;
+import com.enosistudio.doom.w.IPackableDoomObject;
+import com.enosistudio.doom.w.IReadableDoomObject;
+import com.enosistudio.doom.data.state_t;
 
 public class pspdef_t implements IReadableDoomObject,IPackableDoomObject{
 

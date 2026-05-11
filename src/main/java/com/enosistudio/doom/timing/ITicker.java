@@ -1,9 +1,9 @@
 package com.enosistudio.doom.timing;
 
-import doom.CVarManager;
-import doom.CommandVariable;
-import doom.SourceCode.I_IBM;
-import static doom.SourceCode.I_IBM.*;
+import com.enosistudio.doom.doom.CVarManager;
+import com.enosistudio.doom.doom.CommandVariable;
+import com.enosistudio.doom.doom.SourceCode.I_IBM;
+import static com.enosistudio.doom.doom.SourceCode.I_IBM.*;
 
 public interface ITicker {
 

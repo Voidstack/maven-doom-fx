@@ -1,14 +1,14 @@
 package com.enosistudio.doom.p;
 
-import doom.SourceCode.fixed_t;
+import com.enosistudio.doom.doom.SourceCode.fixed_t;
 import java.io.DataInputStream;
 import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
-import rr.SectorAction;
-import w.CacheableDoomObject;
-import w.IPackableDoomObject;
-import w.IReadableDoomObject;
+import com.enosistudio.doom.rr.SectorAction;
+import com.enosistudio.doom.w.CacheableDoomObject;
+import com.enosistudio.doom.w.IPackableDoomObject;
+import com.enosistudio.doom.w.IReadableDoomObject;
 
 public class ceiling_t extends SectorAction implements CacheableDoomObject, IReadableDoomObject, IPackableDoomObject {
 

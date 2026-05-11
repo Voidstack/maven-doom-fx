@@ -17,11 +17,11 @@
 
 package com.enosistudio.doom.defines;
 
-import doom.DoomMain;
+import com.enosistudio.doom.doom.DoomMain;
 import java.util.logging.Level;
-import mochadoom.Loggers;
-import utils.C2JUtils;
-import static utils.C2JUtils.testReadAccess;
+import com.enosistudio.doom.mochadoom.Loggers;
+import com.enosistudio.doom.utils.C2JUtils;
+import static com.enosistudio.doom.utils.C2JUtils.testReadAccess;
 
 public enum DoomVersion {
     DOOM2F_WAD("doom2f.wad"),

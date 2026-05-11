@@ -11,8 +11,8 @@ import java.lang.reflect.Array;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.Arrays;
-import p.Resettable;
-import w.InputStreamSugar;
+import com.enosistudio.doom.p.Resettable;
+import com.enosistudio.doom.w.InputStreamSugar;
 
 /**
  * Some utilities that emulate C stlib methods or provide convenient functions

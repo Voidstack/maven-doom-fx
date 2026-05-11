@@ -1,18 +1,18 @@
 package com.enosistudio.doom.rr.parallel;
 
-import data.Tables;
-import static data.Tables.finetangent;
-import doom.DoomMain;
+import com.enosistudio.doom.data.Tables;
+import static com.enosistudio.doom.data.Tables.finetangent;
+import com.enosistudio.doom.doom.DoomMain;
 import java.util.concurrent.BrokenBarrierException;
 import java.util.concurrent.CyclicBarrier;
-import static m.fixed_t.*;
+import static com.enosistudio.doom.m.fixed_t.*;
 import com.enosistudio.doom.rr.IDetailAware;
-import v.tables.LightsAndColors;
+import com.enosistudio.doom.v.tables.LightsAndColors;
 import com.enosistudio.doom.rr.TextureManager;
-import rr.drawfuns.ColVars;
-import rr.drawfuns.DoomColumnFunction;
-import rr.drawfuns.R_DrawColumnBoomOpt;
-import rr.drawfuns.R_DrawColumnBoomOptLow;
+import com.enosistudio.doom.rr.drawfuns.ColVars;
+import com.enosistudio.doom.rr.drawfuns.DoomColumnFunction;
+import com.enosistudio.doom.rr.drawfuns.R_DrawColumnBoomOpt;
+import com.enosistudio.doom.rr.drawfuns.R_DrawColumnBoomOptLow;
 import com.enosistudio.doom.rr.visplane_t;
 
 /** This is what actual executes the RenderSegInstructions.

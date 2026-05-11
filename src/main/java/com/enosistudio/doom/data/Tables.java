@@ -1,6 +1,6 @@
 package com.enosistudio.doom.data;
 
-import static m.fixed_t.*;
+import static com.enosistudio.doom.m.fixed_t.*;
 
 // Emacs style mode select   -*- C++ -*- 
 //-----------------------------------------------------------------------------

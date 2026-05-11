@@ -1,7 +1,7 @@
 package com.enosistudio.doom.f;
 
-import w.animenum_t;
-import rr.patch_t;
+import com.enosistudio.doom.w.animenum_t;
+import com.enosistudio.doom.rr.patch_t;
 
 //
 //Animation.

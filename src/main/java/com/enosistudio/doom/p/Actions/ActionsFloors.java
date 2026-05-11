@@ -17,10 +17,10 @@
  */
 package com.enosistudio.doom.p.Actions;
 
-import static data.Limits.MAXINT;
-import data.sounds;
-import m.fixed_t;
-import static m.fixed_t.FRACUNIT;
+import static com.enosistudio.doom.data.Limits.MAXINT;
+import com.enosistudio.doom.data.sounds;
+import com.enosistudio.doom.m.fixed_t;
+import static com.enosistudio.doom.m.fixed_t.FRACUNIT;
 import com.enosistudio.doom.p.ActiveStates;
 import com.enosistudio.doom.p.floor_e;
 import com.enosistudio.doom.p.floormove_t;
@@ -29,11 +29,11 @@ import com.enosistudio.doom.p.plat_t;
 import com.enosistudio.doom.p.plattype_e;
 import com.enosistudio.doom.p.result_e;
 import com.enosistudio.doom.p.stair_e;
-import rr.line_t;
-import static rr.line_t.ML_TWOSIDED;
-import rr.sector_t;
-import rr.side_t;
-import static utils.C2JUtils.eval;
+import com.enosistudio.doom.rr.line_t;
+import static com.enosistudio.doom.rr.line_t.ML_TWOSIDED;
+import com.enosistudio.doom.rr.sector_t;
+import com.enosistudio.doom.rr.side_t;
+import static com.enosistudio.doom.utils.C2JUtils.eval;
 
 public interface ActionsFloors extends ActionsPlats {
 

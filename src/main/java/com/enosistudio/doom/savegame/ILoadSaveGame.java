@@ -1,6 +1,6 @@
 package com.enosistudio.doom.savegame;
 
-import p.ThinkerList;
+import com.enosistudio.doom.p.ThinkerList;
 
 public interface ILoadSaveGame {
     void setThinkerList(ThinkerList li);

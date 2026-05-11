@@ -6,22 +6,35 @@
 
 Mocha Doom is a pure Java Doom source port. Most of the hard work of porting Doom to Java has already been done, thanks to Velktron (Maes), but he has stopped working on it in 2013. Although the port is almost complete, some work remains to do, most importantly the network code for the multiplayer is missing. Features like support for the Boom format would also be great. I have decided to continue the development in my free time and fix some bugs.
 
+# Requirements
+
+- Java 21+
+- Maven 3.6+
+- A Doom WAD file (e.g. `DOOM.WAD`, `DOOM2.WAD`, or the freeware `doom1.wad`)
+
 # How to run
 
-1. Open the project with Eclipse or NetBeans
-2. Delete every file that has errors (if any)
-3. Build and run the project
+### Build
 
-## Advanced users
+```bash
+mvn package
+```
 
-On Linux, two different scripts can be used.
+### Run
 
-1. `build-and-run.sh` which will build Mocha Doom and run it. You can use it as such: `./build-and-run.sh -iwad ~/DOOM2.WAD`. This is the preferred way to quickly test changes for developers.
-2. `build-jar.sh` which will build a JAR file. You can then run the JAR file as such: `java -jar mochadoom.jar -iwad ~/DOOM2.WAD`. This is the preferred way for distributing a Mocha Doom executable.
+```bash
+java -jar target/maven-doom-1.0-SNAPSHOT.jar -iwad /path/to/DOOM.WAD
+```
+
+### Build and run in one step
+
+```bash
+mvn package && java -jar target/maven-doom-1.0-SNAPSHOT.jar -iwad /path/to/DOOM.WAD
+```
 
 # License
 
-Mocha Doom contains work from many contributors. Here are the main contributors, but it's no limited to this list. Others are listed in the copyright headers of the files where they own copyright.
+Mocha Doom contains work from many contributors. Here are the main contributors, but it's not limited to this list. Others are listed in the copyright headers of the files where they own copyright.
 
 - Copyright (C) 1993-1996  [id Software, Inc.](http://www.idsoftware.com/)
 - Copyright (C) 2010-2013  [Victor Epitropou](https://sourceforge.net/projects/mochadoom/)

@@ -18,8 +18,8 @@ package com.enosistudio.doom.v.renderers;
 
 import java.util.Objects;
 import com.enosistudio.doom.v.DoomGraphicSystem;
-import v.scale.VideoScale;
-import w.IWadLoader;
+import com.enosistudio.doom.v.scale.VideoScale;
+import com.enosistudio.doom.w.IWadLoader;
 
 /**
  * Renderer choice that depends on selected (or provided through command line) BppMode

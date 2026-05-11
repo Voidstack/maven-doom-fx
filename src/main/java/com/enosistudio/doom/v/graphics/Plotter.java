@@ -18,7 +18,7 @@ package com.enosistudio.doom.v.graphics;
 
 import java.lang.reflect.Array;
 import java.util.Objects;
-import static utils.GenericCopy.*;
+import static com.enosistudio.doom.utils.GenericCopy.*;
 import static com.enosistudio.doom.v.graphics.Direction.*;
 
 /**

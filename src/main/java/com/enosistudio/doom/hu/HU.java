@@ -21,29 +21,29 @@ package com.enosistudio.doom.hu;
 //
 // -----------------------------------------------------------------------------
 
-import static data.Defines.*;
-import static data.Limits.*;
-import data.sounds.sfxenum_t;
-import defines.*;
-import doom.DoomMain;
-import doom.SourceCode;
-import doom.SourceCode.CauseOfDesyncProbability;
-import doom.SourceCode.HU_Lib;
-import static doom.SourceCode.HU_Lib.*;
-import doom.SourceCode.HU_Stuff;
-import static doom.SourceCode.HU_Stuff.HU_Responder;
-import static doom.SourceCode.HU_Stuff.HU_queueChatChar;
-import static doom.englsh.*;
-import doom.event_t;
-import doom.evtype_t;
-import doom.player_t;
-import g.Signals.ScanCode;
+import static com.enosistudio.doom.data.Defines.*;
+import static com.enosistudio.doom.data.Limits.*;
+import com.enosistudio.doom.data.sounds.sfxenum_t;
+import com.enosistudio.doom.defines.*;
+import com.enosistudio.doom.doom.DoomMain;
+import com.enosistudio.doom.doom.SourceCode;
+import com.enosistudio.doom.doom.SourceCode.CauseOfDesyncProbability;
+import com.enosistudio.doom.doom.SourceCode.HU_Lib;
+import static com.enosistudio.doom.doom.SourceCode.HU_Lib.*;
+import com.enosistudio.doom.doom.SourceCode.HU_Stuff;
+import static com.enosistudio.doom.doom.SourceCode.HU_Stuff.HU_Responder;
+import static com.enosistudio.doom.doom.SourceCode.HU_Stuff.HU_queueChatChar;
+import static com.enosistudio.doom.doom.englsh.*;
+import com.enosistudio.doom.doom.event_t;
+import com.enosistudio.doom.doom.evtype_t;
+import com.enosistudio.doom.doom.player_t;
+import com.enosistudio.doom.g.Signals.ScanCode;
 import java.awt.Rectangle;
 import java.util.Arrays;
-import rr.ViewVars;
-import rr.patch_t;
-import utils.C2JUtils;
-import static v.renderers.DoomScreen.*;
+import com.enosistudio.doom.rr.ViewVars;
+import com.enosistudio.doom.rr.patch_t;
+import com.enosistudio.doom.utils.C2JUtils;
+import static com.enosistudio.doom.v.renderers.DoomScreen.*;
         
 
 public class HU implements IHeadsUp{

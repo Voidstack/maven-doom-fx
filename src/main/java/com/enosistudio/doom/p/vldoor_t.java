@@ -4,9 +4,9 @@ import java.io.DataInputStream;
 import java.io.IOException;
 import java.nio.ByteBuffer;
 
-import rr.SectorAction;
-import w.DoomIO;
-import w.IReadableDoomObject;
+import com.enosistudio.doom.rr.SectorAction;
+import com.enosistudio.doom.w.DoomIO;
+import com.enosistudio.doom.w.IReadableDoomObject;
 
 public class vldoor_t extends SectorAction implements IReadableDoomObject{
         

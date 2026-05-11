@@ -18,24 +18,24 @@
 
 package com.enosistudio.doom.m;
 
-import awt.FullscreenOptions;
-import static doom.ConfigBase.FILE_DOOM;
-import static doom.ConfigBase.FILE_MOCHADOOM;
-import doom.ConfigBase.Files;
-import doom.ConfigManager;
-import static doom.englsh.*;
-import static g.Signals.ScanCode.*;
+import com.enosistudio.doom.awt.FullscreenOptions;
+import static com.enosistudio.doom.doom.ConfigBase.FILE_DOOM;
+import static com.enosistudio.doom.doom.ConfigBase.FILE_MOCHADOOM;
+import com.enosistudio.doom.doom.ConfigBase.Files;
+import com.enosistudio.doom.doom.ConfigManager;
+import static com.enosistudio.doom.doom.englsh.*;
+import static com.enosistudio.doom.g.Signals.ScanCode.*;
 import java.util.Arrays;
 import java.util.EnumSet;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Optional;
-import mochadoom.Engine;
-import utils.QuoteType;
-import v.graphics.Plotter;
-import v.renderers.BppMode;
-import v.renderers.SceneRendererMode;
-import v.tables.GreyscaleFilter;
+import com.enosistudio.doom.mochadoom.Engine;
+import com.enosistudio.doom.utils.QuoteType;
+import com.enosistudio.doom.v.graphics.Plotter;
+import com.enosistudio.doom.v.renderers.BppMode;
+import com.enosistudio.doom.v.renderers.SceneRendererMode;
+import com.enosistudio.doom.v.tables.GreyscaleFilter;
 
 /**
  * An enumeration with the most basic default Doom settings their default values, used if nothing else is available.

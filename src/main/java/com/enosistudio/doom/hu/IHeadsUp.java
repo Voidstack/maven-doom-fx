@@ -1,9 +1,9 @@
 package com.enosistudio.doom.hu;
 
-import doom.SourceCode.HU_Stuff;
-import static doom.SourceCode.HU_Stuff.HU_Responder;
-import doom.event_t;
-import rr.patch_t;
+import com.enosistudio.doom.doom.SourceCode.HU_Stuff;
+import static com.enosistudio.doom.doom.SourceCode.HU_Stuff.HU_Responder;
+import com.enosistudio.doom.doom.event_t;
+import com.enosistudio.doom.rr.patch_t;
 
 public interface IHeadsUp {
 

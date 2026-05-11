@@ -1,19 +1,19 @@
 package com.enosistudio.doom.rr.parallel;
 
-import i.IDoomSystem;
+import com.enosistudio.doom.i.IDoomSystem;
 import java.util.concurrent.BrokenBarrierException;
 import java.util.concurrent.CyclicBarrier;
 import com.enosistudio.doom.rr.IDetailAware;
-import rr.drawfuns.ColVars;
-import rr.drawfuns.DcFlags;
-import rr.drawfuns.DoomColumnFunction;
-import rr.drawfuns.R_DrawColumnBoom;
-import rr.drawfuns.R_DrawColumnBoomLow;
-import rr.drawfuns.R_DrawFuzzColumn;
-import rr.drawfuns.R_DrawFuzzColumnLow;
-import rr.drawfuns.R_DrawTranslatedColumn;
-import rr.drawfuns.R_DrawTranslatedColumnLow;
-import v.tables.BlurryTable;
+import com.enosistudio.doom.rr.drawfuns.ColVars;
+import com.enosistudio.doom.rr.drawfuns.DcFlags;
+import com.enosistudio.doom.rr.drawfuns.DoomColumnFunction;
+import com.enosistudio.doom.rr.drawfuns.R_DrawColumnBoom;
+import com.enosistudio.doom.rr.drawfuns.R_DrawColumnBoomLow;
+import com.enosistudio.doom.rr.drawfuns.R_DrawFuzzColumn;
+import com.enosistudio.doom.rr.drawfuns.R_DrawFuzzColumnLow;
+import com.enosistudio.doom.rr.drawfuns.R_DrawTranslatedColumn;
+import com.enosistudio.doom.rr.drawfuns.R_DrawTranslatedColumnLow;
+import com.enosistudio.doom.v.tables.BlurryTable;
 
 /**
  * This is what actual executes the RenderWallInstruction. Essentially it's a

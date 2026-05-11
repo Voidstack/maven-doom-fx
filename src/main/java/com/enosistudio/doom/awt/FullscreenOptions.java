@@ -22,8 +22,8 @@ import java.awt.GraphicsDevice;
 import java.awt.Image;
 import static java.awt.RenderingHints.*;
 import java.awt.image.ImageObserver;
-import m.Settings;
-import mochadoom.Engine;
+import com.enosistudio.doom.m.Settings;
+import com.enosistudio.doom.mochadoom.Engine;
 
 /**
  * Full-screen switch and scale governor

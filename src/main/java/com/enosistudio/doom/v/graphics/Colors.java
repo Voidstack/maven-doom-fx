@@ -16,7 +16,7 @@
  */
 package com.enosistudio.doom.v.graphics;
 
-import v.tables.ColorTint;
+import com.enosistudio.doom.v.tables.ColorTint;
 
 /**
  * Package containing individual color modification and transformation methods

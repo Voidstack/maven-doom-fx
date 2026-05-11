@@ -5,9 +5,9 @@ import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 import java.util.Hashtable;
 
-import utils.C2JUtils;
-import w.CacheableDoomObject;
-import w.DoomBuffer;
+import com.enosistudio.doom.utils.C2JUtils;
+import com.enosistudio.doom.w.CacheableDoomObject;
+import com.enosistudio.doom.w.DoomBuffer;
 
 //Patches.
 //A patch holds one or more columns.

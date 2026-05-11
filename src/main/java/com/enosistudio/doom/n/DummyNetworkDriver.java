@@ -1,10 +1,10 @@
 package com.enosistudio.doom.n;
 
-import doom.CommandVariable;
-import doom.DoomMain;
-import doom.NetConsts;
-import doom.doomcom_t;
-import mochadoom.Engine;
+import com.enosistudio.doom.doom.CommandVariable;
+import com.enosistudio.doom.doom.DoomMain;
+import com.enosistudio.doom.doom.NetConsts;
+import com.enosistudio.doom.doom.doomcom_t;
+import com.enosistudio.doom.mochadoom.Engine;
 
 /** Does nothing.
  *  Allows running single-player games without an actual network.

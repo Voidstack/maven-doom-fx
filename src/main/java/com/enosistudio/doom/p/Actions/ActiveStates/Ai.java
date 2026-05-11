@@ -17,12 +17,12 @@
  */
 package com.enosistudio.doom.p.Actions.ActiveStates;
 
-import static data.Tables.ANG45;
-import static data.Tables.BITS32;
-import data.mobjtype_t;
-import data.sounds;
-import defines.skill_t;
-import defines.statenum_t;
+import static com.enosistudio.doom.data.Tables.ANG45;
+import static com.enosistudio.doom.data.Tables.BITS32;
+import com.enosistudio.doom.data.mobjtype_t;
+import com.enosistudio.doom.data.sounds;
+import com.enosistudio.doom.defines.skill_t;
+import com.enosistudio.doom.defines.statenum_t;
 import com.enosistudio.doom.p.ActiveStates;
 import com.enosistudio.doom.p.mobj_t;
 import static com.enosistudio.doom.p.mobj_t.MF_AMBUSH;
@@ -32,7 +32,7 @@ import static com.enosistudio.doom.p.mobj_t.MF_SHADOW;
 import static com.enosistudio.doom.p.mobj_t.MF_SHOOTABLE;
 import static com.enosistudio.doom.p.mobj_t.MF_SKULLFLY;
 import static com.enosistudio.doom.p.mobj_t.MF_SOLID;
-import static utils.C2JUtils.eval;
+import static com.enosistudio.doom.utils.C2JUtils.eval;
 
 public interface Ai extends Monsters, Sounds {
     //

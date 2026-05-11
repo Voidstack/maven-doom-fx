@@ -17,16 +17,16 @@
  */
 package com.enosistudio.doom.p.Actions.ActiveStates.MonsterStates;
 
-import static data.Limits.MAXPLAYERS;
-import data.mobjtype_t;
-import doom.DoomMain;
-import doom.thinker_t;
+import static com.enosistudio.doom.data.Limits.MAXPLAYERS;
+import com.enosistudio.doom.data.mobjtype_t;
+import com.enosistudio.doom.doom.DoomMain;
+import com.enosistudio.doom.doom.thinker_t;
 import com.enosistudio.doom.p.Actions.ActionTrait;
 import com.enosistudio.doom.p.ActiveStates;
 import com.enosistudio.doom.p.floor_e;
 import com.enosistudio.doom.p.mobj_t;
 import com.enosistudio.doom.p.vldoor_e;
-import rr.line_t;
+import com.enosistudio.doom.rr.line_t;
 
 public interface Bosses extends ActionTrait {
     void A_Fall(mobj_t mo);

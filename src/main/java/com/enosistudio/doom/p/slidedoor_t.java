@@ -1,9 +1,9 @@
 package com.enosistudio.doom.p;
 
 import static com.enosistudio.doom.p.ActiveStates.T_SlidingDoor;
-import rr.SectorAction;
-import rr.line_t;
-import rr.sector_t;
+import com.enosistudio.doom.rr.SectorAction;
+import com.enosistudio.doom.rr.line_t;
+import com.enosistudio.doom.rr.sector_t;
 
 public class slidedoor_t extends SectorAction {
     public sdt_e type;

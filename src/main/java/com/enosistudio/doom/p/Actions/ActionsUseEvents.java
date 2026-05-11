@@ -17,17 +17,17 @@
  */
 package com.enosistudio.doom.p.Actions;
 
-import static data.Defines.PT_ADDLINES;
-import static data.Defines.USERANGE;
-import data.Tables;
-import static data.Tables.finecosine;
-import static data.Tables.finesine;
-import data.sounds;
-import doom.SourceCode.P_Map;
-import static doom.SourceCode.P_Map.PTR_UseTraverse;
-import doom.player_t;
+import static com.enosistudio.doom.data.Defines.PT_ADDLINES;
+import static com.enosistudio.doom.data.Defines.USERANGE;
+import com.enosistudio.doom.data.Tables;
+import static com.enosistudio.doom.data.Tables.finecosine;
+import static com.enosistudio.doom.data.Tables.finesine;
+import com.enosistudio.doom.data.sounds;
+import com.enosistudio.doom.doom.SourceCode.P_Map;
+import static com.enosistudio.doom.doom.SourceCode.P_Map.PTR_UseTraverse;
+import com.enosistudio.doom.doom.player_t;
 import java.util.function.Predicate;
-import static m.fixed_t.FRACBITS;
+import static com.enosistudio.doom.m.fixed_t.FRACBITS;
 import com.enosistudio.doom.p.ceiling_e;
 import com.enosistudio.doom.p.floor_e;
 import com.enosistudio.doom.p.intercept_t;
@@ -35,9 +35,9 @@ import com.enosistudio.doom.p.mobj_t;
 import com.enosistudio.doom.p.plattype_e;
 import com.enosistudio.doom.p.stair_e;
 import com.enosistudio.doom.p.vldoor_e;
-import rr.line_t;
-import static rr.line_t.ML_SECRET;
-import static utils.C2JUtils.eval;
+import com.enosistudio.doom.rr.line_t;
+import static com.enosistudio.doom.rr.line_t.ML_SECRET;
+import static com.enosistudio.doom.utils.C2JUtils.eval;
 
 public interface ActionsUseEvents extends ActionTrait {
 

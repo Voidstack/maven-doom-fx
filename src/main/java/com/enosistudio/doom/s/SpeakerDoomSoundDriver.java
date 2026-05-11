@@ -1,6 +1,6 @@
 package com.enosistudio.doom.s;
 
-import doom.DoomMain;
+import com.enosistudio.doom.doom.DoomMain;
 
 /** A variation of the Classic Sound Driver, decoding the DP-lumps
  *  instead of the DS. A better way would be to build-in an 

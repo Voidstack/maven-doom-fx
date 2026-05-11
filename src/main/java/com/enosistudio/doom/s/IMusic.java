@@ -2,8 +2,8 @@ package com.enosistudio.doom.s;
 
 //
 
-import doom.CVarManager;
-import doom.CommandVariable;
+import com.enosistudio.doom.doom.CVarManager;
+import com.enosistudio.doom.doom.CommandVariable;
 
 //  MUSIC I/O
 //

@@ -16,10 +16,10 @@
  */
 package com.enosistudio.doom.v.graphics;
 
-import f.Wiper;
+import com.enosistudio.doom.f.Wiper;
 import java.lang.reflect.Array;
-import m.IRandom;
-import static utils.GenericCopy.*;
+import com.enosistudio.doom.m.IRandom;
+import static com.enosistudio.doom.utils.GenericCopy.*;
 import com.enosistudio.doom.v.renderers.DoomScreen;
 
 /**

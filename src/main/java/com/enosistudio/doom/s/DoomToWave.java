@@ -7,7 +7,7 @@ import java.io.OutputStream;
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 
-import utils.C2JUtils;
+import com.enosistudio.doom.utils.C2JUtils;
 
 public class DoomToWave {
 

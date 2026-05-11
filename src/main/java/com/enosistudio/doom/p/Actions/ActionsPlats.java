@@ -17,27 +17,27 @@
  */
 package com.enosistudio.doom.p.Actions;
 
-import static data.Limits.MAXPLATS;
-import static data.Limits.PLATSPEED;
-import static data.Limits.PLATWAIT;
-import data.sounds;
-import doom.thinker_t;
+import static com.enosistudio.doom.data.Limits.MAXPLATS;
+import static com.enosistudio.doom.data.Limits.PLATSPEED;
+import static com.enosistudio.doom.data.Limits.PLATWAIT;
+import com.enosistudio.doom.data.sounds;
+import com.enosistudio.doom.doom.thinker_t;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import m.Settings;
-import static m.fixed_t.FRACUNIT;
-import mochadoom.Engine;
-import mochadoom.Loggers;
+import com.enosistudio.doom.m.Settings;
+import static com.enosistudio.doom.m.fixed_t.FRACUNIT;
+import com.enosistudio.doom.mochadoom.Engine;
+import com.enosistudio.doom.mochadoom.Loggers;
 import com.enosistudio.doom.p.AbstractLevelLoader;
 import static com.enosistudio.doom.p.ActiveStates.NOP;
 import static com.enosistudio.doom.p.ActiveStates.T_PlatRaise;
 import com.enosistudio.doom.p.plat_e;
 import com.enosistudio.doom.p.plat_t;
 import com.enosistudio.doom.p.plattype_e;
-import rr.line_t;
-import rr.sector_t;
-import utils.C2JUtils;
-import utils.TraitFactory.ContextKey;
+import com.enosistudio.doom.rr.line_t;
+import com.enosistudio.doom.rr.sector_t;
+import com.enosistudio.doom.utils.C2JUtils;
+import com.enosistudio.doom.utils.TraitFactory.ContextKey;
 
 public interface ActionsPlats extends ActionsMoveEvents, ActionsUseEvents {
 

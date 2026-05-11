@@ -1,9 +1,9 @@
 package com.enosistudio.doom.rr;
 
-import static m.fixed_t.FRACBITS;
-import static m.fixed_t.FixedMul;
+import static com.enosistudio.doom.m.fixed_t.FRACBITS;
+import static com.enosistudio.doom.m.fixed_t.FixedMul;
 
-import p.Resettable;
+import com.enosistudio.doom.p.Resettable;
 
 /**
  * The LineSeg. Must be built from on-disk mapsegs_t, which are much simpler.

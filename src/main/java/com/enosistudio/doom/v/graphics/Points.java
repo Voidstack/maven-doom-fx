@@ -16,7 +16,7 @@
  */
 package com.enosistudio.doom.v.graphics;
 
-import rr.patch_t;
+import com.enosistudio.doom.rr.patch_t;
 
 /**
  *

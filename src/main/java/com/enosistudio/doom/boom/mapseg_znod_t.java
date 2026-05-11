@@ -3,7 +3,7 @@ package com.enosistudio.doom.boom;
 import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
-import w.CacheableDoomObject;
+import com.enosistudio.doom.w.CacheableDoomObject;
 
 /** ZDoom node?
  *

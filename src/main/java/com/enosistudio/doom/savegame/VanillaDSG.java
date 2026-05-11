@@ -1,19 +1,19 @@
 package com.enosistudio.doom.savegame;
 
-import static data.Limits.*;
-import data.info;
-import doom.DoomMain;
-import doom.SourceCode.P_SaveG;
-import static doom.SourceCode.P_SaveG.P_ArchivePlayers;
-import static doom.SourceCode.P_SaveG.P_ArchiveSpecials;
-import static doom.SourceCode.P_SaveG.P_ArchiveThinkers;
-import static doom.SourceCode.P_SaveG.P_ArchiveWorld;
-import static doom.SourceCode.P_SaveG.P_UnArchivePlayers;
-import static doom.SourceCode.P_SaveG.P_UnArchiveSpecials;
-import static doom.SourceCode.P_SaveG.P_UnArchiveThinkers;
-import static doom.SourceCode.P_SaveG.P_UnArchiveWorld;
-import doom.player_t;
-import doom.thinker_t;
+import static com.enosistudio.doom.data.Limits.*;
+import com.enosistudio.doom.data.info;
+import com.enosistudio.doom.doom.DoomMain;
+import com.enosistudio.doom.doom.SourceCode.P_SaveG;
+import static com.enosistudio.doom.doom.SourceCode.P_SaveG.P_ArchivePlayers;
+import static com.enosistudio.doom.doom.SourceCode.P_SaveG.P_ArchiveSpecials;
+import static com.enosistudio.doom.doom.SourceCode.P_SaveG.P_ArchiveThinkers;
+import static com.enosistudio.doom.doom.SourceCode.P_SaveG.P_ArchiveWorld;
+import static com.enosistudio.doom.doom.SourceCode.P_SaveG.P_UnArchivePlayers;
+import static com.enosistudio.doom.doom.SourceCode.P_SaveG.P_UnArchiveSpecials;
+import static com.enosistudio.doom.doom.SourceCode.P_SaveG.P_UnArchiveThinkers;
+import static com.enosistudio.doom.doom.SourceCode.P_SaveG.P_UnArchiveWorld;
+import com.enosistudio.doom.doom.player_t;
+import com.enosistudio.doom.doom.thinker_t;
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
@@ -23,18 +23,18 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.logging.Level;
-import m.Settings;
-import mochadoom.Engine;
-import mochadoom.Loggers;
-import p.*;
-import p.Actions.ActionsLights.glow_t;
-import p.Actions.ActionsLights.lightflash_t;
-import static p.ActiveStates.*;
+import com.enosistudio.doom.m.Settings;
+import com.enosistudio.doom.mochadoom.Engine;
+import com.enosistudio.doom.mochadoom.Loggers;
+import com.enosistudio.doom.p.*;
+import com.enosistudio.doom.p.Actions.ActionsLights.glow_t;
+import com.enosistudio.doom.p.Actions.ActionsLights.lightflash_t;
+import static com.enosistudio.doom.p.ActiveStates.*;
 
-import rr.line_t;
-import rr.sector_t;
-import rr.side_t;
-import utils.C2JUtils;
+import com.enosistudio.doom.rr.line_t;
+import com.enosistudio.doom.rr.sector_t;
+import com.enosistudio.doom.rr.side_t;
+import com.enosistudio.doom.utils.C2JUtils;
 
 public class VanillaDSG<T, V> implements IDoomSaveGame {
 

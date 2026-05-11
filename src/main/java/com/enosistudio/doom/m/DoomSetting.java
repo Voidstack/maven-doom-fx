@@ -1,6 +1,6 @@
 package com.enosistudio.doom.m;
 
-import utils.C2JUtils;
+import com.enosistudio.doom.utils.C2JUtils;
 
 /** A "Doom setting". Based on current experience, it could 
  *  represent an integer value, a string, or a boolean value.

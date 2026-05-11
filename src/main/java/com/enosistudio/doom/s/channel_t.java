@@ -3,8 +3,8 @@ package com.enosistudio.doom.s;
 import javax.sound.sampled.AudioFormat;
 import javax.sound.sampled.SourceDataLine;
 
-import p.mobj_t;
-import data.sfxinfo_t;
+import com.enosistudio.doom.p.mobj_t;
+import com.enosistudio.doom.data.sfxinfo_t;
 
 public class channel_t 
 {

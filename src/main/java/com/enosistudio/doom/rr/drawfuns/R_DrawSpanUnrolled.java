@@ -1,6 +1,6 @@
 package com.enosistudio.doom.rr.drawfuns;
 
-import i.IDoomSystem;
+import com.enosistudio.doom.i.IDoomSystem;
 
 /**
  * Drawspan loop unrolled by 4. However it has low rendering quality and bad

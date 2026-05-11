@@ -16,14 +16,14 @@
  */
 package com.enosistudio.doom.v.renderers;
 
-import doom.CVarManager;
-import doom.CommandVariable;
-import doom.DoomMain;
-import mochadoom.Engine;
+import com.enosistudio.doom.doom.CVarManager;
+import com.enosistudio.doom.doom.CommandVariable;
+import com.enosistudio.doom.doom.DoomMain;
+import com.enosistudio.doom.mochadoom.Engine;
 import java.awt.Transparency;
 import java.util.function.Function;
-import m.Settings;
-import rr.SceneRenderer;
+import com.enosistudio.doom.m.Settings;
+import com.enosistudio.doom.rr.SceneRenderer;
 import com.enosistudio.doom.v.DoomGraphicSystem;
 
 /**

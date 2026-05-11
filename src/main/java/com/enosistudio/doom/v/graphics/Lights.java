@@ -17,7 +17,7 @@
 package com.enosistudio.doom.v.graphics;
 
 import static com.enosistudio.doom.v.graphics.Palettes.PAL_NUM_COLORS;
-import v.tables.GreyscaleFilter;
+import com.enosistudio.doom.v.tables.GreyscaleFilter;
 
 /**
  * This package provides methods to dynamically generate lightmaps

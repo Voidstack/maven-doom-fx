@@ -1,7 +1,7 @@
 package com.enosistudio.doom.m;
 
-import doom.DoomMain;
-import doom.event_t;
+import com.enosistudio.doom.doom.DoomMain;
+import com.enosistudio.doom.doom.event_t;
 
 /** A dummy menu, useful for testers that do need a defined
  *  menu object.

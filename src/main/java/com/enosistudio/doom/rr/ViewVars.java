@@ -1,13 +1,13 @@
 package com.enosistudio.doom.rr;
 
-import static data.Tables.ANG180;
-import static data.Tables.ANG270;
-import static data.Tables.ANG90;
-import static data.Tables.SlopeDiv;
-import static data.Tables.tantoangle;
-import doom.player_t;
-import utils.C2JUtils;
-import v.scale.VideoScale;
+import static com.enosistudio.doom.data.Tables.ANG180;
+import static com.enosistudio.doom.data.Tables.ANG270;
+import static com.enosistudio.doom.data.Tables.ANG90;
+import static com.enosistudio.doom.data.Tables.SlopeDiv;
+import static com.enosistudio.doom.data.Tables.tantoangle;
+import com.enosistudio.doom.doom.player_t;
+import com.enosistudio.doom.utils.C2JUtils;
+import com.enosistudio.doom.v.scale.VideoScale;
 
 public class ViewVars {
 

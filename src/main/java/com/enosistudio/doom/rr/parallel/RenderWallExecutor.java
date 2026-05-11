@@ -4,11 +4,11 @@ import java.util.concurrent.BrokenBarrierException;
 import java.util.concurrent.CyclicBarrier;
 
 import com.enosistudio.doom.rr.IDetailAware;
-import rr.drawfuns.ColVars;
-import rr.drawfuns.DoomColumnFunction;
+import com.enosistudio.doom.rr.drawfuns.ColVars;
+import com.enosistudio.doom.rr.drawfuns.DoomColumnFunction;
 
-import rr.drawfuns.R_DrawColumnBoomOpt;
-import rr.drawfuns.R_DrawColumnBoomOptLow;
+import com.enosistudio.doom.rr.drawfuns.R_DrawColumnBoomOpt;
+import com.enosistudio.doom.rr.drawfuns.R_DrawColumnBoomOptLow;
 
 /**
  * This is what actual executes the RenderWallInstruction. Essentially it's a

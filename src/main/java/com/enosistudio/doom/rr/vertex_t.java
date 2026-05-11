@@ -1,14 +1,14 @@
 package com.enosistudio.doom.rr;
 
-import static m.fixed_t.FRACBITS;
+import static com.enosistudio.doom.m.fixed_t.FRACBITS;
 
 import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 
-import p.Resettable;
+import com.enosistudio.doom.p.Resettable;
 
-import w.CacheableDoomObject;
+import com.enosistudio.doom.w.CacheableDoomObject;
 
 /** This is the vertex structure used IN MEMORY with fixed-point arithmetic.
  *  It's DIFFERENT than the one used on disk, which has 16-bit signed shorts.

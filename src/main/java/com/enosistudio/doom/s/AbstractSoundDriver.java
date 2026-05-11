@@ -1,9 +1,9 @@
 package com.enosistudio.doom.s;
 
-import data.sfxinfo_t;
-import data.sounds;
-import static data.sounds.S_sfx;
-import doom.DoomMain;
+import com.enosistudio.doom.data.sfxinfo_t;
+import com.enosistudio.doom.data.sounds;
+import static com.enosistudio.doom.data.sounds.S_sfx;
+import com.enosistudio.doom.doom.DoomMain;
 
 /**
  * Functionality and fields that are common among the various "sound drivers"

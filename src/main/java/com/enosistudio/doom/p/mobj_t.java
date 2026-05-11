@@ -1,21 +1,21 @@
 package com.enosistudio.doom.p;
 
-import static data.Defines.FLOATSPEED;
-import static data.Defines.GRAVITY;
-import static data.Defines.VIEWHEIGHT;
-import data.Tables;
-import static data.info.states;
-import data.mapthing_t;
-import data.mobjinfo_t;
-import data.mobjtype_t;
-import data.sounds.sfxenum_t;
-import data.spritenum_t;
-import data.state_t;
-import defines.*;
-import doom.DoomMain;
-import doom.SourceCode.fixed_t;
-import doom.player_t;
-import doom.thinker_t;
+import static com.enosistudio.doom.data.Defines.FLOATSPEED;
+import static com.enosistudio.doom.data.Defines.GRAVITY;
+import static com.enosistudio.doom.data.Defines.VIEWHEIGHT;
+import com.enosistudio.doom.data.Tables;
+import static com.enosistudio.doom.data.info.states;
+import com.enosistudio.doom.data.mapthing_t;
+import com.enosistudio.doom.data.mobjinfo_t;
+import com.enosistudio.doom.data.mobjtype_t;
+import com.enosistudio.doom.data.sounds.sfxenum_t;
+import com.enosistudio.doom.data.spritenum_t;
+import com.enosistudio.doom.data.state_t;
+import com.enosistudio.doom.defines.*;
+import com.enosistudio.doom.doom.DoomMain;
+import com.enosistudio.doom.doom.SourceCode.fixed_t;
+import com.enosistudio.doom.doom.player_t;
+import com.enosistudio.doom.doom.thinker_t;
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
@@ -23,13 +23,13 @@ import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 import com.enosistudio.doom.p.ActiveStates.MobjConsumer;
 import static com.enosistudio.doom.p.MapUtils.AproxDistance;
-import rr.subsector_t;
-import s.ISoundOrigin;
-import static utils.C2JUtils.eval;
-import static utils.C2JUtils.pointer;
-import w.IPackableDoomObject;
-import w.IReadableDoomObject;
-import w.IWritableDoomObject;
+import com.enosistudio.doom.rr.subsector_t;
+import com.enosistudio.doom.s.ISoundOrigin;
+import static com.enosistudio.doom.utils.C2JUtils.eval;
+import static com.enosistudio.doom.utils.C2JUtils.pointer;
+import com.enosistudio.doom.w.IPackableDoomObject;
+import com.enosistudio.doom.w.IReadableDoomObject;
+import com.enosistudio.doom.w.IWritableDoomObject;
 
 /**
  * 

@@ -5,9 +5,9 @@ import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 
-import w.CacheableDoomObject;
-import w.IPackableDoomObject;
-import w.IWritableDoomObject;
+import com.enosistudio.doom.w.CacheableDoomObject;
+import com.enosistudio.doom.w.IPackableDoomObject;
+import com.enosistudio.doom.w.IWritableDoomObject;
 
 /** mapthing_t ... same on disk AND in memory, wow?! */
 

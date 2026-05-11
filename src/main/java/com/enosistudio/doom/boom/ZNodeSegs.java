@@ -3,8 +3,8 @@ package com.enosistudio.doom.boom;
 import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.util.Arrays;
-import static utils.GenericCopy.malloc;
-import w.CacheableDoomObject;
+import static com.enosistudio.doom.utils.GenericCopy.malloc;
+import com.enosistudio.doom.w.CacheableDoomObject;
 
 public class ZNodeSegs implements CacheableDoomObject {
 

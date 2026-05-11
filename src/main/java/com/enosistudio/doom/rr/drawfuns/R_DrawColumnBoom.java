@@ -1,7 +1,7 @@
 package com.enosistudio.doom.rr.drawfuns;
 
-import static m.fixed_t.FRACBITS;
-import i.IDoomSystem;
+import static com.enosistudio.doom.m.fixed_t.FRACBITS;
+import com.enosistudio.doom.i.IDoomSystem;
 
 /**
  * Adapted from Killough's Boom code. There are optimized as well as low-detail

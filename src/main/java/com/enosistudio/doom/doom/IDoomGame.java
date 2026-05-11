@@ -1,6 +1,6 @@
 package com.enosistudio.doom.doom;
 
-import defines.skill_t;
+import com.enosistudio.doom.defines.skill_t;
 
 /** Groups functions formerly in d_game, 
  * in case you want to provide a different implementation 

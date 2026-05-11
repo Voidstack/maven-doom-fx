@@ -1,27 +1,27 @@
 package com.enosistudio.doom.rr;
 
-import static data.Limits.MAXINT;
-import static data.Limits.MAX_ADJOINING_SECTORS;
-import doom.SourceCode;
-import doom.SourceCode.P_Spec;
-import static doom.SourceCode.P_Spec.P_FindLowestCeilingSurrounding;
-import doom.SourceCode.fixed_t;
+import static com.enosistudio.doom.data.Limits.MAXINT;
+import static com.enosistudio.doom.data.Limits.MAX_ADJOINING_SECTORS;
+import com.enosistudio.doom.doom.SourceCode;
+import com.enosistudio.doom.doom.SourceCode.P_Spec;
+import static com.enosistudio.doom.doom.SourceCode.P_Spec.P_FindLowestCeilingSurrounding;
+import com.enosistudio.doom.doom.SourceCode.fixed_t;
 import java.io.DataInputStream;
 import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.util.logging.Level;
-import m.IRandom;
-import static m.fixed_t.FRACBITS;
-import static m.fixed_t.FRACUNIT;
-import mochadoom.Loggers;
-import p.Resettable;
-import p.ThinkerList;
-import p.mobj_t;
-import s.degenmobj_t;
-import static utils.C2JUtils.memset;
-import w.DoomIO;
-import w.IPackableDoomObject;
-import w.IReadableDoomObject;
+import com.enosistudio.doom.m.IRandom;
+import static com.enosistudio.doom.m.fixed_t.FRACBITS;
+import static com.enosistudio.doom.m.fixed_t.FRACUNIT;
+import com.enosistudio.doom.mochadoom.Loggers;
+import com.enosistudio.doom.p.Resettable;
+import com.enosistudio.doom.p.ThinkerList;
+import com.enosistudio.doom.p.mobj_t;
+import com.enosistudio.doom.s.degenmobj_t;
+import static com.enosistudio.doom.utils.C2JUtils.memset;
+import com.enosistudio.doom.w.DoomIO;
+import com.enosistudio.doom.w.IPackableDoomObject;
+import com.enosistudio.doom.w.IReadableDoomObject;
 
 /**
  * The SECTORS record, at runtime. Stores things/mobjs. Can be

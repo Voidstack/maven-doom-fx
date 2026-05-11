@@ -1,6 +1,6 @@
 package com.enosistudio.doom.i;
 
-import doom.ticcmd_t;
+import com.enosistudio.doom.doom.ticcmd_t;
 
 public class DummySystem implements IDoomSystem{
 

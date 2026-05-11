@@ -1,6 +1,6 @@
 package com.enosistudio.doom.data;
 
-import static data.Tables.FINEANGLES;
+import static com.enosistudio.doom.data.Tables.FINEANGLES;
 
 /** Sine and Cosine.
  *  Java can't have that much initialization data in one file, so I had to separate it.

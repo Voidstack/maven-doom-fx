@@ -1,7 +1,7 @@
 package com.enosistudio.doom.doom;
 
-import static data.Limits.MAXPLAYERS;
-import static utils.GenericCopy.malloc;
+import static com.enosistudio.doom.data.Limits.MAXPLAYERS;
+import static com.enosistudio.doom.utils.GenericCopy.malloc;
 
 public class wbstartstruct_t implements Cloneable{
 

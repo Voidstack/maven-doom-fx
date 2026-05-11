@@ -1,9 +1,9 @@
 package com.enosistudio.doom.rr;
 
-import doom.SourceCode.R_Data;
-import static doom.SourceCode.R_Data.R_PrecacheLevel;
+import com.enosistudio.doom.doom.SourceCode.R_Data;
+import static com.enosistudio.doom.doom.SourceCode.R_Data.R_PrecacheLevel;
 import java.io.IOException;
-import rr.parallel.IGetSmpColumn;
+import com.enosistudio.doom.rr.parallel.IGetSmpColumn;
 
 /** All texture, flat and sprite management operations should be handled
  *  by an implementing class. As of now, the renderer does both, though it's

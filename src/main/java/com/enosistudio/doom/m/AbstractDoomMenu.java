@@ -1,6 +1,6 @@
 package com.enosistudio.doom.m;
 
-import doom.DoomMain;
+import com.enosistudio.doom.doom.DoomMain;
 
 public abstract class AbstractDoomMenu<T, V> implements IDoomMenu {
 

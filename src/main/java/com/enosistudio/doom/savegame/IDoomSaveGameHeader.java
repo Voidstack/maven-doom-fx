@@ -1,6 +1,6 @@
 package com.enosistudio.doom.savegame;
 
-import defines.skill_t;
+import com.enosistudio.doom.defines.skill_t;
 
 
 /** A Save Game Header should be able to be loaded quickly and return 

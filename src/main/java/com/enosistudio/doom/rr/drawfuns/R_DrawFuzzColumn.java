@@ -17,8 +17,8 @@
 //-----------------------------------------------------------------------------*/
 package com.enosistudio.doom.rr.drawfuns;
 
-import i.IDoomSystem;
-import v.tables.BlurryTable;
+import com.enosistudio.doom.i.IDoomSystem;
+import com.enosistudio.doom.v.tables.BlurryTable;
 
 /**
  * fuzzMix was preserved, but moved to its own interface.

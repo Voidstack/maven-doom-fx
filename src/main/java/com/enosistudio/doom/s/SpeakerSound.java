@@ -5,7 +5,7 @@ import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 import java.util.Hashtable;
 
-import w.CacheableDoomObject;
+import com.enosistudio.doom.w.CacheableDoomObject;
 
 /** Blatantly ripping off Chocolate Doom */
 

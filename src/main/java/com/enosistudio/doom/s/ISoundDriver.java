@@ -1,10 +1,10 @@
 package com.enosistudio.doom.s;
 
-import data.sfxinfo_t;
-import data.sounds.sfxenum_t;
-import doom.CVarManager;
-import doom.CommandVariable;
-import doom.DoomMain;
+import com.enosistudio.doom.data.sfxinfo_t;
+import com.enosistudio.doom.data.sounds.sfxenum_t;
+import com.enosistudio.doom.doom.CVarManager;
+import com.enosistudio.doom.doom.CommandVariable;
+import com.enosistudio.doom.doom.DoomMain;
 
 //Emacs style mode select   -*- C++ -*- 
 //-----------------------------------------------------------------------------

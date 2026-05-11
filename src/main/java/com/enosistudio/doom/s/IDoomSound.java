@@ -1,12 +1,12 @@
 package com.enosistudio.doom.s;
 
-import data.sfxinfo_t;
-import data.sounds.musicenum_t;
-import data.sounds.sfxenum_t;
-import doom.CVarManager;
-import doom.CommandVariable;
-import doom.DoomMain;
-import p.mobj_t;
+import com.enosistudio.doom.data.sfxinfo_t;
+import com.enosistudio.doom.data.sounds.musicenum_t;
+import com.enosistudio.doom.data.sounds.sfxenum_t;
+import com.enosistudio.doom.doom.CVarManager;
+import com.enosistudio.doom.doom.CommandVariable;
+import com.enosistudio.doom.doom.DoomMain;
+import com.enosistudio.doom.p.mobj_t;
 
 // Emacs style mode select   -*- C++ -*- 
 //-----------------------------------------------------------------------------
@@ -81,7 +81,7 @@ public interface IDoomSound {
 	// Originally: (200*0x10000).
 	public static final int S_CLOSE_DIST	=(160*0x10000);
 
-	public static final int S_ATTENUATOR	=((S_CLIPPING_DIST-S_CLOSE_DIST)>>m.fixed_t.FRACBITS);
+	public static final int S_ATTENUATOR	=((S_CLIPPING_DIST-S_CLOSE_DIST)>>com.enosistudio.doom.m.fixed_t.FRACBITS);
 
 	// Adjustable by menu.
 	//protected final int NORM_VOLUME    		snd_MaxVolume

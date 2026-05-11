@@ -1,17 +1,17 @@
 package com.enosistudio.doom.w;
 
-import data.Defines;
-import doom.SourceCode.W_Wad;
-import static doom.SourceCode.W_Wad.*;
+import com.enosistudio.doom.data.Defines;
+import com.enosistudio.doom.doom.SourceCode.W_Wad;
+import static com.enosistudio.doom.doom.SourceCode.W_Wad.*;
 import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.util.function.IntFunction;
-import rr.patch_t;
-import utils.GenericCopy.ArraySupplier;
-import v.graphics.Lights;
-import static v.graphics.Palettes.PAL_NUM_COLORS;
-import static v.graphics.Palettes.PAL_NUM_STRIDES;
-import v.tables.Playpal;
+import com.enosistudio.doom.rr.patch_t;
+import com.enosistudio.doom.utils.GenericCopy.ArraySupplier;
+import com.enosistudio.doom.v.graphics.Lights;
+import static com.enosistudio.doom.v.graphics.Palettes.PAL_NUM_COLORS;
+import static com.enosistudio.doom.v.graphics.Palettes.PAL_NUM_STRIDES;
+import com.enosistudio.doom.v.tables.Playpal;
 
 public interface IWadLoader {
 

@@ -17,24 +17,24 @@
  */
 package com.enosistudio.doom.p.Actions;
 
-import static data.Defines.*;
-import data.mobjtype_t;
-import data.sounds.sfxenum_t;
-import defines.ammotype_t;
-import defines.card_t;
-import doom.DoomMain;
-import doom.SourceCode.P_Map;
-import static doom.SourceCode.P_Map.PIT_CheckThing;
-import static doom.SourceCode.P_Map.PIT_StompThing;
-import doom.SourceCode.fixed_t;
-import static doom.englsh.*;
-import doom.player_t;
-import doom.weapontype_t;
-import m.Settings;
-import static m.fixed_t.FRACUNIT;
+import static com.enosistudio.doom.data.Defines.*;
+import com.enosistudio.doom.data.mobjtype_t;
+import com.enosistudio.doom.data.sounds.sfxenum_t;
+import com.enosistudio.doom.defines.ammotype_t;
+import com.enosistudio.doom.defines.card_t;
+import com.enosistudio.doom.doom.DoomMain;
+import com.enosistudio.doom.doom.SourceCode.P_Map;
+import static com.enosistudio.doom.doom.SourceCode.P_Map.PIT_CheckThing;
+import static com.enosistudio.doom.doom.SourceCode.P_Map.PIT_StompThing;
+import com.enosistudio.doom.doom.SourceCode.fixed_t;
+import static com.enosistudio.doom.doom.englsh.*;
+import com.enosistudio.doom.doom.player_t;
+import com.enosistudio.doom.doom.weapontype_t;
+import com.enosistudio.doom.m.Settings;
+import static com.enosistudio.doom.m.fixed_t.FRACUNIT;
 import com.enosistudio.doom.p.mobj_t;
 import static com.enosistudio.doom.p.mobj_t.*;
-import static utils.C2JUtils.eval;
+import static com.enosistudio.doom.utils.C2JUtils.eval;
 
 public interface ActionsThings extends ActionTrait {
 

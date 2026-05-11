@@ -17,9 +17,9 @@
 
 package com.enosistudio.doom.awt;
 
-import static awt.EventBase.Relate;
-import g.Signals;
-import static g.Signals.ScanCode.*;
+import static com.enosistudio.doom.awt.EventBase.Relate;
+import com.enosistudio.doom.g.Signals;
+import static com.enosistudio.doom.g.Signals.ScanCode.*;
 import java.awt.Point;
 import java.awt.event.ComponentEvent;
 import java.awt.event.KeyEvent;

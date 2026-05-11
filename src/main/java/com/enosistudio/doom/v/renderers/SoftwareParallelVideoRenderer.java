@@ -17,8 +17,8 @@
 
 package com.enosistudio.doom.v.renderers;
 
-import doom.CommandVariable;
-import mochadoom.Engine;
+import com.enosistudio.doom.doom.CommandVariable;
+import com.enosistudio.doom.mochadoom.Engine;
 import java.awt.GraphicsConfiguration;
 import java.awt.GraphicsEnvironment;
 import java.awt.image.ColorModel;
@@ -27,8 +27,8 @@ import java.util.HashMap;
 import java.util.concurrent.CyclicBarrier;
 import java.util.concurrent.Executor;
 import java.util.concurrent.Executors;
-import m.MenuMisc;
-import m.Settings;
+import com.enosistudio.doom.m.MenuMisc;
+import com.enosistudio.doom.m.Settings;
 
 /**
  * Base for HiColor and TrueColor parallel renderers

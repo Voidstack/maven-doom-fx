@@ -1,6 +1,6 @@
 package com.enosistudio.doom.p;
 
-import m.fixed_t;
+import com.enosistudio.doom.m.fixed_t;
 
 public interface DoomPlayer {
 	

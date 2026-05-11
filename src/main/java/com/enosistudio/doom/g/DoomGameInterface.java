@@ -1,9 +1,9 @@
 
 package com.enosistudio.doom.g;
 
-import defines.*;
-import doom.event_t;
-import doom.gameaction_t;
+import com.enosistudio.doom.defines.*;
+import com.enosistudio.doom.doom.event_t;
+import com.enosistudio.doom.doom.gameaction_t;
 
 // Emacs style mode select   -*- C++ -*- 
 //-----------------------------------------------------------------------------

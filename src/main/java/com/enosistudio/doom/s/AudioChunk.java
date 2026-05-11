@@ -2,7 +2,7 @@ package com.enosistudio.doom.s;
 
 public class AudioChunk{
     public AudioChunk() {
-        buffer=new byte[s.ISoundDriver.MIXBUFFERSIZE];
+        buffer=new byte[com.enosistudio.doom.s.ISoundDriver.MIXBUFFERSIZE];
         setStuff(0,0);
         this.free=true;
     }

@@ -1,6 +1,6 @@
 package com.enosistudio.doom.rr;
 
-import v.scale.VideoScale;
+import com.enosistudio.doom.v.scale.VideoScale;
 
 /**
  * A very "simple" things class which just does serial rendering and uses all

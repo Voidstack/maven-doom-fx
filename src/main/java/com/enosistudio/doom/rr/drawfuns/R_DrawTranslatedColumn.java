@@ -1,7 +1,7 @@
 package com.enosistudio.doom.rr.drawfuns;
 
-import i.IDoomSystem;
-import static m.fixed_t.FRACBITS;
+import com.enosistudio.doom.i.IDoomSystem;
+import static com.enosistudio.doom.m.fixed_t.FRACBITS;
 
 public abstract class R_DrawTranslatedColumn<T, V>
         extends DoomColumnFunction<T, V> {

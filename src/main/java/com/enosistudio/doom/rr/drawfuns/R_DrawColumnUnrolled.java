@@ -1,5 +1,5 @@
 package com.enosistudio.doom.rr.drawfuns;
-import i.IDoomSystem;
+import com.enosistudio.doom.i.IDoomSystem;
 
 /**
 	 * EI VITTU, this gives a clean 25% boost. Da fack...

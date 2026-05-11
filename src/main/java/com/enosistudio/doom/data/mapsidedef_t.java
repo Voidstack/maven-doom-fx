@@ -4,8 +4,8 @@ import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 
-import w.CacheableDoomObject;
-import w.DoomBuffer;
+import com.enosistudio.doom.w.CacheableDoomObject;
+import com.enosistudio.doom.w.DoomBuffer;
 
 /**
  * A SideDef, defining the visual appearance of a wall, by setting textures and

@@ -1,6 +1,6 @@
 package com.enosistudio.doom.timing;
 
-import static data.Defines.TICRATE;
+import static com.enosistudio.doom.data.Defines.TICRATE;
 
 public class NanoTicker
         implements ITicker {

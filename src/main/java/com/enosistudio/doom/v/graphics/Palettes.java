@@ -18,7 +18,7 @@
 package com.enosistudio.doom.v.graphics;
 
 import java.awt.image.IndexColorModel;
-import static v.tables.GammaTables.LUT;
+import static com.enosistudio.doom.v.tables.GammaTables.LUT;
 
 /**
  * Refactored and included as the module of new software 2d graphics API

@@ -17,28 +17,28 @@
  */
 package com.enosistudio.doom.p.Actions.ActiveStates;
 
-import static data.Defines.BT_ATTACK;
-import static data.Defines.PST_DEAD;
-import static data.Tables.FINEANGLES;
-import static data.Tables.FINEMASK;
-import static data.Tables.finecosine;
-import static data.Tables.finesine;
-import static data.info.states;
-import data.sounds;
-import defines.statenum_t;
-import static doom.items.weaponinfo;
-import doom.player_t;
-import static doom.player_t.LOWERSPEED;
-import static doom.player_t.RAISESPEED;
-import static doom.player_t.WEAPONBOTTOM;
-import static doom.player_t.WEAPONTOP;
-import static doom.player_t.ps_flash;
-import static doom.player_t.ps_weapon;
-import doom.weapontype_t;
-import static m.fixed_t.FRACUNIT;
-import static m.fixed_t.FixedMul;
+import static com.enosistudio.doom.data.Defines.BT_ATTACK;
+import static com.enosistudio.doom.data.Defines.PST_DEAD;
+import static com.enosistudio.doom.data.Tables.FINEANGLES;
+import static com.enosistudio.doom.data.Tables.FINEMASK;
+import static com.enosistudio.doom.data.Tables.finecosine;
+import static com.enosistudio.doom.data.Tables.finesine;
+import static com.enosistudio.doom.data.info.states;
+import com.enosistudio.doom.data.sounds;
+import com.enosistudio.doom.defines.statenum_t;
+import static com.enosistudio.doom.doom.items.weaponinfo;
+import com.enosistudio.doom.doom.player_t;
+import static com.enosistudio.doom.doom.player_t.LOWERSPEED;
+import static com.enosistudio.doom.doom.player_t.RAISESPEED;
+import static com.enosistudio.doom.doom.player_t.WEAPONBOTTOM;
+import static com.enosistudio.doom.doom.player_t.WEAPONTOP;
+import static com.enosistudio.doom.doom.player_t.ps_flash;
+import static com.enosistudio.doom.doom.player_t.ps_weapon;
+import com.enosistudio.doom.doom.weapontype_t;
+import static com.enosistudio.doom.m.fixed_t.FRACUNIT;
+import static com.enosistudio.doom.m.fixed_t.FixedMul;
 import com.enosistudio.doom.p.pspdef_t;
-import static utils.C2JUtils.eval;
+import static com.enosistudio.doom.utils.C2JUtils.eval;
 
 public interface Weapons extends Sounds {
     /**

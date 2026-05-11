@@ -1,9 +1,9 @@
 package com.enosistudio.doom.automap;
 
-import doom.SourceCode.AM_Map;
-import static doom.SourceCode.AM_Map.AM_Responder;
-import static doom.SourceCode.AM_Map.AM_Stop;
-import doom.event_t;
+import com.enosistudio.doom.doom.SourceCode.AM_Map;
+import static com.enosistudio.doom.doom.SourceCode.AM_Map.AM_Responder;
+import static com.enosistudio.doom.doom.SourceCode.AM_Map.AM_Stop;
+import com.enosistudio.doom.doom.event_t;
 
 public interface IAutoMap<T,V> {
     // Used by ST StatusBar stuff.

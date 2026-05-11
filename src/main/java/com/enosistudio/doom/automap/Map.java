@@ -170,32 +170,32 @@ package com.enosistudio.doom.automap;
 //
 // -----------------------------------------------------------------------------
 
-import static data.Defines.*;
-import static data.Limits.*;
-import static data.Tables.*;
-import doom.DoomMain;
-import doom.SourceCode.AM_Map;
-import static doom.SourceCode.AM_Map.AM_Responder;
-import static doom.englsh.*;
-import doom.event_t;
-import doom.evtype_t;
-import doom.player_t;
-import g.Signals.ScanCode;
-import static g.Signals.ScanCode.*;
+import static com.enosistudio.doom.data.Defines.*;
+import static com.enosistudio.doom.data.Limits.*;
+import static com.enosistudio.doom.data.Tables.*;
+import com.enosistudio.doom.doom.DoomMain;
+import com.enosistudio.doom.doom.SourceCode.AM_Map;
+import static com.enosistudio.doom.doom.SourceCode.AM_Map.AM_Responder;
+import static com.enosistudio.doom.doom.englsh.*;
+import com.enosistudio.doom.doom.event_t;
+import com.enosistudio.doom.doom.evtype_t;
+import com.enosistudio.doom.doom.player_t;
+import com.enosistudio.doom.g.Signals.ScanCode;
+import static com.enosistudio.doom.g.Signals.ScanCode.*;
 import java.awt.Rectangle;
 import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.EnumMap;
 import java.util.EnumSet;
-import m.cheatseq_t;
-import static m.fixed_t.*;
-import p.mobj_t;
-import static rr.line_t.*;
-import rr.patch_t;
-import static utils.GenericCopy.*;
-import static v.DoomGraphicSystem.*;
-import v.graphics.Plotter;
-import static v.renderers.DoomScreen.*;
+import com.enosistudio.doom.m.cheatseq_t;
+import static com.enosistudio.doom.m.fixed_t.*;
+import com.enosistudio.doom.p.mobj_t;
+import static com.enosistudio.doom.rr.line_t.*;
+import com.enosistudio.doom.rr.patch_t;
+import static com.enosistudio.doom.utils.GenericCopy.*;
+import static com.enosistudio.doom.v.DoomGraphicSystem.*;
+import com.enosistudio.doom.v.graphics.Plotter;
+import static com.enosistudio.doom.v.renderers.DoomScreen.*;
 
 public class Map<T, V> implements IAutoMap<T, V> {
 

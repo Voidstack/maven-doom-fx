@@ -1,6 +1,6 @@
 package com.enosistudio.doom.rr;
 
-import doom.thinker_t;
+import com.enosistudio.doom.doom.thinker_t;
 
 /** Used for special sector-based function for doors, ceilings 
  *  etc. that are treated as a thinker by the engine. The sector

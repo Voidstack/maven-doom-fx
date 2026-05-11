@@ -17,20 +17,20 @@
  */
 package com.enosistudio.doom.p.Actions;
 
-import static data.Tables.BITS32;
-import static data.Tables.finecosine;
-import static data.Tables.finesine;
-import static data.info.mobjinfo;
-import data.mobjtype_t;
-import doom.SourceCode.angle_t;
-import static m.fixed_t.FRACBITS;
-import static m.fixed_t.FRACUNIT;
-import static m.fixed_t.FixedMul;
+import static com.enosistudio.doom.data.Tables.BITS32;
+import static com.enosistudio.doom.data.Tables.finecosine;
+import static com.enosistudio.doom.data.Tables.finesine;
+import static com.enosistudio.doom.data.info.mobjinfo;
+import com.enosistudio.doom.data.mobjtype_t;
+import com.enosistudio.doom.doom.SourceCode.angle_t;
+import static com.enosistudio.doom.m.fixed_t.FRACBITS;
+import static com.enosistudio.doom.m.fixed_t.FRACUNIT;
+import static com.enosistudio.doom.m.fixed_t.FixedMul;
 import static com.enosistudio.doom.p.MapUtils.AproxDistance;
 import com.enosistudio.doom.p.mobj_t;
 import static com.enosistudio.doom.p.mobj_t.MF_MISSILE;
 import static com.enosistudio.doom.p.mobj_t.MF_SHADOW;
-import static utils.C2JUtils.eval;
+import static com.enosistudio.doom.utils.C2JUtils.eval;
 
 public interface ActionsMissiles extends ActionsMobj {
 

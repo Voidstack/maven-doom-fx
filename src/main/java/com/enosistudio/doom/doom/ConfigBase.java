@@ -17,16 +17,16 @@
 
 package com.enosistudio.doom.doom;
 
-import data.dstrings;
-import mochadoom.Engine;
+import com.enosistudio.doom.data.dstrings;
+import com.enosistudio.doom.mochadoom.Engine;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Optional;
-import m.Settings;
-import utils.OSValidator;
-import utils.ResourceIO;
+import com.enosistudio.doom.m.Settings;
+import com.enosistudio.doom.utils.OSValidator;
+import com.enosistudio.doom.utils.ResourceIO;
 
 /**
  * Manages loading different config files from different places

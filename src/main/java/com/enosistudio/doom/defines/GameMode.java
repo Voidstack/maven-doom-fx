@@ -1,7 +1,7 @@
 package com.enosistudio.doom.defines;
 
 import static com.enosistudio.doom.defines.DoomVersion.*;
-import doom.CommandVariable;
+import com.enosistudio.doom.doom.CommandVariable;
 
 /**
  * Game mode handling - identify IWAD version to handle IWAD dependend animations etc.

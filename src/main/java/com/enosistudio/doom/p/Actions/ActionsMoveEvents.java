@@ -23,7 +23,7 @@ import com.enosistudio.doom.p.mobj_t;
 import com.enosistudio.doom.p.plattype_e;
 import com.enosistudio.doom.p.stair_e;
 import com.enosistudio.doom.p.vldoor_e;
-import rr.line_t;
+import com.enosistudio.doom.rr.line_t;
 
 public interface ActionsMoveEvents extends ActionTrait {
 

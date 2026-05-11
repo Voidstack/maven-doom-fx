@@ -49,7 +49,7 @@ package com.enosistudio.doom.data;
 // 
 //-----------------------------------------------------------------------------
 
-import static doom.englsh.*;
+import static com.enosistudio.doom.doom.englsh.*;
 
 public class dstrings{
 

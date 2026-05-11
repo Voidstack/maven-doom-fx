@@ -4,8 +4,8 @@ import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 
-import w.CacheableDoomObject;
-import w.DoomBuffer;
+import com.enosistudio.doom.w.CacheableDoomObject;
+import com.enosistudio.doom.w.DoomBuffer;
 
 /**
  * Source animation definition. Made readable for compatibility with Boom's

@@ -1,9 +1,9 @@
 package com.enosistudio.doom.data;
 
-import static data.Defines.TIC_MUL;
-import defines.statenum_t;
-import p.ActiveStates;
-import static p.ActiveStates.NOP;
+import static com.enosistudio.doom.data.Defines.TIC_MUL;
+import com.enosistudio.doom.defines.statenum_t;
+import com.enosistudio.doom.p.ActiveStates;
+import static com.enosistudio.doom.p.ActiveStates.NOP;
 
 public class state_t {
 

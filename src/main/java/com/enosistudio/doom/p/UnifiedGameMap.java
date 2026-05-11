@@ -1,29 +1,29 @@
 package com.enosistudio.doom.p;
 
-import data.Limits;
-import static data.Limits.BUTTONTIME;
-import static data.Limits.MAXANIMS;
-import static data.Limits.MAXBUTTONS;
-import static data.Limits.MAXSWITCHES;
-import data.sounds.sfxenum_t;
-import doom.DoomMain;
-import doom.SourceCode;
-import doom.SourceCode.CauseOfDesyncProbability;
-import doom.SourceCode.P_Tick;
-import static doom.SourceCode.P_Tick.*;
-import doom.thinker_t;
+import com.enosistudio.doom.data.Limits;
+import static com.enosistudio.doom.data.Limits.BUTTONTIME;
+import static com.enosistudio.doom.data.Limits.MAXANIMS;
+import static com.enosistudio.doom.data.Limits.MAXBUTTONS;
+import static com.enosistudio.doom.data.Limits.MAXSWITCHES;
+import com.enosistudio.doom.data.sounds.sfxenum_t;
+import com.enosistudio.doom.doom.DoomMain;
+import com.enosistudio.doom.doom.SourceCode;
+import com.enosistudio.doom.doom.SourceCode.CauseOfDesyncProbability;
+import com.enosistudio.doom.doom.SourceCode.P_Tick;
+import static com.enosistudio.doom.doom.SourceCode.P_Tick.*;
+import com.enosistudio.doom.doom.thinker_t;
 import java.util.Arrays;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import m.Settings;
-import static m.fixed_t.MAPFRACUNIT;
-import mochadoom.Engine;
-import mochadoom.Loggers;
-import rr.ISpriteManager;
-import rr.line_t;
-import utils.C2JUtils;
-import static utils.C2JUtils.eval;
-import static utils.GenericCopy.malloc;
+import com.enosistudio.doom.m.Settings;
+import static com.enosistudio.doom.m.fixed_t.MAPFRACUNIT;
+import com.enosistudio.doom.mochadoom.Engine;
+import com.enosistudio.doom.mochadoom.Loggers;
+import com.enosistudio.doom.rr.ISpriteManager;
+import com.enosistudio.doom.rr.line_t;
+import com.enosistudio.doom.utils.C2JUtils;
+import static com.enosistudio.doom.utils.C2JUtils.eval;
+import static com.enosistudio.doom.utils.GenericCopy.malloc;
 
 // // FROM SIGHT
 

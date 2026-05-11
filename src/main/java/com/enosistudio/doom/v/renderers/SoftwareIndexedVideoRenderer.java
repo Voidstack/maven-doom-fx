@@ -18,10 +18,10 @@
 package com.enosistudio.doom.v.renderers;
 
 import java.awt.image.IndexColorModel;
-import m.MenuMisc;
-import v.graphics.Palettes;
-import v.tables.BlurryTable;
-import v.tables.GammaTables;
+import com.enosistudio.doom.m.MenuMisc;
+import com.enosistudio.doom.v.graphics.Palettes;
+import com.enosistudio.doom.v.tables.BlurryTable;
+import com.enosistudio.doom.v.tables.GammaTables;
 
 /**
  * @author Good Sign

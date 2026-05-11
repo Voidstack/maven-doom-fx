@@ -7,11 +7,11 @@ import java.util.concurrent.Executor;
 import com.enosistudio.doom.rr.AbstractThings;
 import com.enosistudio.doom.rr.IDetailAware;
 import com.enosistudio.doom.rr.SceneRenderer;
-import rr.drawfuns.ColVars;
-import rr.drawfuns.DcFlags;
-import utils.C2JUtils;
-import v.scale.VideoScale;
-import v.tables.BlurryTable;
+import com.enosistudio.doom.rr.drawfuns.ColVars;
+import com.enosistudio.doom.rr.drawfuns.DcFlags;
+import com.enosistudio.doom.utils.C2JUtils;
+import com.enosistudio.doom.v.scale.VideoScale;
+import com.enosistudio.doom.v.tables.BlurryTable;
 
 /**
  * Parallel Things drawing class, column based, using RMI pipeline.

@@ -1,6 +1,6 @@
 package com.enosistudio.doom.g;
 
-import rr.line_t;
+import com.enosistudio.doom.rr.line_t;
 
 /* Emacs style mode select   -*- C++ -*-
  *-----------------------------------------------------------------------------

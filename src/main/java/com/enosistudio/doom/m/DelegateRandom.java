@@ -16,12 +16,12 @@
  */
 package com.enosistudio.doom.m;
 
-import data.Defines;
-import data.mobjtype_t;
-import doom.SourceCode.M_Random;
-import static doom.SourceCode.M_Random.*;
-import p.ActiveStates;
-import utils.C2JUtils;
+import com.enosistudio.doom.data.Defines;
+import com.enosistudio.doom.data.mobjtype_t;
+import com.enosistudio.doom.doom.SourceCode.M_Random;
+import static com.enosistudio.doom.doom.SourceCode.M_Random.*;
+import com.enosistudio.doom.p.ActiveStates;
+import com.enosistudio.doom.utils.C2JUtils;
 
 /**
  * A "IRandom" that delegates its function to one of the two available IRandom implementations

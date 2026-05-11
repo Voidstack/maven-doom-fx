@@ -1,8 +1,8 @@
 package com.enosistudio.doom.p;
 
-import static m.fixed_t.*;
-import rr.line_t;
-import static utils.C2JUtils.eval;
+import static com.enosistudio.doom.m.fixed_t.*;
+import com.enosistudio.doom.rr.line_t;
+import static com.enosistudio.doom.utils.C2JUtils.eval;
 //
 // P_MAPUTL
 //

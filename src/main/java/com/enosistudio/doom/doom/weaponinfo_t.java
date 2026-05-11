@@ -1,5 +1,5 @@
 package com.enosistudio.doom.doom;
-import defines.*;
+import com.enosistudio.doom.defines.*;
 
 //
 // PSPRITE ACTIONS for waepons.

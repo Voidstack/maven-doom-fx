@@ -17,23 +17,23 @@
  */
 package com.enosistudio.doom.p.Actions;
 
-import static data.Defines.PT_ADDLINES;
-import static data.Defines.PT_ADDTHINGS;
-import static data.Tables.BITS32;
-import static data.Tables.finecosine;
-import static data.Tables.finesine;
-import doom.SourceCode.P_Map;
-import static doom.SourceCode.P_Map.PTR_AimTraverse;
-import static m.fixed_t.FRACBITS;
-import static m.fixed_t.FRACUNIT;
-import static m.fixed_t.FixedDiv;
-import static m.fixed_t.FixedMul;
+import static com.enosistudio.doom.data.Defines.PT_ADDLINES;
+import static com.enosistudio.doom.data.Defines.PT_ADDTHINGS;
+import static com.enosistudio.doom.data.Tables.BITS32;
+import static com.enosistudio.doom.data.Tables.finecosine;
+import static com.enosistudio.doom.data.Tables.finesine;
+import com.enosistudio.doom.doom.SourceCode.P_Map;
+import static com.enosistudio.doom.doom.SourceCode.P_Map.PTR_AimTraverse;
+import static com.enosistudio.doom.m.fixed_t.FRACBITS;
+import static com.enosistudio.doom.m.fixed_t.FRACUNIT;
+import static com.enosistudio.doom.m.fixed_t.FixedDiv;
+import static com.enosistudio.doom.m.fixed_t.FixedMul;
 import com.enosistudio.doom.p.intercept_t;
 import com.enosistudio.doom.p.mobj_t;
 import static com.enosistudio.doom.p.mobj_t.MF_SHOOTABLE;
-import rr.line_t;
-import static rr.line_t.ML_TWOSIDED;
-import static utils.C2JUtils.eval;
+import com.enosistudio.doom.rr.line_t;
+import static com.enosistudio.doom.rr.line_t.ML_TWOSIDED;
+import static com.enosistudio.doom.utils.C2JUtils.eval;
 
 public interface ActionsAim extends ActionsMissiles {
 

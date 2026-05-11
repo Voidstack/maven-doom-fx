@@ -41,7 +41,7 @@ package com.enosistudio.doom.doom;
 //
 //-----------------------------------------------------------------------------
 
-import defines.*;
+import com.enosistudio.doom.defines.*;
 
 public class items{
 

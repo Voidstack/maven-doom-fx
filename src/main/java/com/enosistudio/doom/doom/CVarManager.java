@@ -25,8 +25,8 @@ import java.util.List;
 import java.util.Optional;
 import java.util.function.Consumer;
 import java.util.logging.Level;
-import mochadoom.Loggers;
-import utils.ResourceIO;
+import com.enosistudio.doom.mochadoom.Loggers;
+import com.enosistudio.doom.utils.ResourceIO;
 
 /**
  * New, object-oriented Console Variable Manager

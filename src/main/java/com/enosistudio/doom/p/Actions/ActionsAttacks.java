@@ -17,36 +17,36 @@
  */
 package com.enosistudio.doom.p.Actions;
 
-import static data.Defines.MISSILERANGE;
-import static data.Defines.PT_ADDLINES;
-import static data.Defines.PT_ADDTHINGS;
-import static data.Limits.MAXRADIUS;
-import static data.Tables.finecosine;
-import static data.Tables.finesine;
-import static data.info.mobjinfo;
-import data.mobjtype_t;
-import defines.statenum_t;
-import doom.SourceCode.P_Enemy;
-import static doom.SourceCode.P_Enemy.PIT_VileCheck;
-import doom.SourceCode.P_Map;
-import static doom.SourceCode.P_Map.PIT_RadiusAttack;
-import static doom.SourceCode.P_Map.PTR_ShootTraverse;
-import doom.SourceCode.angle_t;
-import doom.SourceCode.fixed_t;
-import static m.fixed_t.FRACBITS;
-import static m.fixed_t.FRACUNIT;
-import static m.fixed_t.FixedDiv;
-import static m.fixed_t.FixedMul;
+import static com.enosistudio.doom.data.Defines.MISSILERANGE;
+import static com.enosistudio.doom.data.Defines.PT_ADDLINES;
+import static com.enosistudio.doom.data.Defines.PT_ADDTHINGS;
+import static com.enosistudio.doom.data.Limits.MAXRADIUS;
+import static com.enosistudio.doom.data.Tables.finecosine;
+import static com.enosistudio.doom.data.Tables.finesine;
+import static com.enosistudio.doom.data.info.mobjinfo;
+import com.enosistudio.doom.data.mobjtype_t;
+import com.enosistudio.doom.defines.statenum_t;
+import com.enosistudio.doom.doom.SourceCode.P_Enemy;
+import static com.enosistudio.doom.doom.SourceCode.P_Enemy.PIT_VileCheck;
+import com.enosistudio.doom.doom.SourceCode.P_Map;
+import static com.enosistudio.doom.doom.SourceCode.P_Map.PIT_RadiusAttack;
+import static com.enosistudio.doom.doom.SourceCode.P_Map.PTR_ShootTraverse;
+import com.enosistudio.doom.doom.SourceCode.angle_t;
+import com.enosistudio.doom.doom.SourceCode.fixed_t;
+import static com.enosistudio.doom.m.fixed_t.FRACBITS;
+import static com.enosistudio.doom.m.fixed_t.FRACUNIT;
+import static com.enosistudio.doom.m.fixed_t.FixedDiv;
+import static com.enosistudio.doom.m.fixed_t.FixedMul;
 import com.enosistudio.doom.p.AbstractLevelLoader;
 import com.enosistudio.doom.p.intercept_t;
 import com.enosistudio.doom.p.mobj_t;
 import static com.enosistudio.doom.p.mobj_t.MF_CORPSE;
 import static com.enosistudio.doom.p.mobj_t.MF_NOBLOOD;
 import static com.enosistudio.doom.p.mobj_t.MF_SHOOTABLE;
-import rr.line_t;
-import static rr.line_t.ML_TWOSIDED;
-import static utils.C2JUtils.eval;
-import utils.TraitFactory.ContextKey;
+import com.enosistudio.doom.rr.line_t;
+import static com.enosistudio.doom.rr.line_t.ML_TWOSIDED;
+import static com.enosistudio.doom.utils.C2JUtils.eval;
+import com.enosistudio.doom.utils.TraitFactory.ContextKey;
 
 public interface ActionsAttacks extends ActionsAim, ActionsMobj, ActionsSight, ActionsShootEvents {
 

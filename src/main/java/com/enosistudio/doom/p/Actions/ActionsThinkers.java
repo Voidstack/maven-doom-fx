@@ -17,35 +17,35 @@
  */
 package com.enosistudio.doom.p.Actions;
 
-import static data.Defines.ITEMQUESIZE;
-import static data.Defines.ONCEILINGZ;
-import static data.Defines.ONFLOORZ;
-import static data.Limits.MAXPLAYERS;
-import static data.Tables.ANG45;
-import static data.info.mobjinfo;
-import data.mapthing_t;
-import data.mobjtype_t;
-import data.sounds;
-import doom.CommandVariable;
-import doom.DoomMain;
-import doom.SourceCode;
-import doom.SourceCode.CauseOfDesyncProbability;
-import doom.SourceCode.P_Spec;
-import static doom.SourceCode.P_Spec.P_SpawnSpecials;
-import static doom.SourceCode.P_Tick.P_RemoveThinker;
-import doom.thinker_t;
-import static m.fixed_t.FRACBITS;
+import static com.enosistudio.doom.data.Defines.ITEMQUESIZE;
+import static com.enosistudio.doom.data.Defines.ONCEILINGZ;
+import static com.enosistudio.doom.data.Defines.ONFLOORZ;
+import static com.enosistudio.doom.data.Limits.MAXPLAYERS;
+import static com.enosistudio.doom.data.Tables.ANG45;
+import static com.enosistudio.doom.data.info.mobjinfo;
+import com.enosistudio.doom.data.mapthing_t;
+import com.enosistudio.doom.data.mobjtype_t;
+import com.enosistudio.doom.data.sounds;
+import com.enosistudio.doom.doom.CommandVariable;
+import com.enosistudio.doom.doom.DoomMain;
+import com.enosistudio.doom.doom.SourceCode;
+import com.enosistudio.doom.doom.SourceCode.CauseOfDesyncProbability;
+import com.enosistudio.doom.doom.SourceCode.P_Spec;
+import static com.enosistudio.doom.doom.SourceCode.P_Spec.P_SpawnSpecials;
+import static com.enosistudio.doom.doom.SourceCode.P_Tick.P_RemoveThinker;
+import com.enosistudio.doom.doom.thinker_t;
+import static com.enosistudio.doom.m.fixed_t.FRACBITS;
 
-import p.*;
+import com.enosistudio.doom.p.*;
 import com.enosistudio.doom.p.ActiveStates.MobjConsumer;
 import static com.enosistudio.doom.p.ActiveStates.NOP;
 import com.enosistudio.doom.p.ActiveStates.ThinkerConsumer;
 import static com.enosistudio.doom.p.DoorDefines.FASTDARK;
 import static com.enosistudio.doom.p.DoorDefines.SLOWDARK;
 import static com.enosistudio.doom.p.mobj_t.MF_SPAWNCEILING;
-import rr.sector_t;
-import rr.subsector_t;
-import static utils.C2JUtils.eval;
+import com.enosistudio.doom.rr.sector_t;
+import com.enosistudio.doom.rr.subsector_t;
+import static com.enosistudio.doom.utils.C2JUtils.eval;
 
 public interface ActionsThinkers extends ActionsSectors, ThinkerList {
 

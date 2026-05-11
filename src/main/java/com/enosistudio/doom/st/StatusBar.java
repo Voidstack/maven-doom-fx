@@ -24,31 +24,31 @@ package com.enosistudio.doom.st;
 //
 // -----------------------------------------------------------------------------
 
-import static data.Defines.*;
-import static data.Limits.MAXPLAYERS;
-import static data.Tables.*;
-import data.sounds.musicenum_t;
-import defines.*;
-import doom.DoomMain;
-import doom.SourceCode;
-import doom.SourceCode.CauseOfDesyncProbability;
-import doom.SourceCode.ST_Stuff;
-import static doom.SourceCode.ST_Stuff.ST_Responder;
-import static doom.englsh.*;
-import doom.event_t;
-import doom.evtype_t;
-import static doom.items.*;
-import doom.player_t;
-import static doom.player_t.*;
-import doom.weapontype_t;
-import g.Signals;
+import static com.enosistudio.doom.data.Defines.*;
+import static com.enosistudio.doom.data.Limits.MAXPLAYERS;
+import static com.enosistudio.doom.data.Tables.*;
+import com.enosistudio.doom.data.sounds.musicenum_t;
+import com.enosistudio.doom.defines.*;
+import com.enosistudio.doom.doom.DoomMain;
+import com.enosistudio.doom.doom.SourceCode;
+import com.enosistudio.doom.doom.SourceCode.CauseOfDesyncProbability;
+import com.enosistudio.doom.doom.SourceCode.ST_Stuff;
+import static com.enosistudio.doom.doom.SourceCode.ST_Stuff.ST_Responder;
+import static com.enosistudio.doom.doom.englsh.*;
+import com.enosistudio.doom.doom.event_t;
+import com.enosistudio.doom.doom.evtype_t;
+import static com.enosistudio.doom.doom.items.*;
+import com.enosistudio.doom.doom.player_t;
+import static com.enosistudio.doom.doom.player_t.*;
+import com.enosistudio.doom.doom.weapontype_t;
+import com.enosistudio.doom.g.Signals;
 import java.awt.Rectangle;
-import m.Settings;
-import m.cheatseq_t;
-import p.mobj_t;
-import rr.patch_t;
-import static v.DoomGraphicSystem.*;
-import static v.renderers.DoomScreen.*;
+import com.enosistudio.doom.m.Settings;
+import com.enosistudio.doom.m.cheatseq_t;
+import com.enosistudio.doom.p.mobj_t;
+import com.enosistudio.doom.rr.patch_t;
+import static com.enosistudio.doom.v.DoomGraphicSystem.*;
+import static com.enosistudio.doom.v.renderers.DoomScreen.*;
 
 public class StatusBar extends AbstractStatusBar {
     public static final String rcsid =

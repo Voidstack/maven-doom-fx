@@ -125,29 +125,29 @@ package com.enosistudio.doom.f;
 //	Intermission screens.
 //
 //-----------------------------------------------------------------------------*/
-import static data.Defines.*;
-import static data.Limits.*;
-import data.sounds.musicenum_t;
-import data.sounds.sfxenum_t;
-import defines.*;
-import doom.DoomMain;
-import doom.SourceCode;
-import doom.SourceCode.CauseOfDesyncProbability;
-import doom.SourceCode.WI_Stuff;
-import static doom.SourceCode.WI_Stuff.WI_Start;
-import static doom.SourceCode.WI_Stuff.WI_initAnimatedBack;
-import static doom.SourceCode.WI_Stuff.WI_initDeathmatchStats;
-import static doom.SourceCode.WI_Stuff.WI_initNetgameStats;
-import static doom.SourceCode.WI_Stuff.WI_initStats;
-import static doom.SourceCode.WI_Stuff.WI_initVariables;
-import static doom.SourceCode.WI_Stuff.WI_loadData;
-import doom.event_t;
-import doom.player_t;
-import doom.wbplayerstruct_t;
-import doom.wbstartstruct_t;
-import rr.*;
-import static v.DoomGraphicSystem.*;
-import static v.renderers.DoomScreen.*;
+import static com.enosistudio.doom.data.Defines.*;
+import static com.enosistudio.doom.data.Limits.*;
+import com.enosistudio.doom.data.sounds.musicenum_t;
+import com.enosistudio.doom.data.sounds.sfxenum_t;
+import com.enosistudio.doom.defines.*;
+import com.enosistudio.doom.doom.DoomMain;
+import com.enosistudio.doom.doom.SourceCode;
+import com.enosistudio.doom.doom.SourceCode.CauseOfDesyncProbability;
+import com.enosistudio.doom.doom.SourceCode.WI_Stuff;
+import static com.enosistudio.doom.doom.SourceCode.WI_Stuff.WI_Start;
+import static com.enosistudio.doom.doom.SourceCode.WI_Stuff.WI_initAnimatedBack;
+import static com.enosistudio.doom.doom.SourceCode.WI_Stuff.WI_initDeathmatchStats;
+import static com.enosistudio.doom.doom.SourceCode.WI_Stuff.WI_initNetgameStats;
+import static com.enosistudio.doom.doom.SourceCode.WI_Stuff.WI_initStats;
+import static com.enosistudio.doom.doom.SourceCode.WI_Stuff.WI_initVariables;
+import static com.enosistudio.doom.doom.SourceCode.WI_Stuff.WI_loadData;
+import com.enosistudio.doom.doom.event_t;
+import com.enosistudio.doom.doom.player_t;
+import com.enosistudio.doom.doom.wbplayerstruct_t;
+import com.enosistudio.doom.doom.wbstartstruct_t;
+import com.enosistudio.doom.rr.*;
+import static com.enosistudio.doom.v.DoomGraphicSystem.*;
+import static com.enosistudio.doom.v.renderers.DoomScreen.*;
 
 /**
  * This class (stuff.c) seems to implement the endlevel screens.

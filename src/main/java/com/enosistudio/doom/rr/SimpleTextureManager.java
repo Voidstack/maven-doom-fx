@@ -1,14 +1,14 @@
 package com.enosistudio.doom.rr;
 
-import static data.Defines.PU_CACHE;
-import static data.Defines.PU_STATIC;
-import static data.Defines.SKYFLATNAME;
-import doom.DoomMain;
-import doom.SourceCode;
-import doom.SourceCode.CauseOfDesyncProbability;
-import doom.SourceCode.R_Data;
-import static doom.SourceCode.R_Data.R_PrecacheLevel;
-import i.IDoomSystem;
+import static com.enosistudio.doom.data.Defines.PU_CACHE;
+import static com.enosistudio.doom.data.Defines.PU_STATIC;
+import static com.enosistudio.doom.data.Defines.SKYFLATNAME;
+import com.enosistudio.doom.doom.DoomMain;
+import com.enosistudio.doom.doom.SourceCode;
+import com.enosistudio.doom.doom.SourceCode.CauseOfDesyncProbability;
+import com.enosistudio.doom.doom.SourceCode.R_Data;
+import static com.enosistudio.doom.doom.SourceCode.R_Data.R_PrecacheLevel;
+import com.enosistudio.doom.i.IDoomSystem;
 import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
@@ -16,13 +16,13 @@ import java.util.Arrays;
 import java.util.Enumeration;
 import java.util.HashMap;
 import java.util.Hashtable;
-import static m.fixed_t.FRACBITS;
-import static m.fixed_t.FRACUNIT;
-import p.AbstractLevelLoader;
-import w.DoomBuffer;
-import w.IWadLoader;
-import w.li_namespace;
-import w.lumpinfo_t;
+import static com.enosistudio.doom.m.fixed_t.FRACBITS;
+import static com.enosistudio.doom.m.fixed_t.FRACUNIT;
+import com.enosistudio.doom.p.AbstractLevelLoader;
+import com.enosistudio.doom.w.DoomBuffer;
+import com.enosistudio.doom.w.IWadLoader;
+import com.enosistudio.doom.w.li_namespace;
+import com.enosistudio.doom.w.lumpinfo_t;
 
 /** An attempt to separate texture mapping functionality from
  *  the rest of the rendering. Seems to work like a charm, and

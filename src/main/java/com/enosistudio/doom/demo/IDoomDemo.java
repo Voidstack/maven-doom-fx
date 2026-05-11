@@ -1,7 +1,7 @@
 package com.enosistudio.doom.demo;
 
-import w.IWritableDoomObject;
-import defines.skill_t;
+import com.enosistudio.doom.w.IWritableDoomObject;
+import com.enosistudio.doom.defines.skill_t;
 
 public interface IDoomDemo extends IWritableDoomObject{
 	

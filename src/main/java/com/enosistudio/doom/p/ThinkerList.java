@@ -1,8 +1,8 @@
 package com.enosistudio.doom.p;
 
-import doom.SourceCode.P_Tick;
-import static doom.SourceCode.P_Tick.*;
-import doom.thinker_t;
+import com.enosistudio.doom.doom.SourceCode.P_Tick;
+import static com.enosistudio.doom.doom.SourceCode.P_Tick.*;
+import com.enosistudio.doom.doom.thinker_t;
 
 public interface ThinkerList {
 

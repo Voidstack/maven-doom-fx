@@ -3,7 +3,7 @@ package com.enosistudio.doom.rr;
 import java.io.IOException;
 import java.nio.ByteBuffer;
 
-import w.CacheableDoomObject;
+import com.enosistudio.doom.w.CacheableDoomObject;
 
 public class flat_t
         implements CacheableDoomObject {

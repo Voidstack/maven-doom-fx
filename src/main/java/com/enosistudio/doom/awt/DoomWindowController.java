@@ -16,7 +16,7 @@
  */
 package com.enosistudio.doom.awt;
 
-import doom.event_t;
+import com.enosistudio.doom.doom.event_t;
 import java.awt.Color;
 import java.awt.Component;
 import java.awt.DisplayMode;
@@ -26,9 +26,9 @@ import java.awt.Toolkit;
 import java.util.function.Consumer;
 import java.util.function.Supplier;
 import java.util.logging.Level;
-import m.Settings;
-import mochadoom.Engine;
-import mochadoom.Loggers;
+import com.enosistudio.doom.m.Settings;
+import com.enosistudio.doom.mochadoom.Engine;
+import com.enosistudio.doom.mochadoom.Loggers;
 
 /**
  * Display, its configuration and resolution related stuff,

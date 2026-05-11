@@ -1,6 +1,6 @@
 package com.enosistudio.doom.rr.parallel;
 
-import rr.drawfuns.ColVars;
+import com.enosistudio.doom.rr.drawfuns.ColVars;
 
 public interface RWI<T,V> {
 	public interface Init<T,V>{

@@ -17,11 +17,11 @@
 
 package com.enosistudio.doom.mochadoom;
 
-import awt.DoomWindow;
-import awt.EventBase;
-import awt.EventBase.ActionMode;
-import awt.EventBase.ActionStateHolder;
-import awt.EventBase.RelationType;
+import com.enosistudio.doom.awt.DoomWindow;
+import com.enosistudio.doom.awt.EventBase;
+import com.enosistudio.doom.awt.EventBase.ActionMode;
+import com.enosistudio.doom.awt.EventBase.ActionStateHolder;
+import com.enosistudio.doom.awt.EventBase.RelationType;
 import java.awt.AWTEvent;
 import java.io.OutputStream;
 import java.util.Arrays;
@@ -34,8 +34,8 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
-import p.ActiveStates;
-import v.graphics.Patches;
+import com.enosistudio.doom.p.ActiveStates;
+import com.enosistudio.doom.v.graphics.Patches;
 
 /**
  * Facility to manage Logger Levels for different classes

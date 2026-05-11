@@ -17,9 +17,9 @@
  */
 package com.enosistudio.doom.p.Actions.ActiveStates;
 
-import data.mobjtype_t;
-import data.sounds;
-import doom.player_t;
+import com.enosistudio.doom.data.mobjtype_t;
+import com.enosistudio.doom.data.sounds;
+import com.enosistudio.doom.doom.player_t;
 import com.enosistudio.doom.p.Actions.ActionTrait;
 import com.enosistudio.doom.p.mobj_t;
 import com.enosistudio.doom.p.pspdef_t;

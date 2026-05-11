@@ -1,13 +1,13 @@
 package com.enosistudio.doom.p;
 
-import doom.SourceCode.fixed_t;
+import com.enosistudio.doom.doom.SourceCode.fixed_t;
 import java.io.DataInputStream;
 import java.io.IOException;
 import java.nio.ByteBuffer;
-import rr.SectorAction;
-import rr.sector_t;
-import w.DoomIO;
-import w.IReadableDoomObject;
+import com.enosistudio.doom.rr.SectorAction;
+import com.enosistudio.doom.rr.sector_t;
+import com.enosistudio.doom.w.DoomIO;
+import com.enosistudio.doom.w.IReadableDoomObject;
 
 public class plat_t extends SectorAction implements IReadableDoomObject {
 

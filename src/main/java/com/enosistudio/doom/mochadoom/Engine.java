@@ -17,17 +17,17 @@
 
 package com.enosistudio.doom.mochadoom;
 
-import awt.DoomWindow;
-import awt.DoomWindowController;
-import awt.EventBase.KeyStateInterest;
-import static awt.EventBase.KeyStateSatisfaction.*;
-import awt.EventHandler;
-import doom.CVarManager;
-import doom.CommandVariable;
-import doom.ConfigManager;
-import doom.DoomMain;
-import static g.Signals.ScanCode.*;
-import i.Strings;
+import com.enosistudio.doom.awt.DoomWindow;
+import com.enosistudio.doom.awt.DoomWindowController;
+import com.enosistudio.doom.awt.EventBase.KeyStateInterest;
+import static com.enosistudio.doom.awt.EventBase.KeyStateSatisfaction.*;
+import com.enosistudio.doom.awt.EventHandler;
+import com.enosistudio.doom.doom.CVarManager;
+import com.enosistudio.doom.doom.CommandVariable;
+import com.enosistudio.doom.doom.ConfigManager;
+import com.enosistudio.doom.doom.DoomMain;
+import static com.enosistudio.doom.g.Signals.ScanCode.*;
+import com.enosistudio.doom.i.Strings;
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.logging.Level;

@@ -1,6 +1,6 @@
 package com.enosistudio.doom.automap;
 
-import m.fixed_t;
+import com.enosistudio.doom.m.fixed_t;
 
 public class mpoint_t
 {

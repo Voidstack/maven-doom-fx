@@ -3,9 +3,9 @@ package com.enosistudio.doom.rr;
 import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
-import static utils.GenericCopy.malloc;
-import w.CacheableDoomObject;
-import w.DoomBuffer;
+import static com.enosistudio.doom.utils.GenericCopy.malloc;
+import com.enosistudio.doom.w.CacheableDoomObject;
+import com.enosistudio.doom.w.DoomBuffer;
 
 /** Texture definition.
  *  A DOOM wall texture is a list of patches which are to be combined in a predefined order.

@@ -1,16 +1,16 @@
 package com.enosistudio.doom.demo;
 
-import static data.Limits.MAXPLAYERS;
-import defines.skill_t;
+import static com.enosistudio.doom.data.Limits.MAXPLAYERS;
+import com.enosistudio.doom.defines.skill_t;
 import java.io.DataOutputStream;
 import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.util.ArrayList;
 import java.util.List;
-import static utils.GenericCopy.malloc;
-import w.CacheableDoomObject;
-import w.DoomBuffer;
-import w.DoomIO;
+import static com.enosistudio.doom.utils.GenericCopy.malloc;
+import com.enosistudio.doom.w.CacheableDoomObject;
+import com.enosistudio.doom.w.DoomBuffer;
+import com.enosistudio.doom.w.DoomIO;
 
 public class VanillaDoomDemo implements IDoomDemo,CacheableDoomObject{
 

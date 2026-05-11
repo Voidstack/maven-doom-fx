@@ -3,7 +3,7 @@ package com.enosistudio.doom.m;
 import java.io.DataOutputStream;
 import java.io.IOException;
 
-import w.IWritableDoomObject;
+import com.enosistudio.doom.w.IWritableDoomObject;
 
 /** Yeah, this is actually a PCX header implementation, and Mocha Doom
  *  saved PCX screenshots. Implemented it back just to shot that it can be

@@ -1,7 +1,7 @@
 package com.enosistudio.doom.n;
 
-import doom.IDoomGameNetworking;
-import doom.doomcom_t;
+import com.enosistudio.doom.doom.IDoomGameNetworking;
+import com.enosistudio.doom.doom.doomcom_t;
 
 public class DummyNetworkHandler implements IDoomGameNetworking{
 

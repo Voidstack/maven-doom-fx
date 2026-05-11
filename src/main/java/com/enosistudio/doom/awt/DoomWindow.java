@@ -1,7 +1,7 @@
 package com.enosistudio.doom.awt;
 
-import doom.CommandVariable;
-import doom.event_t;
+import com.enosistudio.doom.doom.CommandVariable;
+import com.enosistudio.doom.doom.event_t;
 import java.awt.Canvas;
 import java.awt.Color;
 import java.awt.Component;
@@ -13,7 +13,7 @@ import java.util.StringTokenizer;
 import java.util.function.Consumer;
 import java.util.function.Supplier;
 import javax.swing.JPanel;
-import mochadoom.Engine;
+import com.enosistudio.doom.mochadoom.Engine;
 
 /** 
  *  Methods specific to Doom-System video interfacing. 

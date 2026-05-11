@@ -17,20 +17,20 @@
  */
 package com.enosistudio.doom.p.Actions.ActiveStates.MonsterStates;
 
-import static data.Limits.MAXSKULLS;
-import data.Tables;
-import static data.Tables.ANG180;
-import static data.Tables.ANG270;
-import static data.Tables.ANG90;
-import static data.Tables.finecosine;
-import static data.Tables.finesine;
-import static data.info.mobjinfo;
-import data.mobjtype_t;
-import doom.SourceCode.angle_t;
-import doom.SourceCode.fixed_t;
-import doom.thinker_t;
-import static m.fixed_t.FRACUNIT;
-import static m.fixed_t.FixedMul;
+import static com.enosistudio.doom.data.Limits.MAXSKULLS;
+import com.enosistudio.doom.data.Tables;
+import static com.enosistudio.doom.data.Tables.ANG180;
+import static com.enosistudio.doom.data.Tables.ANG270;
+import static com.enosistudio.doom.data.Tables.ANG90;
+import static com.enosistudio.doom.data.Tables.finecosine;
+import static com.enosistudio.doom.data.Tables.finesine;
+import static com.enosistudio.doom.data.info.mobjinfo;
+import com.enosistudio.doom.data.mobjtype_t;
+import com.enosistudio.doom.doom.SourceCode.angle_t;
+import com.enosistudio.doom.doom.SourceCode.fixed_t;
+import com.enosistudio.doom.doom.thinker_t;
+import static com.enosistudio.doom.m.fixed_t.FRACUNIT;
+import static com.enosistudio.doom.m.fixed_t.FixedMul;
 import com.enosistudio.doom.p.Actions.ActionTrait;
 import com.enosistudio.doom.p.ActiveStates;
 import static com.enosistudio.doom.p.MapUtils.AproxDistance;
@@ -38,7 +38,7 @@ import com.enosistudio.doom.p.mobj_t;
 import static com.enosistudio.doom.p.mobj_t.MF_SKULLFLY;
 
 public interface PainsSouls extends ActionTrait {
-    static final int SKULLSPEED = 20 * m.fixed_t.MAPFRACUNIT;
+    static final int SKULLSPEED = 20 * com.enosistudio.doom.m.fixed_t.MAPFRACUNIT;
     
     void A_FaceTarget(mobj_t actor);
     void A_Fall(mobj_t actor);

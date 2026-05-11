@@ -17,17 +17,17 @@
  */
 package com.enosistudio.doom.p.Actions.ActiveStates.MonsterStates;
 
-import data.Limits;
-import data.mobjtype_t;
-import data.sounds;
-import defines.skill_t;
-import defines.statenum_t;
-import doom.thinker_t;
-import static m.fixed_t.FRACUNIT;
-import p.Actions.ActiveStates.Sounds;
+import com.enosistudio.doom.data.Limits;
+import com.enosistudio.doom.data.mobjtype_t;
+import com.enosistudio.doom.data.sounds;
+import com.enosistudio.doom.defines.skill_t;
+import com.enosistudio.doom.defines.statenum_t;
+import com.enosistudio.doom.doom.thinker_t;
+import static com.enosistudio.doom.m.fixed_t.FRACUNIT;
+import com.enosistudio.doom.p.Actions.ActiveStates.Sounds;
 import com.enosistudio.doom.p.ActiveStates;
 import com.enosistudio.doom.p.mobj_t;
-import utils.TraitFactory.ContextKey;
+import com.enosistudio.doom.utils.TraitFactory.ContextKey;
 
 public interface HorrendousVisages extends Sounds {
     ContextKey<Brain> KEY_BRAIN = ACTION_KEY_CHAIN.newKey(HorrendousVisages.class, Brain::new);

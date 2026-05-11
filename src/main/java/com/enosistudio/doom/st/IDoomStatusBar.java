@@ -23,9 +23,9 @@ package com.enosistudio.doom.st;
 //
 //-----------------------------------------------------------------------------
 
-import doom.SourceCode.ST_Stuff;
-import static doom.SourceCode.ST_Stuff.ST_Responder;
-import doom.event_t;
+import com.enosistudio.doom.doom.SourceCode.ST_Stuff;
+import static com.enosistudio.doom.doom.SourceCode.ST_Stuff.ST_Responder;
+import com.enosistudio.doom.doom.event_t;
 
 public interface IDoomStatusBar {
     //

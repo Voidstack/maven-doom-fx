@@ -1,7 +1,7 @@
 package com.enosistudio.doom.p;
 
-import rr.line_t;
-import s.degenmobj_t;
+import com.enosistudio.doom.rr.line_t;
+import com.enosistudio.doom.s.degenmobj_t;
 
 public class button_t implements Resettable{
 

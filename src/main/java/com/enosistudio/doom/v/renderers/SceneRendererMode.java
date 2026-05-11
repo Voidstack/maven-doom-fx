@@ -16,15 +16,15 @@
  */
 package com.enosistudio.doom.v.renderers;
 
-import doom.CommandVariable;
-import doom.DoomMain;
+import com.enosistudio.doom.doom.CommandVariable;
+import com.enosistudio.doom.doom.DoomMain;
 import java.util.function.Function;
-import m.Settings;
-import mochadoom.Engine;
-import rr.SceneRenderer;
-import rr.UnifiedRenderer;
-import rr.parallel.ParallelRenderer;
-import rr.parallel.ParallelRenderer2;
+import com.enosistudio.doom.m.Settings;
+import com.enosistudio.doom.mochadoom.Engine;
+import com.enosistudio.doom.rr.SceneRenderer;
+import com.enosistudio.doom.rr.UnifiedRenderer;
+import com.enosistudio.doom.rr.parallel.ParallelRenderer;
+import com.enosistudio.doom.rr.parallel.ParallelRenderer2;
 
 /**
  * This class helps to choose between scene renderers

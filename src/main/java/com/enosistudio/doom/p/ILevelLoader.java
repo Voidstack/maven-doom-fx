@@ -1,10 +1,10 @@
 package com.enosistudio.doom.p;
 
-import defines.skill_t;
-import doom.SourceCode.P_Setup;
-import static doom.SourceCode.P_Setup.P_SetupLevel;
+import com.enosistudio.doom.defines.skill_t;
+import com.enosistudio.doom.doom.SourceCode.P_Setup;
+import static com.enosistudio.doom.doom.SourceCode.P_Setup.P_SetupLevel;
 import java.io.IOException;
-import rr.subsector_t;
+import com.enosistudio.doom.rr.subsector_t;
 
 public interface ILevelLoader {
 

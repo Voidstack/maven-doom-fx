@@ -5,7 +5,7 @@ import java.nio.BufferUnderflowException;
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 
-import w.CacheableDoomObject;
+import com.enosistudio.doom.w.CacheableDoomObject;
 
 /** An object representation of Doom's sound format */
 

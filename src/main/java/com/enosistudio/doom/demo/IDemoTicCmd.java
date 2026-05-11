@@ -1,7 +1,7 @@
 package com.enosistudio.doom.demo;
 
-import w.IWritableDoomObject;
-import doom.ticcmd_t;
+import com.enosistudio.doom.w.IWritableDoomObject;
+import com.enosistudio.doom.doom.ticcmd_t;
 
 /** Demo Tic Commands can be read/written to disk/buffers,
  *  and are not necessarily equal to the in-game ticcmd_t.

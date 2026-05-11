@@ -4,13 +4,13 @@ import java.io.DataInputStream;
 import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
-import p.ActiveStates;
-import static utils.C2JUtils.pointer;
+import com.enosistudio.doom.p.ActiveStates;
+import static com.enosistudio.doom.utils.C2JUtils.pointer;
 
-import p.ThinkerStates;
-import w.CacheableDoomObject;
-import w.IPackableDoomObject;
-import w.IReadableDoomObject;
+import com.enosistudio.doom.p.ThinkerStates;
+import com.enosistudio.doom.w.CacheableDoomObject;
+import com.enosistudio.doom.w.IPackableDoomObject;
+import com.enosistudio.doom.w.IReadableDoomObject;
 
 public class thinker_t implements CacheableDoomObject, IReadableDoomObject, IPackableDoomObject {
 

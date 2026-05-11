@@ -1,8 +1,8 @@
 package com.enosistudio.doom.m;
 
-import doom.SourceCode.M_Menu;
-import static doom.SourceCode.M_Menu.*;
-import doom.event_t;
+import com.enosistudio.doom.doom.SourceCode.M_Menu;
+import static com.enosistudio.doom.doom.SourceCode.M_Menu.*;
+import com.enosistudio.doom.doom.event_t;
 
 // Emacs style mode select -*- C++ -*-
 // -----------------------------------------------------------------------------

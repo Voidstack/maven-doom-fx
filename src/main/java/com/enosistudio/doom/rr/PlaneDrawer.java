@@ -1,16 +1,16 @@
 package com.enosistudio.doom.rr;
 
-import v.tables.LightsAndColors;
-import static data.Tables.ANGLETOFINESHIFT;
-import static data.Tables.BITS32;
-import static data.Tables.finecosine;
-import static data.Tables.finesine;
-import doom.DoomMain;
-import i.IDoomSystem;
-import static m.fixed_t.FixedMul;
+import com.enosistudio.doom.v.tables.LightsAndColors;
+import static com.enosistudio.doom.data.Tables.ANGLETOFINESHIFT;
+import static com.enosistudio.doom.data.Tables.BITS32;
+import static com.enosistudio.doom.data.Tables.finecosine;
+import static com.enosistudio.doom.data.Tables.finesine;
+import com.enosistudio.doom.doom.DoomMain;
+import com.enosistudio.doom.i.IDoomSystem;
+import static com.enosistudio.doom.m.fixed_t.FixedMul;
 import com.enosistudio.doom.rr.RendererState.IPlaneDrawer;
-import rr.drawfuns.SpanVars;
-import v.scale.VideoScale;
+import com.enosistudio.doom.rr.drawfuns.SpanVars;
+import com.enosistudio.doom.v.scale.VideoScale;
 
 public abstract class PlaneDrawer<T,V> implements IPlaneDrawer {
 

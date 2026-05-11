@@ -17,8 +17,8 @@
 package com.enosistudio.doom.v.tables;
 
 import java.util.TreeMap;
-import m.Settings;
-import mochadoom.Engine;
+import com.enosistudio.doom.m.Settings;
+import com.enosistudio.doom.mochadoom.Engine;
 import com.enosistudio.doom.v.graphics.Colors;
 import static com.enosistudio.doom.v.graphics.Lights.COLORMAP_BLURRY;
 import static com.enosistudio.doom.v.graphics.Lights.COLORMAP_FIXED;

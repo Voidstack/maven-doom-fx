@@ -4,8 +4,8 @@ import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 
-import utils.C2JUtils;
-import w.CacheableDoomObject;
+import com.enosistudio.doom.utils.C2JUtils;
+import com.enosistudio.doom.w.CacheableDoomObject;
 
 public class mapsubsector_znod_t implements CacheableDoomObject{
 	

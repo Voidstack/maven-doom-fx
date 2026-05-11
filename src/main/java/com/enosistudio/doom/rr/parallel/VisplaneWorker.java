@@ -1,24 +1,24 @@
 package com.enosistudio.doom.rr.parallel;
 
-import static data.Defines.ANGLETOSKYSHIFT;
-import static data.Tables.addAngles;
-import doom.DoomMain;
+import static com.enosistudio.doom.data.Defines.ANGLETOSKYSHIFT;
+import static com.enosistudio.doom.data.Tables.addAngles;
+import com.enosistudio.doom.doom.DoomMain;
 import java.util.concurrent.BrokenBarrierException;
 import java.util.concurrent.CyclicBarrier;
-import static m.fixed_t.FRACBITS;
+import static com.enosistudio.doom.m.fixed_t.FRACBITS;
 import com.enosistudio.doom.rr.IDetailAware;
 import com.enosistudio.doom.rr.PlaneDrawer;
 import com.enosistudio.doom.rr.SceneRenderer;
-import rr.drawfuns.ColVars;
-import rr.drawfuns.DoomColumnFunction;
-import rr.drawfuns.DoomSpanFunction;
-import rr.drawfuns.R_DrawColumnBoomOpt;
-import rr.drawfuns.R_DrawColumnBoomOptLow;
-import rr.drawfuns.R_DrawSpanLow;
-import rr.drawfuns.R_DrawSpanUnrolled;
-import rr.drawfuns.SpanVars;
+import com.enosistudio.doom.rr.drawfuns.ColVars;
+import com.enosistudio.doom.rr.drawfuns.DoomColumnFunction;
+import com.enosistudio.doom.rr.drawfuns.DoomSpanFunction;
+import com.enosistudio.doom.rr.drawfuns.R_DrawColumnBoomOpt;
+import com.enosistudio.doom.rr.drawfuns.R_DrawColumnBoomOptLow;
+import com.enosistudio.doom.rr.drawfuns.R_DrawSpanLow;
+import com.enosistudio.doom.rr.drawfuns.R_DrawSpanUnrolled;
+import com.enosistudio.doom.rr.drawfuns.SpanVars;
 import com.enosistudio.doom.rr.visplane_t;
-import v.graphics.Palettes;
+import com.enosistudio.doom.v.graphics.Palettes;
 
 /** Visplane worker which shares work in an equal-visplane number strategy
  *  with other workers. Might be unbalanced if one worker gets too large

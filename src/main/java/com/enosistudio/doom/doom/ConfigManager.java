@@ -16,7 +16,7 @@
  */
 package com.enosistudio.doom.doom;
 
-import doom.ConfigBase.Files;
+import com.enosistudio.doom.doom.ConfigBase.Files;
 import java.nio.file.StandardOpenOption;
 import java.util.Arrays;
 import java.util.EnumMap;
@@ -25,11 +25,11 @@ import java.util.List;
 import java.util.Objects;
 import java.util.Optional;
 import java.util.regex.Pattern;
-import m.Settings;
-import static m.Settings.SETTINGS_MAP;
-import utils.ParseString;
-import utils.QuoteType;
-import utils.ResourceIO;
+import com.enosistudio.doom.m.Settings;
+import static com.enosistudio.doom.m.Settings.SETTINGS_MAP;
+import com.enosistudio.doom.utils.ParseString;
+import com.enosistudio.doom.utils.QuoteType;
+import com.enosistudio.doom.utils.ResourceIO;
 
 /**
  * Loads and saves game cfg files

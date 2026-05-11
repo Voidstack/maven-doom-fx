@@ -17,20 +17,20 @@
  */
 package com.enosistudio.doom.p.Actions;
 
-import static data.Defines.ITEMQUESIZE;
-import static data.Defines.MELEERANGE;
-import data.mapthing_t;
-import data.mobjtype_t;
-import defines.statenum_t;
-import doom.SourceCode.P_Map;
-import static doom.SourceCode.P_Map.PIT_ChangeSector;
-import doom.SourceCode.fixed_t;
+import static com.enosistudio.doom.data.Defines.ITEMQUESIZE;
+import static com.enosistudio.doom.data.Defines.MELEERANGE;
+import com.enosistudio.doom.data.mapthing_t;
+import com.enosistudio.doom.data.mobjtype_t;
+import com.enosistudio.doom.defines.statenum_t;
+import com.enosistudio.doom.doom.SourceCode.P_Map;
+import static com.enosistudio.doom.doom.SourceCode.P_Map.PIT_ChangeSector;
+import com.enosistudio.doom.doom.SourceCode.fixed_t;
 import java.util.logging.Logger;
-import static m.BBox.BOXBOTTOM;
-import static m.BBox.BOXLEFT;
-import static m.BBox.BOXRIGHT;
-import static m.BBox.BOXTOP;
-import mochadoom.Loggers;
+import static com.enosistudio.doom.m.BBox.BOXBOTTOM;
+import static com.enosistudio.doom.m.BBox.BOXLEFT;
+import static com.enosistudio.doom.m.BBox.BOXRIGHT;
+import static com.enosistudio.doom.m.BBox.BOXTOP;
+import com.enosistudio.doom.mochadoom.Loggers;
 import com.enosistudio.doom.p.AbstractLevelLoader;
 import com.enosistudio.doom.p.ActiveStates;
 import com.enosistudio.doom.p.divline_t;
@@ -41,12 +41,12 @@ import static com.enosistudio.doom.p.mobj_t.MF_DROPPED;
 import static com.enosistudio.doom.p.mobj_t.MF_SHOOTABLE;
 import static com.enosistudio.doom.p.mobj_t.MF_SOLID;
 import com.enosistudio.doom.p.result_e;
-import rr.line_t;
-import static rr.line_t.ML_TWOSIDED;
-import rr.sector_t;
-import rr.side_t;
-import static utils.C2JUtils.eval;
-import utils.TraitFactory.ContextKey;
+import com.enosistudio.doom.rr.line_t;
+import static com.enosistudio.doom.rr.line_t.ML_TWOSIDED;
+import com.enosistudio.doom.rr.sector_t;
+import com.enosistudio.doom.rr.side_t;
+import static com.enosistudio.doom.utils.C2JUtils.eval;
+import com.enosistudio.doom.utils.TraitFactory.ContextKey;
 
 public interface ActionsSectors extends ActionsLights, ActionsFloors, ActionsDoors, ActionsCeilings, ActionsSlideDoors {
 

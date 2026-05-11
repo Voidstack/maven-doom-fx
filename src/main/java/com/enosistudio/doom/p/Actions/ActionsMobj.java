@@ -17,28 +17,28 @@
  */
 package com.enosistudio.doom.p.Actions;
 
-import static data.Defines.BASETHRESHOLD;
-import static data.Defines.ITEMQUESIZE;
-import static data.Defines.ONFLOORZ;
-import static data.Defines.PST_DEAD;
-import static data.Defines.pw_invulnerability;
-import static data.Tables.ANG180;
-import static data.Tables.BITS32;
-import static data.Tables.finecosine;
-import static data.Tables.finesine;
-import static data.info.states;
-import data.mobjtype_t;
-import defines.skill_t;
-import defines.statenum_t;
-import doom.SourceCode;
-import doom.SourceCode.P_MapUtl;
-import static doom.SourceCode.P_MapUtl.P_UnsetThingPosition;
-import static doom.SourceCode.P_Mobj.P_RemoveMobj;
-import doom.player_t;
-import doom.weapontype_t;
-import static m.fixed_t.FRACUNIT;
-import static m.fixed_t.FixedMul;
-import static m.fixed_t.MAPFRACUNIT;
+import static com.enosistudio.doom.data.Defines.BASETHRESHOLD;
+import static com.enosistudio.doom.data.Defines.ITEMQUESIZE;
+import static com.enosistudio.doom.data.Defines.ONFLOORZ;
+import static com.enosistudio.doom.data.Defines.PST_DEAD;
+import static com.enosistudio.doom.data.Defines.pw_invulnerability;
+import static com.enosistudio.doom.data.Tables.ANG180;
+import static com.enosistudio.doom.data.Tables.BITS32;
+import static com.enosistudio.doom.data.Tables.finecosine;
+import static com.enosistudio.doom.data.Tables.finesine;
+import static com.enosistudio.doom.data.info.states;
+import com.enosistudio.doom.data.mobjtype_t;
+import com.enosistudio.doom.defines.skill_t;
+import com.enosistudio.doom.defines.statenum_t;
+import com.enosistudio.doom.doom.SourceCode;
+import com.enosistudio.doom.doom.SourceCode.P_MapUtl;
+import static com.enosistudio.doom.doom.SourceCode.P_MapUtl.P_UnsetThingPosition;
+import static com.enosistudio.doom.doom.SourceCode.P_Mobj.P_RemoveMobj;
+import com.enosistudio.doom.doom.player_t;
+import com.enosistudio.doom.doom.weapontype_t;
+import static com.enosistudio.doom.m.fixed_t.FRACUNIT;
+import static com.enosistudio.doom.m.fixed_t.FixedMul;
+import static com.enosistudio.doom.m.fixed_t.MAPFRACUNIT;
 import com.enosistudio.doom.p.AbstractLevelLoader;
 import static com.enosistudio.doom.p.MobjFlags.MF_DROPPED;
 import static com.enosistudio.doom.p.MobjFlags.MF_NOBLOCKMAP;
@@ -55,7 +55,7 @@ import static com.enosistudio.doom.p.mobj_t.MF_NOGRAVITY;
 import static com.enosistudio.doom.p.mobj_t.MF_SHOOTABLE;
 import static com.enosistudio.doom.p.mobj_t.MF_SKULLFLY;
 import static com.enosistudio.doom.p.mobj_t.MF_SOLID;
-import static utils.C2JUtils.eval;
+import static com.enosistudio.doom.utils.C2JUtils.eval;
 
 public interface ActionsMobj extends ActionsThings, ActionsMovement, ActionsTeleportation {
 

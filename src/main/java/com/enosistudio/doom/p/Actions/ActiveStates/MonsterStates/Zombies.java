@@ -17,8 +17,8 @@
  */
 package com.enosistudio.doom.p.Actions.ActiveStates.MonsterStates;
 
-import static data.Defines.MISSILERANGE;
-import data.sounds;
+import static com.enosistudio.doom.data.Defines.MISSILERANGE;
+import com.enosistudio.doom.data.sounds;
 import com.enosistudio.doom.p.Actions.ActionTrait;
 import com.enosistudio.doom.p.mobj_t;
 

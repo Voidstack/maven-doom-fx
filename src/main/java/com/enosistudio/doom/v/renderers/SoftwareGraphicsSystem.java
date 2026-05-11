@@ -16,8 +16,8 @@
  */
 package com.enosistudio.doom.v.renderers;
 
-import doom.CommandVariable;
-import f.Wiper;
+import com.enosistudio.doom.doom.CommandVariable;
+import com.enosistudio.doom.f.Wiper;
 import java.awt.Image;
 import java.awt.Rectangle;
 import java.awt.image.DataBuffer;
@@ -25,24 +25,24 @@ import java.awt.image.DataBufferByte;
 import java.awt.image.DataBufferInt;
 import java.awt.image.DataBufferUShort;
 import java.util.Map;
-import m.IRandom;
-import m.Settings;
-import mochadoom.Engine;
-import rr.patch_t;
+import com.enosistudio.doom.m.IRandom;
+import com.enosistudio.doom.m.Settings;
+import com.enosistudio.doom.mochadoom.Engine;
+import com.enosistudio.doom.rr.patch_t;
 import com.enosistudio.doom.v.DoomGraphicSystem;
-import v.graphics.Blocks;
-import v.graphics.Horizontal;
-import v.graphics.Lines;
-import v.graphics.Palettes;
-import v.graphics.Patches;
-import v.graphics.Plotter;
-import v.graphics.Rectangles;
-import v.graphics.Relocation;
-import v.graphics.Wipers;
-import static v.renderers.DoomScreen.*;
-import v.scale.VideoScale;
-import v.tables.GammaTables;
-import v.tables.Playpal;
+import com.enosistudio.doom.v.graphics.Blocks;
+import com.enosistudio.doom.v.graphics.Horizontal;
+import com.enosistudio.doom.v.graphics.Lines;
+import com.enosistudio.doom.v.graphics.Palettes;
+import com.enosistudio.doom.v.graphics.Patches;
+import com.enosistudio.doom.v.graphics.Plotter;
+import com.enosistudio.doom.v.graphics.Rectangles;
+import com.enosistudio.doom.v.graphics.Relocation;
+import com.enosistudio.doom.v.graphics.Wipers;
+import static com.enosistudio.doom.v.renderers.DoomScreen.*;
+import com.enosistudio.doom.v.scale.VideoScale;
+import com.enosistudio.doom.v.tables.GammaTables;
+import com.enosistudio.doom.v.tables.Playpal;
 
 /**
  * A package-protected hub, concentrating together public graphics APIs

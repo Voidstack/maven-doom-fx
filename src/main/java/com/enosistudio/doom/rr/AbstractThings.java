@@ -1,25 +1,25 @@
 package com.enosistudio.doom.rr;
 
-import static data.Defines.FF_FRAMEMASK;
-import static data.Defines.FF_FULLBRIGHT;
-import static data.Defines.SIL_BOTTOM;
-import static data.Defines.SIL_TOP;
-import static data.Defines.pw_invisibility;
-import static doom.player_t.NUMPSPRITES;
-import i.IDoomSystem;
-import static m.fixed_t.FRACBITS;
-import static m.fixed_t.FRACUNIT;
-import static m.fixed_t.FixedMul;
-import static p.mobj_t.MF_TRANSLATION;
-import p.pspdef_t;
-import rr.drawfuns.ColFuncs;
-import rr.drawfuns.ColVars;
-import rr.drawfuns.ColumnFunction;
-import static rr.line_t.ML_DONTPEGBOTTOM;
-import v.graphics.Palettes;
-import v.scale.VideoScale;
-import v.tables.LightsAndColors;
-import w.IWadLoader;
+import static com.enosistudio.doom.data.Defines.FF_FRAMEMASK;
+import static com.enosistudio.doom.data.Defines.FF_FULLBRIGHT;
+import static com.enosistudio.doom.data.Defines.SIL_BOTTOM;
+import static com.enosistudio.doom.data.Defines.SIL_TOP;
+import static com.enosistudio.doom.data.Defines.pw_invisibility;
+import static com.enosistudio.doom.doom.player_t.NUMPSPRITES;
+import com.enosistudio.doom.i.IDoomSystem;
+import static com.enosistudio.doom.m.fixed_t.FRACBITS;
+import static com.enosistudio.doom.m.fixed_t.FRACUNIT;
+import static com.enosistudio.doom.m.fixed_t.FixedMul;
+import static com.enosistudio.doom.p.mobj_t.MF_TRANSLATION;
+import com.enosistudio.doom.p.pspdef_t;
+import com.enosistudio.doom.rr.drawfuns.ColFuncs;
+import com.enosistudio.doom.rr.drawfuns.ColVars;
+import com.enosistudio.doom.rr.drawfuns.ColumnFunction;
+import static com.enosistudio.doom.rr.line_t.ML_DONTPEGBOTTOM;
+import com.enosistudio.doom.v.graphics.Palettes;
+import com.enosistudio.doom.v.scale.VideoScale;
+import com.enosistudio.doom.v.tables.LightsAndColors;
+import com.enosistudio.doom.w.IWadLoader;
 
 /**
  * Refresh of things, i.e. objects represented by sprites. This abstract

@@ -18,16 +18,18 @@
 
 package com.enosistudio.doom.p;
 
-import doom.SourceCode.D_Think;
-import doom.SourceCode.D_Think.actionf_t;
-import doom.SourceCode.actionf_p1;
-import doom.SourceCode.actionf_p2;
-import doom.SourceCode.actionf_v;
-import doom.player_t;
-import doom.thinker_t;
+import com.enosistudio.doom.doom.SourceCode.D_Think;
+import com.enosistudio.doom.doom.SourceCode.D_Think.actionf_t;
+import com.enosistudio.doom.doom.SourceCode.actionf_p1;
+import com.enosistudio.doom.doom.SourceCode.actionf_p2;
+import com.enosistudio.doom.doom.SourceCode.actionf_v;
+import com.enosistudio.doom.doom.player_t;
+import com.enosistudio.doom.doom.thinker_t;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import mochadoom.Loggers;
+import com.enosistudio.doom.mochadoom.Loggers;
+
+import static com.enosistudio.doom.defines.GameMission_t.doom;
 
 /**
  * In vanilla doom there is union called actionf_t that can hold

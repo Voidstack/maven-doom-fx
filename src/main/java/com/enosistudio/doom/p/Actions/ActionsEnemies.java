@@ -17,27 +17,27 @@
  */
 package com.enosistudio.doom.p.Actions;
 
-import static data.Defines.MELEERANGE;
-import static data.Limits.MAXSPECIALCROSS;
-import static data.Tables.ANG270;
-import static data.Tables.ANG90;
-import static data.Tables.BITS32;
-import data.mobjtype_t;
-import defines.statenum_t;
-import doom.SourceCode.fixed_t;
-import static doom.items.weaponinfo;
-import doom.player_t;
-import static m.fixed_t.FRACUNIT;
+import static com.enosistudio.doom.data.Defines.MELEERANGE;
+import static com.enosistudio.doom.data.Limits.MAXSPECIALCROSS;
+import static com.enosistudio.doom.data.Tables.ANG270;
+import static com.enosistudio.doom.data.Tables.ANG90;
+import static com.enosistudio.doom.data.Tables.BITS32;
+import com.enosistudio.doom.data.mobjtype_t;
+import com.enosistudio.doom.defines.statenum_t;
+import com.enosistudio.doom.doom.SourceCode.fixed_t;
+import static com.enosistudio.doom.doom.items.weaponinfo;
+import com.enosistudio.doom.doom.player_t;
+import static com.enosistudio.doom.m.fixed_t.FRACUNIT;
 import static com.enosistudio.doom.p.MapUtils.AproxDistance;
 import static com.enosistudio.doom.p.MobjFlags.MF_JUSTHIT;
 import com.enosistudio.doom.p.mobj_t;
-import rr.SceneRenderer;
-import rr.line_t;
-import static rr.line_t.ML_SOUNDBLOCK;
-import static rr.line_t.ML_TWOSIDED;
-import rr.sector_t;
-import rr.side_t;
-import utils.TraitFactory.ContextKey;
+import com.enosistudio.doom.rr.SceneRenderer;
+import com.enosistudio.doom.rr.line_t;
+import static com.enosistudio.doom.rr.line_t.ML_SOUNDBLOCK;
+import static com.enosistudio.doom.rr.line_t.ML_TWOSIDED;
+import com.enosistudio.doom.rr.sector_t;
+import com.enosistudio.doom.rr.side_t;
+import com.enosistudio.doom.utils.TraitFactory.ContextKey;
 
 public interface ActionsEnemies extends ActionsSight, ActionsSpawns {
 

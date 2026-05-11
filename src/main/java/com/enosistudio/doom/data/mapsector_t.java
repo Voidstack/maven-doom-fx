@@ -4,8 +4,8 @@ import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 
-import w.CacheableDoomObject;
-import w.DoomBuffer;
+import com.enosistudio.doom.w.CacheableDoomObject;
+import com.enosistudio.doom.w.DoomBuffer;
 
 /** Sector definition, from editing. */ 
 public class mapsector_t implements CacheableDoomObject {

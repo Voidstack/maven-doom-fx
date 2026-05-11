@@ -17,14 +17,14 @@
  */
 package com.enosistudio.doom.p.Actions;
 
-import doom.SourceCode;
-import doom.SourceCode.P_Lights;
-import static doom.SourceCode.P_Lights.P_SpawnFireFlicker;
-import static doom.SourceCode.P_Lights.P_SpawnGlowingLight;
-import static doom.SourceCode.P_Lights.P_SpawnLightFlash;
-import static doom.SourceCode.P_Lights.P_SpawnStrobeFlash;
-import doom.SourceCode.P_Spec;
-import static doom.SourceCode.P_Spec.P_FindMinSurroundingLight;
+import com.enosistudio.doom.doom.SourceCode;
+import com.enosistudio.doom.doom.SourceCode.P_Lights;
+import static com.enosistudio.doom.doom.SourceCode.P_Lights.P_SpawnFireFlicker;
+import static com.enosistudio.doom.doom.SourceCode.P_Lights.P_SpawnGlowingLight;
+import static com.enosistudio.doom.doom.SourceCode.P_Lights.P_SpawnLightFlash;
+import static com.enosistudio.doom.doom.SourceCode.P_Lights.P_SpawnStrobeFlash;
+import com.enosistudio.doom.doom.SourceCode.P_Spec;
+import static com.enosistudio.doom.doom.SourceCode.P_Spec.P_FindMinSurroundingLight;
 import java.io.DataInputStream;
 import java.io.IOException;
 import java.nio.ByteBuffer;
@@ -36,10 +36,10 @@ import static com.enosistudio.doom.p.ActiveStates.T_StrobeFlash;
 import static com.enosistudio.doom.p.DoorDefines.SLOWDARK;
 import static com.enosistudio.doom.p.DoorDefines.STROBEBRIGHT;
 import com.enosistudio.doom.p.strobe_t;
-import rr.SectorAction;
-import rr.line_t;
-import rr.sector_t;
-import w.DoomIO;
+import com.enosistudio.doom.rr.SectorAction;
+import com.enosistudio.doom.rr.line_t;
+import com.enosistudio.doom.rr.sector_t;
+import com.enosistudio.doom.w.DoomIO;
 
 public interface ActionsLights extends ActionsMoveEvents, ActionsUseEvents {
 

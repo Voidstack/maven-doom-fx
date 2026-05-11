@@ -20,7 +20,7 @@
 
 package com.enosistudio.doom.v.graphics;
 
-import static utils.C2JUtils.*;
+import static com.enosistudio.doom.utils.C2JUtils.*;
 
 public interface Melt extends ColorTransform {
     /**

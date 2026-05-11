@@ -17,32 +17,32 @@
  */
 package com.enosistudio.doom.p.Actions;
 
-import static data.Defines.MAPBLOCKSHIFT;
-import static data.Defines.MAPBLOCKSIZE;
-import static data.Defines.MAPBTOFRAC;
-import static data.Defines.PT_ADDLINES;
-import static data.Defines.PT_ADDTHINGS;
-import static data.Defines.PT_EARLYOUT;
-import static data.Limits.MAXINT;
-import static data.Limits.MAXINTERCEPTS;
-import doom.SourceCode.P_MapUtl;
-import static doom.SourceCode.P_MapUtl.P_PathTraverse;
-import doom.SourceCode.fixed_t;
+import static com.enosistudio.doom.data.Defines.MAPBLOCKSHIFT;
+import static com.enosistudio.doom.data.Defines.MAPBLOCKSIZE;
+import static com.enosistudio.doom.data.Defines.MAPBTOFRAC;
+import static com.enosistudio.doom.data.Defines.PT_ADDLINES;
+import static com.enosistudio.doom.data.Defines.PT_ADDTHINGS;
+import static com.enosistudio.doom.data.Defines.PT_EARLYOUT;
+import static com.enosistudio.doom.data.Limits.MAXINT;
+import static com.enosistudio.doom.data.Limits.MAXINTERCEPTS;
+import com.enosistudio.doom.doom.SourceCode.P_MapUtl;
+import static com.enosistudio.doom.doom.SourceCode.P_MapUtl.P_PathTraverse;
+import com.enosistudio.doom.doom.SourceCode.fixed_t;
 import java.util.function.Predicate;
-import static m.fixed_t.FRACBITS;
-import static m.fixed_t.FRACUNIT;
-import static m.fixed_t.FixedDiv;
-import static m.fixed_t.FixedMul;
+import static com.enosistudio.doom.m.fixed_t.FRACBITS;
+import static com.enosistudio.doom.m.fixed_t.FRACUNIT;
+import static com.enosistudio.doom.m.fixed_t.FixedDiv;
+import static com.enosistudio.doom.m.fixed_t.FixedMul;
 import com.enosistudio.doom.p.AbstractLevelLoader;
 import static com.enosistudio.doom.p.MapUtils.InterceptVector;
 import com.enosistudio.doom.p.divline_t;
 import com.enosistudio.doom.p.intercept_t;
 import com.enosistudio.doom.p.mobj_t;
-import rr.line_t;
-import utils.C2JUtils;
-import static utils.C2JUtils.eval;
-import static utils.GenericCopy.malloc;
-import utils.TraitFactory.ContextKey;
+import com.enosistudio.doom.rr.line_t;
+import com.enosistudio.doom.utils.C2JUtils;
+import static com.enosistudio.doom.utils.C2JUtils.eval;
+import static com.enosistudio.doom.utils.GenericCopy.malloc;
+import com.enosistudio.doom.utils.TraitFactory.ContextKey;
 
 public interface ActionsPathTraverse extends ActionsSectors {
 

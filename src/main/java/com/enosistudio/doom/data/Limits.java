@@ -1,7 +1,7 @@
 package com.enosistudio.doom.data;
 
-import static m.fixed_t.FRACUNIT;
-import static m.fixed_t.MAPFRACUNIT;
+import static com.enosistudio.doom.m.fixed_t.FRACUNIT;
+import static com.enosistudio.doom.m.fixed_t.MAPFRACUNIT;
 
 /** Everything that constitutes a removable limit should go here */
 

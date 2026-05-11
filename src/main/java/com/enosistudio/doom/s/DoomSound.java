@@ -3,7 +3,7 @@ package com.enosistudio.doom.s;
 import javax.sound.sampled.AudioFormat;
 import javax.sound.sampled.AudioFormat.Encoding;
 
-import data.sfxinfo_t;
+import com.enosistudio.doom.data.sfxinfo_t;
 
 /** A class representing a sample in memory 
  *  Convenient for wrapping/mirroring it regardless of what it represents.

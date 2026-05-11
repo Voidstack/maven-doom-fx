@@ -1,8 +1,8 @@
 package com.enosistudio.doom.p.Actions;
 
-import doom.thinker_t;
+import com.enosistudio.doom.doom.thinker_t;
 import java.util.logging.Level;
-import mochadoom.Loggers;
+import com.enosistudio.doom.mochadoom.Loggers;
 import com.enosistudio.doom.p.AbstractLevelLoader;
 import static com.enosistudio.doom.p.ActiveStates.T_SlidingDoor;
 import com.enosistudio.doom.p.mobj_t;
@@ -11,12 +11,12 @@ import com.enosistudio.doom.p.sdt_e;
 import com.enosistudio.doom.p.slidedoor_t;
 import com.enosistudio.doom.p.slideframe_t;
 import com.enosistudio.doom.p.slidename_t;
-import rr.TextureManager;
-import rr.line_t;
-import static rr.line_t.ML_BLOCKING;
-import rr.sector_t;
-import static utils.GenericCopy.malloc;
-import utils.TraitFactory.ContextKey;
+import com.enosistudio.doom.rr.TextureManager;
+import com.enosistudio.doom.rr.line_t;
+import static com.enosistudio.doom.rr.line_t.ML_BLOCKING;
+import com.enosistudio.doom.rr.sector_t;
+import static com.enosistudio.doom.utils.GenericCopy.malloc;
+import com.enosistudio.doom.utils.TraitFactory.ContextKey;
 
 public interface ActionsSlideDoors extends ActionTrait {
 

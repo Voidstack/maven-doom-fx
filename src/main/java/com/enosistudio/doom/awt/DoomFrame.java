@@ -1,6 +1,6 @@
 package com.enosistudio.doom.awt;
 
-import doom.CommandVariable;
+import com.enosistudio.doom.doom.CommandVariable;
 import java.awt.Component;
 import java.awt.Container;
 import java.awt.Graphics2D;
@@ -10,8 +10,8 @@ import static java.awt.RenderingHints.*;
 import java.util.function.Supplier;
 import java.util.logging.Level;
 import javax.swing.JFrame;
-import mochadoom.Engine;
-import mochadoom.Loggers;
+import com.enosistudio.doom.mochadoom.Engine;
+import com.enosistudio.doom.mochadoom.Loggers;
 
 /**
  * Common code for Doom's video frames

@@ -4,12 +4,12 @@ import java.io.DataInputStream;
 import java.io.IOException;
 import java.nio.ByteBuffer;
 
-import p.Resettable;
+import com.enosistudio.doom.p.Resettable;
 
-import static m.fixed_t.FRACBITS;
-import w.DoomIO;
-import w.IPackableDoomObject;
-import w.IReadableDoomObject;
+import static com.enosistudio.doom.m.fixed_t.FRACBITS;
+import com.enosistudio.doom.w.DoomIO;
+import com.enosistudio.doom.w.IPackableDoomObject;
+import com.enosistudio.doom.w.IReadableDoomObject;
 
 /**
  * The SideDef.

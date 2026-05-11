@@ -1,24 +1,24 @@
 package com.enosistudio.doom.rr.parallel;
 
-import static data.Limits.*;
-import doom.DoomMain;
-import doom.player_t;
+import static com.enosistudio.doom.data.Limits.*;
+import com.enosistudio.doom.doom.DoomMain;
+import com.enosistudio.doom.doom.player_t;
 import java.io.IOException;
 import java.util.concurrent.BrokenBarrierException;
 import java.util.concurrent.CyclicBarrier;
 import java.util.concurrent.Executors;
-import rr.drawfuns.R_DrawColumnBoom;
-import rr.drawfuns.R_DrawColumnBoomLow;
-import rr.drawfuns.R_DrawColumnBoomOpt;
-import rr.drawfuns.R_DrawColumnBoomOptLow;
-import rr.drawfuns.R_DrawFuzzColumn;
-import rr.drawfuns.R_DrawFuzzColumnLow;
-import rr.drawfuns.R_DrawSpanLow;
-import rr.drawfuns.R_DrawSpanUnrolled;
-import rr.drawfuns.R_DrawTLColumn;
-import rr.drawfuns.R_DrawTranslatedColumn;
-import rr.drawfuns.R_DrawTranslatedColumnLow;
-import static utils.GenericCopy.malloc;
+import com.enosistudio.doom.rr.drawfuns.R_DrawColumnBoom;
+import com.enosistudio.doom.rr.drawfuns.R_DrawColumnBoomLow;
+import com.enosistudio.doom.rr.drawfuns.R_DrawColumnBoomOpt;
+import com.enosistudio.doom.rr.drawfuns.R_DrawColumnBoomOptLow;
+import com.enosistudio.doom.rr.drawfuns.R_DrawFuzzColumn;
+import com.enosistudio.doom.rr.drawfuns.R_DrawFuzzColumnLow;
+import com.enosistudio.doom.rr.drawfuns.R_DrawSpanLow;
+import com.enosistudio.doom.rr.drawfuns.R_DrawSpanUnrolled;
+import com.enosistudio.doom.rr.drawfuns.R_DrawTLColumn;
+import com.enosistudio.doom.rr.drawfuns.R_DrawTranslatedColumn;
+import com.enosistudio.doom.rr.drawfuns.R_DrawTranslatedColumnLow;
+import static com.enosistudio.doom.utils.GenericCopy.malloc;
 
 /** This is a second attempt at building a seg-focused parallel renderer, instead of
  * column-based. It does function, but is broken and has unsolved data dependencies.

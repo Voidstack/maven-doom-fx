@@ -1,8 +1,8 @@
 package com.enosistudio.doom.i;
 
-import doom.DoomMain;
-import rr.patch_t;
-import static v.renderers.DoomScreen.FG;
+import com.enosistudio.doom.doom.DoomMain;
+import com.enosistudio.doom.rr.patch_t;
+import static com.enosistudio.doom.v.renderers.DoomScreen.FG;
 
 public class DiskDrawer implements IDiskDrawer {
 

@@ -1,8 +1,8 @@
 package com.enosistudio.doom.s;
 
-import static data.sounds.S_sfx;
-import data.sounds.sfxenum_t;
-import doom.DoomMain;
+import static com.enosistudio.doom.data.sounds.S_sfx;
+import com.enosistudio.doom.data.sounds.sfxenum_t;
+import com.enosistudio.doom.doom.DoomMain;
 import java.util.Collection;
 import java.util.HashMap;
 import javax.sound.sampled.AudioSystem;

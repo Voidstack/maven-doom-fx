@@ -1,7 +1,7 @@
 package com.enosistudio.doom.data;
 
-import defines.statenum_t;
-import data.sounds.sfxenum_t;
+import com.enosistudio.doom.defines.statenum_t;
+import com.enosistudio.doom.data.sounds.sfxenum_t;
 
 public class mobjinfo_t {
    

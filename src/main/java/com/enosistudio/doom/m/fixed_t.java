@@ -1,6 +1,6 @@
 package com.enosistudio.doom.m;
 
-import data.Defines;
+import com.enosistudio.doom.data.Defines;
 // Emacs style mode select   -*- C++ -*- 
 //-----------------------------------------------------------------------------
 //

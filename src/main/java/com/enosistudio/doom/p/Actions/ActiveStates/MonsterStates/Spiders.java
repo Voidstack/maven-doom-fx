@@ -17,7 +17,7 @@
  */
 package com.enosistudio.doom.p.Actions.ActiveStates.MonsterStates;
 
-import data.mobjtype_t;
+import com.enosistudio.doom.data.mobjtype_t;
 import com.enosistudio.doom.p.Actions.ActionTrait;
 import com.enosistudio.doom.p.mobj_t;
 

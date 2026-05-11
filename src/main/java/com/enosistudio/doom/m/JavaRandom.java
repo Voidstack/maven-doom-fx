@@ -1,8 +1,8 @@
 package com.enosistudio.doom.m;
 
-import data.mobjtype_t;
+import com.enosistudio.doom.data.mobjtype_t;
 import java.util.Random;
-import p.ActiveStates;
+import com.enosistudio.doom.p.ActiveStates;
 
 // Emacs style mode select   -*- C++ -*- 
 //-----------------------------------------------------------------------------

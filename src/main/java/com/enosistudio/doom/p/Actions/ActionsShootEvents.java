@@ -17,16 +17,16 @@
  */
 package com.enosistudio.doom.p.Actions;
 
-import static m.fixed_t.FRACUNIT;
-import static m.fixed_t.FixedDiv;
-import static m.fixed_t.FixedMul;
+import static com.enosistudio.doom.m.fixed_t.FRACUNIT;
+import static com.enosistudio.doom.m.fixed_t.FixedDiv;
+import static com.enosistudio.doom.m.fixed_t.FixedMul;
 import com.enosistudio.doom.p.UnifiedGameMap.Switches;
 import com.enosistudio.doom.p.floor_e;
 import com.enosistudio.doom.p.intercept_t;
 import com.enosistudio.doom.p.mobj_t;
 import com.enosistudio.doom.p.plattype_e;
 import com.enosistudio.doom.p.vldoor_e;
-import rr.line_t;
+import com.enosistudio.doom.rr.line_t;
 
 public interface ActionsShootEvents extends ActionsSpawns {
 

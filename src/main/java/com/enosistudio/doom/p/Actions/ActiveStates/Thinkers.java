@@ -17,12 +17,12 @@
  */
 package com.enosistudio.doom.p.Actions.ActiveStates;
 
-import doom.SourceCode;
-import doom.SourceCode.P_Lights;
-import static doom.SourceCode.P_Lights.T_FireFlicker;
-import static doom.SourceCode.P_Lights.T_Glow;
-import static doom.SourceCode.P_Lights.T_LightFlash;
-import doom.thinker_t;
+import com.enosistudio.doom.doom.SourceCode;
+import com.enosistudio.doom.doom.SourceCode.P_Lights;
+import static com.enosistudio.doom.doom.SourceCode.P_Lights.T_FireFlicker;
+import static com.enosistudio.doom.doom.SourceCode.P_Lights.T_Glow;
+import static com.enosistudio.doom.doom.SourceCode.P_Lights.T_LightFlash;
+import com.enosistudio.doom.doom.thinker_t;
 import com.enosistudio.doom.p.Actions.ActionTrait;
 import com.enosistudio.doom.p.Actions.ActionsLights.fireflicker_t;
 import com.enosistudio.doom.p.Actions.ActionsLights.glow_t;

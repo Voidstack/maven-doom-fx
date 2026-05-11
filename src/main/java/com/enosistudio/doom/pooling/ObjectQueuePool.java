@@ -2,7 +2,7 @@ package com.enosistudio.doom.pooling;
 
 import java.util.Stack;
 
-import p.mobj_t;
+import com.enosistudio.doom.p.mobj_t;
 
 /** A convenient object pooling class, derived from the stock ObjectPool.
  *  

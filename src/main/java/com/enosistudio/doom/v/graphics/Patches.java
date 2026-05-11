@@ -17,9 +17,9 @@
 package com.enosistudio.doom.v.graphics;
 
 import java.util.logging.Level;
-import mochadoom.Loggers;
-import rr.patch_t;
-import utils.C2JUtils;
+import com.enosistudio.doom.mochadoom.Loggers;
+import com.enosistudio.doom.rr.patch_t;
+import com.enosistudio.doom.utils.C2JUtils;
 import static com.enosistudio.doom.v.DoomGraphicSystem.V_FLIPPEDPATCH;
 import static com.enosistudio.doom.v.DoomGraphicSystem.V_NOSCALEOFFSET;
 import static com.enosistudio.doom.v.DoomGraphicSystem.V_NOSCALEPATCH;
@@ -29,7 +29,7 @@ import static com.enosistudio.doom.v.DoomGraphicSystem.V_SAFESCALE;
 import static com.enosistudio.doom.v.DoomGraphicSystem.V_SCALEOFFSET;
 import static com.enosistudio.doom.v.DoomGraphicSystem.V_SCALEPATCH;
 import static com.enosistudio.doom.v.DoomGraphicSystem.V_SCALESTART;
-import v.scale.VideoScale;
+import com.enosistudio.doom.v.scale.VideoScale;
 
 /**
  * Rewritten unified patch-drawing methods with parallelism (yeah, multithread!)

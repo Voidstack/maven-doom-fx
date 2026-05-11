@@ -1,6 +1,6 @@
 package com.enosistudio.doom.rr.drawfuns;
 
-import i.IDoomSystem;
+import com.enosistudio.doom.i.IDoomSystem;
 
 /** An unrolled (4x) rendering loop with full quality */
 // public final int dumb=63 * 64;

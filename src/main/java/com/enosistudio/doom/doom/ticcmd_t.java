@@ -5,8 +5,8 @@ import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 
-import w.CacheableDoomObject;
-import w.IReadableDoomObject;
+import com.enosistudio.doom.w.CacheableDoomObject;
+import com.enosistudio.doom.w.IReadableDoomObject;
 
 public class ticcmd_t implements IDatagramSerializable, IReadableDoomObject,CacheableDoomObject{
     

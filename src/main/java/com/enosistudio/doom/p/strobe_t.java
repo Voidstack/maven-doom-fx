@@ -3,8 +3,8 @@ package com.enosistudio.doom.p;
 import java.io.DataInputStream;
 import java.io.IOException;
 import java.nio.ByteBuffer;
-import rr.SectorAction;
-import w.DoomIO;
+import com.enosistudio.doom.rr.SectorAction;
+import com.enosistudio.doom.w.DoomIO;
 
 public class strobe_t extends SectorAction {
 

@@ -17,7 +17,7 @@
 
 package com.enosistudio.doom.awt;
 
-import g.Signals;
+import com.enosistudio.doom.g.Signals;
 import java.awt.AWTEvent;
 import java.util.Arrays;
 import java.util.Comparator;

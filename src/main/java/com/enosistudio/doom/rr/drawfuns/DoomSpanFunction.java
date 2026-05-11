@@ -1,6 +1,6 @@
 package com.enosistudio.doom.rr.drawfuns;
 
-import i.IDoomSystem;
+import com.enosistudio.doom.i.IDoomSystem;
 
 public abstract class DoomSpanFunction<T,V> implements SpanFunction<T,V> {
     

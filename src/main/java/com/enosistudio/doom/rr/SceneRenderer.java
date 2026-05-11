@@ -1,16 +1,16 @@
 package com.enosistudio.doom.rr;
 
-import static data.Tables.FINEANGLES;
-import doom.SourceCode.R_Draw;
-import static doom.SourceCode.R_Draw.R_FillBackScreen;
-import doom.player_t;
-import i.IDoomSystem;
-import static m.fixed_t.FRACUNIT;
-import rr.drawfuns.ColFuncs;
-import rr.drawfuns.ColVars;
-import rr.drawfuns.SpanVars;
-import v.tables.LightsAndColors;
-import w.IWadLoader;
+import static com.enosistudio.doom.data.Tables.FINEANGLES;
+import com.enosistudio.doom.doom.SourceCode.R_Draw;
+import static com.enosistudio.doom.doom.SourceCode.R_Draw.R_FillBackScreen;
+import com.enosistudio.doom.doom.player_t;
+import com.enosistudio.doom.i.IDoomSystem;
+import static com.enosistudio.doom.m.fixed_t.FRACUNIT;
+import com.enosistudio.doom.rr.drawfuns.ColFuncs;
+import com.enosistudio.doom.rr.drawfuns.ColVars;
+import com.enosistudio.doom.rr.drawfuns.SpanVars;
+import com.enosistudio.doom.v.tables.LightsAndColors;
+import com.enosistudio.doom.w.IWadLoader;
 
 public interface SceneRenderer<T, V> {
 

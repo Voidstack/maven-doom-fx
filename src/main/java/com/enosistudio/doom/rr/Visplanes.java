@@ -1,14 +1,14 @@
 package com.enosistudio.doom.rr;
 
-import data.Limits;
-import data.Tables;
-import static data.Tables.ANG90;
-import static data.Tables.finecosine;
-import static data.Tables.finesine;
+import com.enosistudio.doom.data.Limits;
+import com.enosistudio.doom.data.Tables;
+import static com.enosistudio.doom.data.Tables.ANG90;
+import static com.enosistudio.doom.data.Tables.finecosine;
+import static com.enosistudio.doom.data.Tables.finesine;
 import java.util.Arrays;
-import static m.fixed_t.FixedDiv;
-import utils.C2JUtils;
-import v.scale.VideoScale;
+import static com.enosistudio.doom.m.fixed_t.FixedDiv;
+import com.enosistudio.doom.utils.C2JUtils;
+import com.enosistudio.doom.v.scale.VideoScale;
 
 /** Actual visplane data and methods are isolate here.
  *  This allows more encapsulation and some neat hacks like sharing 

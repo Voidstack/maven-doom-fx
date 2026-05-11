@@ -105,9 +105,9 @@
 //-----------------------------------------------------------------------------
 package com.enosistudio.doom.i;
 
-import awt.MsgBox;
-import doom.DoomMain;
-import doom.ticcmd_t;
+import com.enosistudio.doom.awt.MsgBox;
+import com.enosistudio.doom.doom.DoomMain;
+import com.enosistudio.doom.doom.ticcmd_t;
 import java.io.IOException;
 
 public class DoomSystem implements IDoomSystem {

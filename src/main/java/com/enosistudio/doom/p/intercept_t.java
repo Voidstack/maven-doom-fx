@@ -1,7 +1,7 @@
 package com.enosistudio.doom.p;
 
-import doom.SourceCode.fixed_t;
-import rr.line_t;
+import com.enosistudio.doom.doom.SourceCode.fixed_t;
+import com.enosistudio.doom.rr.line_t;
 
 /**
  * An object that carries...interception information, I guess...with either a line

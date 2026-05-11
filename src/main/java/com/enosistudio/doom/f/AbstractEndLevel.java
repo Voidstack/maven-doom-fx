@@ -1,7 +1,7 @@
 package com.enosistudio.doom.f;
 
-import static data.Defines.TICRATE;
-import w.animenum_t;
+import static com.enosistudio.doom.data.Defines.TICRATE;
+import com.enosistudio.doom.w.animenum_t;
 
 public abstract class AbstractEndLevel {
 	

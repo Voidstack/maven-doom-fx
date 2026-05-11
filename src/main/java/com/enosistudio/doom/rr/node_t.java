@@ -1,18 +1,18 @@
 package com.enosistudio.doom.rr;
 
-import doom.SourceCode;
-import doom.SourceCode.R_Main;
-import static doom.SourceCode.R_Main.*;
-import doom.SourceCode.fixed_t;
-import m.BBox;
-import m.ISyncLogger;
-import m.Settings;
-import static m.fixed_t.FRACBITS;
-import static m.fixed_t.FixedMul;
-import mochadoom.Engine;
-import p.Resettable;
-import static utils.C2JUtils.eval;
-import static utils.C2JUtils.memset;
+import com.enosistudio.doom.doom.SourceCode;
+import com.enosistudio.doom.doom.SourceCode.R_Main;
+import static com.enosistudio.doom.doom.SourceCode.R_Main.*;
+import com.enosistudio.doom.doom.SourceCode.fixed_t;
+import com.enosistudio.doom.m.BBox;
+import com.enosistudio.doom.m.ISyncLogger;
+import com.enosistudio.doom.m.Settings;
+import static com.enosistudio.doom.m.fixed_t.FRACBITS;
+import static com.enosistudio.doom.m.fixed_t.FixedMul;
+import com.enosistudio.doom.mochadoom.Engine;
+import com.enosistudio.doom.p.Resettable;
+import static com.enosistudio.doom.utils.C2JUtils.eval;
+import static com.enosistudio.doom.utils.C2JUtils.memset;
 
 /**
  * BSP node.

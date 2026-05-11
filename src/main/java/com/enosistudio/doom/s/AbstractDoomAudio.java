@@ -1,19 +1,19 @@
 package com.enosistudio.doom.s;
 
-import data.Defines;
-import static data.Tables.ANGLETOFINESHIFT;
-import static data.Tables.BITS32;
-import static data.Tables.finesine;
-import data.musicinfo_t;
-import data.sfxinfo_t;
-import data.sounds;
-import static data.sounds.S_sfx;
-import data.sounds.musicenum_t;
-import data.sounds.sfxenum_t;
-import doom.DoomMain;
-import static m.fixed_t.FRACBITS;
-import static m.fixed_t.FixedMul;
-import p.mobj_t;
+import com.enosistudio.doom.data.Defines;
+import static com.enosistudio.doom.data.Tables.ANGLETOFINESHIFT;
+import static com.enosistudio.doom.data.Tables.BITS32;
+import static com.enosistudio.doom.data.Tables.finesine;
+import com.enosistudio.doom.data.musicinfo_t;
+import com.enosistudio.doom.data.sfxinfo_t;
+import com.enosistudio.doom.data.sounds;
+import static com.enosistudio.doom.data.sounds.S_sfx;
+import com.enosistudio.doom.data.sounds.musicenum_t;
+import com.enosistudio.doom.data.sounds.sfxenum_t;
+import com.enosistudio.doom.doom.DoomMain;
+import static com.enosistudio.doom.m.fixed_t.FRACBITS;
+import static com.enosistudio.doom.m.fixed_t.FixedMul;
+import com.enosistudio.doom.p.mobj_t;
 
 /** Some stuff that is not implementation dependant
  *  This includes channel management, sound priorities,
@@ -737,7 +737,7 @@ public class AbstractDoomAudio implements IDoomSound{
 		}
 
 		// angle of source to listener
-		angle = rr.RendererState.PointToAngle(listener.x,
+		angle = com.enosistudio.doom.rr.RendererState.PointToAngle(listener.x,
 				listener.y,
 				source.getX(),
 				source.getY());

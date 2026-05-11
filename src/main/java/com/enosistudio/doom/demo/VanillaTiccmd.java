@@ -4,11 +4,11 @@ import java.io.DataOutputStream;
 import java.io.IOException;
 import java.nio.ByteBuffer;
 
-import doom.ticcmd_t;
+import com.enosistudio.doom.doom.ticcmd_t;
 
-import utils.C2JUtils;
-import w.CacheableDoomObject;
-import w.IWritableDoomObject;
+import com.enosistudio.doom.utils.C2JUtils;
+import com.enosistudio.doom.w.CacheableDoomObject;
+import com.enosistudio.doom.w.IWritableDoomObject;
 
 /** A more lightweight version of ticcmd_t, which contains
  *  too much crap and redundant data. In order to keep demo

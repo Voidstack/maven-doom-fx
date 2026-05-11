@@ -1,18 +1,18 @@
 package com.enosistudio.doom.doom;
 
-import static data.Defines.*;
-import static data.Limits.*;
-import data.mapthing_t;
-import defines.*;
-import demo.IDoomDemo;
-import f.Finale;
-import static g.Signals.ScanCode.*;
+import static com.enosistudio.doom.data.Defines.*;
+import static com.enosistudio.doom.data.Limits.*;
+import com.enosistudio.doom.data.mapthing_t;
+import com.enosistudio.doom.defines.*;
+import com.enosistudio.doom.demo.IDoomDemo;
+import com.enosistudio.doom.f.Finale;
+import static com.enosistudio.doom.g.Signals.ScanCode.*;
 import java.io.OutputStreamWriter;
 import java.util.Arrays;
 import java.util.stream.Stream;
-import m.Settings;
-import mochadoom.Engine;
-import p.mobj_t;
+import com.enosistudio.doom.m.Settings;
+import com.enosistudio.doom.mochadoom.Engine;
+import com.enosistudio.doom.p.mobj_t;
 
 /**
  * We need globally shared data structures, for defining the global state

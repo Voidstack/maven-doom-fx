@@ -1,6 +1,6 @@
 package com.enosistudio.doom.f;
 
-import v.graphics.Wipers;
+import com.enosistudio.doom.v.graphics.Wipers;
 
 public interface Wiper {
     boolean ScreenWipe(Wipers.WipeType type, int x, int y, int width, int height, int ticks);

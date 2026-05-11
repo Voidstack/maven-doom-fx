@@ -16,7 +16,7 @@ import javax.sound.midi.Sequence;
 import javax.sound.midi.ShortMessage;
 import javax.sound.midi.Track;
 
-import m.Swap;
+import com.enosistudio.doom.m.Swap;
 
 /**
  * A MUS lump reader that loads directly to a Sequence.

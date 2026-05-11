@@ -29,7 +29,7 @@ import java.nio.ByteOrder;
 import java.nio.charset.Charset;
 import java.util.List;
 
-import m.Swap;
+import com.enosistudio.doom.m.Swap;
 
 /**
 * An extension of RandomAccessFile, which handles readString/WriteString specially 

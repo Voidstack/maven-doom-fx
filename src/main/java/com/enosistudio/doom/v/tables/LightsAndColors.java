@@ -17,10 +17,10 @@
 
 package com.enosistudio.doom.v.tables;
 
-import doom.DoomMain;
-import doom.player_t;
-import static p.MobjFlags.MF_TRANSLATION;
-import static p.MobjFlags.MF_TRANSSHIFT;
+import com.enosistudio.doom.doom.DoomMain;
+import com.enosistudio.doom.doom.player_t;
+import static com.enosistudio.doom.p.MobjFlags.MF_TRANSLATION;
+import static com.enosistudio.doom.p.MobjFlags.MF_TRANSSHIFT;
 import com.enosistudio.doom.v.renderers.BppMode;
 
 /**

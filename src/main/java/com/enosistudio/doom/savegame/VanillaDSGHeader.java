@@ -4,18 +4,18 @@ import java.io.DataOutputStream;
 import java.io.IOException;
 import java.nio.ByteBuffer;
 
-import utils.C2JUtils;
-import w.CacheableDoomObject;
-import w.DoomBuffer;
-import w.DoomIO;
-import w.IReadableDoomObject;
-import w.IWritableDoomObject;
-import defines.skill_t;
+import com.enosistudio.doom.utils.C2JUtils;
+import com.enosistudio.doom.w.CacheableDoomObject;
+import com.enosistudio.doom.w.DoomBuffer;
+import com.enosistudio.doom.w.DoomIO;
+import com.enosistudio.doom.w.IReadableDoomObject;
+import com.enosistudio.doom.w.IWritableDoomObject;
+import com.enosistudio.doom.defines.skill_t;
 
-import static data.Defines.VERSION;
-import static data.Limits.MAXPLAYERS;
-import static data.Limits.SAVESTRINGSIZE;
-import static data.Limits.VERSIONSIZE;
+import static com.enosistudio.doom.data.Defines.VERSION;
+import static com.enosistudio.doom.data.Limits.MAXPLAYERS;
+import static com.enosistudio.doom.data.Limits.SAVESTRINGSIZE;
+import static com.enosistudio.doom.data.Limits.VERSIONSIZE;
 
 /** The header of a vanilla savegame.
  *  

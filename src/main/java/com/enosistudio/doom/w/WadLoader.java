@@ -22,13 +22,13 @@
 
 package com.enosistudio.doom.w;
 
-import static data.Defines.PU_CACHE;
-import doom.SourceCode;
-import doom.SourceCode.W_Wad;
-import static doom.SourceCode.W_Wad.W_CacheLumpName;
-import static doom.SourceCode.W_Wad.W_CheckNumForName;
-import i.DummySystem;
-import i.IDoomSystem;
+import static com.enosistudio.doom.data.Defines.PU_CACHE;
+import com.enosistudio.doom.doom.SourceCode;
+import com.enosistudio.doom.doom.SourceCode.W_Wad;
+import static com.enosistudio.doom.doom.SourceCode.W_Wad.W_CacheLumpName;
+import static com.enosistudio.doom.doom.SourceCode.W_Wad.W_CheckNumForName;
+import com.enosistudio.doom.i.DummySystem;
+import com.enosistudio.doom.i.IDoomSystem;
 import java.io.BufferedInputStream;
 import java.io.ByteArrayInputStream;
 import java.io.DataInputStream;
@@ -43,11 +43,11 @@ import java.util.function.IntFunction;
 import java.util.logging.Level;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipInputStream;
-import mochadoom.Loggers;
-import rr.patch_t;
-import utils.C2JUtils;
-import utils.GenericCopy.ArraySupplier;
-import static utils.GenericCopy.malloc;
+import com.enosistudio.doom.mochadoom.Loggers;
+import com.enosistudio.doom.rr.patch_t;
+import com.enosistudio.doom.utils.C2JUtils;
+import com.enosistudio.doom.utils.GenericCopy.ArraySupplier;
+import static com.enosistudio.doom.utils.GenericCopy.malloc;
 
 public class WadLoader implements IWadLoader {
 

@@ -1,12 +1,12 @@
 package com.enosistudio.doom.doom;
 
 import java.nio.ByteBuffer;
-import static utils.GenericCopy.malloc;
-import w.DoomBuffer;
+import static com.enosistudio.doom.utils.GenericCopy.malloc;
+import com.enosistudio.doom.w.DoomBuffer;
 
 public class doomdata_t implements IDatagramSerializable {
 
-	public static final int DOOMDATALEN = 8 + data.Defines.BACKUPTICS * ticcmd_t.TICCMDLEN;
+	public static final int DOOMDATALEN = 8 + com.enosistudio.doom.data.Defines.BACKUPTICS * ticcmd_t.TICCMDLEN;
     
 	// High bit is retransmit request.
 	/** MAES: was "unsigned" */
@@ -25,7 +25,7 @@ public class doomdata_t implements IDatagramSerializable {
 	public ticcmd_t[] cmds;
      
 	public doomdata_t() {
-		cmds = malloc(ticcmd_t::new, ticcmd_t[]::new, data.Defines.BACKUPTICS);
+		cmds = malloc(ticcmd_t::new, ticcmd_t[]::new, com.enosistudio.doom.data.Defines.BACKUPTICS);
 		// Enough space for its own header + the ticcmds;
 		buffer = new byte[DOOMDATALEN];
 		// This "pegs" the ByteBuffer to this particular array.

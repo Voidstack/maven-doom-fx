@@ -1,7 +1,7 @@
 package com.enosistudio.doom.p;
 
-import static m.fixed_t.MAPFRACUNIT;
-import static data.Defines.TIC_MUL;
+import static com.enosistudio.doom.m.fixed_t.MAPFRACUNIT;
+import static com.enosistudio.doom.data.Defines.TIC_MUL;
 
 public final class ChaseDirections {
 

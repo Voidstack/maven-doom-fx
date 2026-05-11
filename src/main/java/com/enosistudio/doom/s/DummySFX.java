@@ -1,6 +1,6 @@
 package com.enosistudio.doom.s;
 
-import data.sfxinfo_t;
+import com.enosistudio.doom.data.sfxinfo_t;
 
 public class DummySFX implements ISoundDriver {
 

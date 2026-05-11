@@ -1,8 +1,8 @@
 package com.enosistudio.doom.p;
 
-import static m.fixed_t.FixedDiv;
-import static m.fixed_t.FixedMul;
-import static utils.C2JUtils.eval;
+import static com.enosistudio.doom.m.fixed_t.FixedDiv;
+import static com.enosistudio.doom.m.fixed_t.FixedMul;
+import static com.enosistudio.doom.utils.C2JUtils.eval;
 
 public class MapUtils {
 

@@ -1,19 +1,19 @@
 package com.enosistudio.doom.g;
 
-import static data.Defines.VERSION;
-import static data.Limits.*;
-import defines.*;
-import doom.DoomStatus;
+import static com.enosistudio.doom.data.Defines.VERSION;
+import static com.enosistudio.doom.data.Limits.*;
+import com.enosistudio.doom.defines.*;
+import com.enosistudio.doom.doom.DoomStatus;
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
 import java.nio.ByteBuffer;
-import utils.C2JUtils;
-import w.CacheableDoomObject;
-import w.DoomBuffer;
-import w.DoomIO;
-import w.IReadableDoomObject;
-import w.IWritableDoomObject;
+import com.enosistudio.doom.utils.C2JUtils;
+import com.enosistudio.doom.w.CacheableDoomObject;
+import com.enosistudio.doom.w.DoomBuffer;
+import com.enosistudio.doom.w.DoomIO;
+import com.enosistudio.doom.w.IReadableDoomObject;
+import com.enosistudio.doom.w.IWritableDoomObject;
 
 
 /** represents the header of Doom savegame, so that basic info can be checked quickly.

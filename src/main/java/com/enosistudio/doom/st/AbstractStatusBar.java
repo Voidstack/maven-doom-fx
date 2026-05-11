@@ -1,6 +1,6 @@
 package com.enosistudio.doom.st;
 
-import doom.DoomMain;
+import com.enosistudio.doom.doom.DoomMain;
 
 public abstract class AbstractStatusBar implements IDoomStatusBar {
     protected final DoomMain<?, ?> DOOM;

@@ -17,16 +17,16 @@
 
 package com.enosistudio.doom.awt;
 
-import awt.EventBase.ActionMode;
-import awt.EventBase.ActionStateHolder;
-import awt.EventBase.EventAction;
-import awt.EventBase.KeyStateHolder;
-import awt.EventBase.RelationType;
-import static awt.EventBase.findById;
-import static awt.EventBase.sortHandlers;
-import doom.event_t;
-import doom.evtype_t;
-import g.Signals;
+import com.enosistudio.doom.awt.EventBase.ActionMode;
+import com.enosistudio.doom.awt.EventBase.ActionStateHolder;
+import com.enosistudio.doom.awt.EventBase.EventAction;
+import com.enosistudio.doom.awt.EventBase.KeyStateHolder;
+import com.enosistudio.doom.awt.EventBase.RelationType;
+import static com.enosistudio.doom.awt.EventBase.findById;
+import static com.enosistudio.doom.awt.EventBase.sortHandlers;
+import com.enosistudio.doom.doom.event_t;
+import com.enosistudio.doom.doom.evtype_t;
+import com.enosistudio.doom.g.Signals;
 import java.awt.AWTEvent;
 import java.awt.AWTException;
 import java.awt.Component;
@@ -43,7 +43,7 @@ import java.util.Optional;
 import java.util.function.Consumer;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import mochadoom.Loggers;
+import com.enosistudio.doom.mochadoom.Loggers;
 
 /**
  * Observer for AWTEvents. The description would be short in contrary to the description

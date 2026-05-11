@@ -19,7 +19,7 @@ package com.enosistudio.doom.doom;
 
 // Event structure.
 
-import g.Signals.ScanCode;
+import com.enosistudio.doom.g.Signals.ScanCode;
 import java.awt.Point;
 import java.awt.Robot;
 import java.awt.event.MouseEvent;
@@ -28,7 +28,7 @@ import java.util.function.Function;
 import java.util.function.IntConsumer;
 import java.util.function.IntPredicate;
 import java.util.function.Predicate;
-import utils.C2JUtils;
+import com.enosistudio.doom.utils.C2JUtils;
 
 @FunctionalInterface
 public interface event_t {

@@ -17,25 +17,25 @@
  */
 package com.enosistudio.doom.p.Actions;
 
-import static data.Limits.MAXRADIUS;
-import data.Tables;
-import static data.Tables.finecosine;
-import static data.Tables.finesine;
-import data.mobjtype_t;
-import data.sounds;
-import doom.SourceCode.fixed_t;
-import doom.thinker_t;
-import static m.BBox.BOXBOTTOM;
-import static m.BBox.BOXLEFT;
-import static m.BBox.BOXRIGHT;
-import static m.BBox.BOXTOP;
+import static com.enosistudio.doom.data.Limits.MAXRADIUS;
+import com.enosistudio.doom.data.Tables;
+import static com.enosistudio.doom.data.Tables.finecosine;
+import static com.enosistudio.doom.data.Tables.finesine;
+import com.enosistudio.doom.data.mobjtype_t;
+import com.enosistudio.doom.data.sounds;
+import com.enosistudio.doom.doom.SourceCode.fixed_t;
+import com.enosistudio.doom.doom.thinker_t;
+import static com.enosistudio.doom.m.BBox.BOXBOTTOM;
+import static com.enosistudio.doom.m.BBox.BOXLEFT;
+import static com.enosistudio.doom.m.BBox.BOXRIGHT;
+import static com.enosistudio.doom.m.BBox.BOXTOP;
 import com.enosistudio.doom.p.AbstractLevelLoader;
 import com.enosistudio.doom.p.ActiveStates;
 import com.enosistudio.doom.p.mobj_t;
 import static com.enosistudio.doom.p.mobj_t.MF_MISSILE;
-import rr.line_t;
-import rr.sector_t;
-import rr.subsector_t;
+import com.enosistudio.doom.rr.line_t;
+import com.enosistudio.doom.rr.sector_t;
+import com.enosistudio.doom.rr.subsector_t;
 
 public interface ActionsTeleportation extends ActionsSectors {
 

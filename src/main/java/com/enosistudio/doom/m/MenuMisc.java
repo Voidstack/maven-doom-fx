@@ -1,6 +1,6 @@
 package com.enosistudio.doom.m;
 
-import i.DoomSystem;
+import com.enosistudio.doom.i.DoomSystem;
 import java.awt.image.BufferedImage;
 import java.awt.image.DataBufferByte;
 import java.awt.image.DataBufferInt;
@@ -17,7 +17,7 @@ import java.io.OutputStream;
 import java.nio.ByteBuffer;
 import java.util.Arrays;
 import javax.imageio.ImageIO;
-import w.IWritableDoomObject;
+import com.enosistudio.doom.w.IWritableDoomObject;
 
 // Emacs style mode select   -*- C++ -*- 
 //-----------------------------------------------------------------------------

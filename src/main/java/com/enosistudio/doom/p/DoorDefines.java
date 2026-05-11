@@ -1,6 +1,6 @@
 package com.enosistudio.doom.p;
 
-import static m.fixed_t.MAPFRACUNIT;
+import static com.enosistudio.doom.m.fixed_t.MAPFRACUNIT;
 
 public final class DoorDefines {
     

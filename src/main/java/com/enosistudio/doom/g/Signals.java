@@ -19,8 +19,8 @@ package com.enosistudio.doom.g;
 
 //
 
-import doom.event_t;
-import doom.evtype_t;
+import com.enosistudio.doom.doom.event_t;
+import com.enosistudio.doom.doom.evtype_t;
 import static java.awt.event.InputEvent.ALT_DOWN_MASK;
 import static java.awt.event.InputEvent.CTRL_DOWN_MASK;
 import static java.awt.event.InputEvent.META_DOWN_MASK;

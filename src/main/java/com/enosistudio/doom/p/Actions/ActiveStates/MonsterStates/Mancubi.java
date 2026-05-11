@@ -17,12 +17,12 @@
  */
 package com.enosistudio.doom.p.Actions.ActiveStates.MonsterStates;
 
-import data.Tables;
-import static data.Tables.finecosine;
-import static data.Tables.finesine;
-import data.mobjtype_t;
-import data.sounds;
-import static m.fixed_t.FixedMul;
+import com.enosistudio.doom.data.Tables;
+import static com.enosistudio.doom.data.Tables.finecosine;
+import static com.enosistudio.doom.data.Tables.finesine;
+import com.enosistudio.doom.data.mobjtype_t;
+import com.enosistudio.doom.data.sounds;
+import static com.enosistudio.doom.m.fixed_t.FixedMul;
 import com.enosistudio.doom.p.Actions.ActionTrait;
 import com.enosistudio.doom.p.mobj_t;
 

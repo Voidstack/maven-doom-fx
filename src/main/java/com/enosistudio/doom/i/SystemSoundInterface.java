@@ -25,7 +25,7 @@ package com.enosistudio.doom.i;
 
 
 
-import data.sfxinfo_t;
+import com.enosistudio.doom.data.sfxinfo_t;
 
 
 /*

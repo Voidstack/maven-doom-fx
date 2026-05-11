@@ -1,20 +1,20 @@
 package com.enosistudio.doom.rr.parallel;
 
-import data.Tables;
-import static data.Tables.finetangent;
-import doom.DoomMain;
+import com.enosistudio.doom.data.Tables;
+import static com.enosistudio.doom.data.Tables.finetangent;
+import com.enosistudio.doom.doom.DoomMain;
 import java.io.IOException;
 import java.util.concurrent.BrokenBarrierException;
 import java.util.concurrent.CyclicBarrier;
 import java.util.concurrent.Executor;
 import java.util.concurrent.Executors;
-import static m.fixed_t.FRACBITS;
-import static m.fixed_t.FixedMul;
+import static com.enosistudio.doom.m.fixed_t.FRACBITS;
+import static com.enosistudio.doom.m.fixed_t.FixedMul;
 import com.enosistudio.doom.rr.PlaneDrawer;
 import com.enosistudio.doom.rr.RendererState;
 import com.enosistudio.doom.rr.SceneRenderer;
-import rr.drawfuns.ColVars;
-import utils.C2JUtils;
+import com.enosistudio.doom.rr.drawfuns.ColVars;
+import com.enosistudio.doom.utils.C2JUtils;
 
 /**
  * Features and functionality which is common among parallel renderers

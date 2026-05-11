@@ -17,27 +17,27 @@
  */
 package com.enosistudio.doom.p;
 
-import automap.IAutoMap;
-import data.sounds;
-import defines.skill_t;
-import doom.DoomMain;
-import doom.player_t;
-import hu.IHeadsUp;
-import i.IDoomSystem;
+import com.enosistudio.doom.automap.IAutoMap;
+import com.enosistudio.doom.data.sounds;
+import com.enosistudio.doom.defines.skill_t;
+import com.enosistudio.doom.doom.DoomMain;
+import com.enosistudio.doom.doom.player_t;
+import com.enosistudio.doom.hu.IHeadsUp;
+import com.enosistudio.doom.i.IDoomSystem;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import p.Actions.ActionsAttacks;
-import p.Actions.ActionsEnemies;
-import p.Actions.ActionsThinkers;
-import p.Actions.ActiveStates.Ai;
-import p.Actions.ActiveStates.Attacks;
-import p.Actions.ActiveStates.Thinkers;
-import p.Actions.ActiveStates.Weapons;
-import rr.SceneRenderer;
-import s.ISoundOrigin;
-import st.IDoomStatusBar;
-import utils.TraitFactory;
-import utils.TraitFactory.SharedContext;
+import com.enosistudio.doom.p.Actions.ActionsAttacks;
+import com.enosistudio.doom.p.Actions.ActionsEnemies;
+import com.enosistudio.doom.p.Actions.ActionsThinkers;
+import com.enosistudio.doom.p.Actions.ActiveStates.Ai;
+import com.enosistudio.doom.p.Actions.ActiveStates.Attacks;
+import com.enosistudio.doom.p.Actions.ActiveStates.Thinkers;
+import com.enosistudio.doom.p.Actions.ActiveStates.Weapons;
+import com.enosistudio.doom.rr.SceneRenderer;
+import com.enosistudio.doom.s.ISoundOrigin;
+import com.enosistudio.doom.st.IDoomStatusBar;
+import com.enosistudio.doom.utils.TraitFactory;
+import com.enosistudio.doom.utils.TraitFactory.SharedContext;
 
 public class ActionFunctions extends UnifiedGameMap implements
     ActionsThinkers, ActionsEnemies, ActionsAttacks, Ai, Attacks, Thinkers, Weapons

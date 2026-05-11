@@ -1,6 +1,6 @@
 package com.enosistudio.doom.pooling;
 
-import s.AudioChunk;
+import com.enosistudio.doom.s.AudioChunk;
 
 // Referenced classes of package pooling:
 //            ObjectPool

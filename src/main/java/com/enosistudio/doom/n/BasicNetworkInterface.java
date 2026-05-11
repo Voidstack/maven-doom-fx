@@ -1,13 +1,13 @@
 package com.enosistudio.doom.n;
 
-import static data.Limits.MAXNETNODES;
-import doom.CommandVariable;
-import doom.DoomMain;
-import static doom.NetConsts.CMD_GET;
-import static doom.NetConsts.CMD_SEND;
-import static doom.NetConsts.DOOMCOM_ID;
-import doom.doomcom_t;
-import doom.doomdata_t;
+import static com.enosistudio.doom.data.Limits.MAXNETNODES;
+import com.enosistudio.doom.doom.CommandVariable;
+import com.enosistudio.doom.doom.DoomMain;
+import static com.enosistudio.doom.doom.NetConsts.CMD_GET;
+import static com.enosistudio.doom.doom.NetConsts.CMD_SEND;
+import static com.enosistudio.doom.doom.NetConsts.DOOMCOM_ID;
+import com.enosistudio.doom.doom.doomcom_t;
+import com.enosistudio.doom.doom.doomdata_t;
 import java.io.IOException;
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
@@ -16,7 +16,7 @@ import java.net.InetSocketAddress;
 import java.net.SocketException;
 import java.net.SocketTimeoutException;
 import java.net.UnknownHostException;
-import w.DoomBuffer;
+import com.enosistudio.doom.w.DoomBuffer;
 
 // Emacs style mode select   -*- C++ -*- 
 //-----------------------------------------------------------------------------

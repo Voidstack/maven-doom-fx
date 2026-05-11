@@ -7,7 +7,7 @@ import com.enosistudio.doom.rr.IMaskedDrawer;
 import com.enosistudio.doom.rr.ISpriteManager;
 import com.enosistudio.doom.rr.IVisSpriteManagement;
 import com.enosistudio.doom.rr.SceneRenderer;
-import v.scale.VideoScale;
+import com.enosistudio.doom.v.scale.VideoScale;
 
 /**  Alternate parallel sprite renderer using a split-screen strategy.
  *  For N threads, each thread gets to render only the sprites that are entirely

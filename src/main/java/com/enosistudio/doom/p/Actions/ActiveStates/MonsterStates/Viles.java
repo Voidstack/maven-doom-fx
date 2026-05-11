@@ -17,16 +17,16 @@
  */
 package com.enosistudio.doom.p.Actions.ActiveStates.MonsterStates;
 
-import static data.Limits.MAXRADIUS;
-import static data.Tables.finecosine;
-import static data.Tables.finesine;
-import data.mobjinfo_t;
-import data.mobjtype_t;
-import data.sounds;
-import defines.statenum_t;
-import static m.fixed_t.FRACUNIT;
-import static m.fixed_t.FixedMul;
-import static m.fixed_t.MAPFRACUNIT;
+import static com.enosistudio.doom.data.Limits.MAXRADIUS;
+import static com.enosistudio.doom.data.Tables.finecosine;
+import static com.enosistudio.doom.data.Tables.finesine;
+import com.enosistudio.doom.data.mobjinfo_t;
+import com.enosistudio.doom.data.mobjtype_t;
+import com.enosistudio.doom.data.sounds;
+import com.enosistudio.doom.defines.statenum_t;
+import static com.enosistudio.doom.m.fixed_t.FRACUNIT;
+import static com.enosistudio.doom.m.fixed_t.FixedMul;
+import static com.enosistudio.doom.m.fixed_t.MAPFRACUNIT;
 import com.enosistudio.doom.p.AbstractLevelLoader;
 import com.enosistudio.doom.p.Actions.ActionTrait;
 import com.enosistudio.doom.p.Actions.ActionsAttacks;

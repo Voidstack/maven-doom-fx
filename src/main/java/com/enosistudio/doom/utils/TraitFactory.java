@@ -26,7 +26,7 @@ import java.util.function.Function;
 import java.util.function.Predicate;
 import java.util.function.Supplier;
 import java.util.logging.Logger;
-import mochadoom.Loggers;
+import com.enosistudio.doom.mochadoom.Loggers;
 
 /**
  * Purpose of this pattern-interface: store Trait-specific class-wise context objects

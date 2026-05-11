@@ -17,19 +17,19 @@
 
 package com.enosistudio.doom.v;
 
-import f.Wiper;
+import com.enosistudio.doom.f.Wiper;
 import java.awt.Image;
 import java.awt.Rectangle;
-import m.IRandom;
-import m.Settings;
-import mochadoom.Engine;
-import rr.patch_t;
-import v.graphics.Horizontal;
-import v.graphics.Plotter;
-import v.graphics.Relocation;
-import v.renderers.DoomScreen;
-import v.scale.VideoScale;
-import v.tables.BlurryTable;
+import com.enosistudio.doom.m.IRandom;
+import com.enosistudio.doom.m.Settings;
+import com.enosistudio.doom.mochadoom.Engine;
+import com.enosistudio.doom.rr.patch_t;
+import com.enosistudio.doom.v.graphics.Horizontal;
+import com.enosistudio.doom.v.graphics.Plotter;
+import com.enosistudio.doom.v.graphics.Relocation;
+import com.enosistudio.doom.v.renderers.DoomScreen;
+import com.enosistudio.doom.v.scale.VideoScale;
+import com.enosistudio.doom.v.tables.BlurryTable;
 
 /** 
  * Refactored a lot of it; most notable changes:

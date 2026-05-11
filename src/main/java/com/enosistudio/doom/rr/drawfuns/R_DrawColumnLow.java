@@ -1,7 +1,7 @@
 package com.enosistudio.doom.rr.drawfuns;
 
-import i.IDoomSystem;
-import static m.fixed_t.FRACBITS;
+import com.enosistudio.doom.i.IDoomSystem;
+import static com.enosistudio.doom.m.fixed_t.FRACBITS;
 
 public final class R_DrawColumnLow extends DoomColumnFunction<byte[],short[]> {
     

@@ -17,26 +17,26 @@
  */
 package com.enosistudio.doom.p.Actions.ActiveStates;
 
-import static data.Defines.MELEERANGE;
-import static data.Defines.MISSILERANGE;
-import static data.Defines.pw_strength;
-import static data.Tables.ANG180;
-import static data.Tables.ANG90;
-import static data.Tables.BITS32;
-import data.mobjtype_t;
-import data.sounds;
-import defines.statenum_t;
-import doom.SourceCode.angle_t;
-import static doom.items.weaponinfo;
-import doom.player_t;
-import static doom.player_t.ps_flash;
-import static m.fixed_t.FRACUNIT;
+import static com.enosistudio.doom.data.Defines.MELEERANGE;
+import static com.enosistudio.doom.data.Defines.MISSILERANGE;
+import static com.enosistudio.doom.data.Defines.pw_strength;
+import static com.enosistudio.doom.data.Tables.ANG180;
+import static com.enosistudio.doom.data.Tables.ANG90;
+import static com.enosistudio.doom.data.Tables.BITS32;
+import com.enosistudio.doom.data.mobjtype_t;
+import com.enosistudio.doom.data.sounds;
+import com.enosistudio.doom.defines.statenum_t;
+import com.enosistudio.doom.doom.SourceCode.angle_t;
+import static com.enosistudio.doom.doom.items.weaponinfo;
+import com.enosistudio.doom.doom.player_t;
+import static com.enosistudio.doom.doom.player_t.ps_flash;
+import static com.enosistudio.doom.m.fixed_t.FRACUNIT;
 import static com.enosistudio.doom.p.Actions.ActionsSectors.KEY_SPAWN;
 import com.enosistudio.doom.p.Actions.ActionsSectors.Spawn;
 import com.enosistudio.doom.p.mobj_t;
 import static com.enosistudio.doom.p.mobj_t.MF_JUSTATTACKED;
 import com.enosistudio.doom.p.pspdef_t;
-import static utils.C2JUtils.eval;
+import static com.enosistudio.doom.utils.C2JUtils.eval;
 
 public interface Attacks extends Monsters {
     // plasma cells for a bfg attack

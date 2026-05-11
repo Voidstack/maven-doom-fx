@@ -1,6 +1,6 @@
 package com.enosistudio.doom.m;
 
-import g.Signals;
+import com.enosistudio.doom.g.Signals;
 
 public class menuitem_t {
 

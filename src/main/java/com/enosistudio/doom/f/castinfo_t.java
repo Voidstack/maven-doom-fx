@@ -1,6 +1,6 @@
 package com.enosistudio.doom.f;
 
-import data.mobjtype_t;
+import com.enosistudio.doom.data.mobjtype_t;
 
 /**
  * Final DOOM 2 animation Casting by id Software. in order of appearance

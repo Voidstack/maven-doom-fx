@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipInputStream;
 
-import utils.C2JUtils;
+import com.enosistudio.doom.utils.C2JUtils;
 
 /**
  * As we know, Java can be a bit awkward when handling streams e.g. you can't

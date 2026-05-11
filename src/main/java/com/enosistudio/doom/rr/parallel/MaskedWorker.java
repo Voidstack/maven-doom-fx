@@ -1,34 +1,34 @@
 package com.enosistudio.doom.rr.parallel;
 
-import static data.Defines.FF_FRAMEMASK;
-import static data.Defines.FF_FULLBRIGHT;
-import static data.Defines.pw_invisibility;
+import static com.enosistudio.doom.data.Defines.FF_FRAMEMASK;
+import static com.enosistudio.doom.data.Defines.FF_FULLBRIGHT;
+import static com.enosistudio.doom.data.Defines.pw_invisibility;
 import java.util.concurrent.BrokenBarrierException;
 import java.util.concurrent.CyclicBarrier;
-import static m.fixed_t.*;
-import static p.mobj_t.MF_TRANSLATION;
-import p.pspdef_t;
+import static com.enosistudio.doom.m.fixed_t.*;
+import static com.enosistudio.doom.p.mobj_t.MF_TRANSLATION;
+import com.enosistudio.doom.p.pspdef_t;
 import com.enosistudio.doom.rr.AbstractThings;
 import com.enosistudio.doom.rr.IDetailAware;
 import com.enosistudio.doom.rr.SceneRenderer;
 import com.enosistudio.doom.rr.column_t;
-import rr.drawfuns.ColFuncs;
-import rr.drawfuns.ColVars;
-import rr.drawfuns.R_DrawColumnBoom;
-import rr.drawfuns.R_DrawColumnBoomLow;
-import rr.drawfuns.R_DrawFuzzColumn;
-import rr.drawfuns.R_DrawFuzzColumnLow;
-import rr.drawfuns.R_DrawTranslatedColumn;
-import rr.drawfuns.R_DrawTranslatedColumnLow;
+import com.enosistudio.doom.rr.drawfuns.ColFuncs;
+import com.enosistudio.doom.rr.drawfuns.ColVars;
+import com.enosistudio.doom.rr.drawfuns.R_DrawColumnBoom;
+import com.enosistudio.doom.rr.drawfuns.R_DrawColumnBoomLow;
+import com.enosistudio.doom.rr.drawfuns.R_DrawFuzzColumn;
+import com.enosistudio.doom.rr.drawfuns.R_DrawFuzzColumnLow;
+import com.enosistudio.doom.rr.drawfuns.R_DrawTranslatedColumn;
+import com.enosistudio.doom.rr.drawfuns.R_DrawTranslatedColumnLow;
 import com.enosistudio.doom.rr.drawseg_t;
 import static com.enosistudio.doom.rr.line_t.*;
 import com.enosistudio.doom.rr.patch_t;
 import com.enosistudio.doom.rr.spritedef_t;
 import com.enosistudio.doom.rr.spriteframe_t;
 import com.enosistudio.doom.rr.vissprite_t;
-import v.graphics.Palettes;
-import v.scale.VideoScale;
-import v.tables.BlurryTable;
+import com.enosistudio.doom.v.graphics.Palettes;
+import com.enosistudio.doom.v.scale.VideoScale;
+import com.enosistudio.doom.v.tables.BlurryTable;
 
 /** A "Masked Worker" draws sprites in a split-screen strategy. Used by 
  * ParallelRenderer2. Each Masked Worker is essentially a complete Things

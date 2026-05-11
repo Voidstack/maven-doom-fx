@@ -21,8 +21,8 @@
 
 package com.enosistudio.doom.v.tables;
 
-import m.Settings;
-import mochadoom.Engine;
+import com.enosistudio.doom.m.Settings;
+import com.enosistudio.doom.mochadoom.Engine;
 
 public class GammaTables {
     // Now where did these came from?

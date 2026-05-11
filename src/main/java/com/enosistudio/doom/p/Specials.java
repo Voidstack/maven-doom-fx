@@ -1,13 +1,13 @@
 package com.enosistudio.doom.p;
 
-import doom.player_t;
-import m.fixed_t;
-import static m.fixed_t.*;
-import p.Actions.ActionsLights.glow_t;
-import p.Actions.ActionsLights.lightflash_t;
-import rr.line_t;
-import rr.sector_t;
-import rr.side_t;
+import com.enosistudio.doom.doom.player_t;
+import com.enosistudio.doom.m.fixed_t;
+import static com.enosistudio.doom.m.fixed_t.*;
+import com.enosistudio.doom.p.Actions.ActionsLights.glow_t;
+import com.enosistudio.doom.p.Actions.ActionsLights.lightflash_t;
+import com.enosistudio.doom.rr.line_t;
+import com.enosistudio.doom.rr.sector_t;
+import com.enosistudio.doom.rr.side_t;
 
 // Emacs style mode select   -*- C++ -*- 
 //-----------------------------------------------------------------------------

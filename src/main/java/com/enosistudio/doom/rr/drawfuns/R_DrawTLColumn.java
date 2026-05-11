@@ -1,6 +1,6 @@
 package com.enosistudio.doom.rr.drawfuns;
-import static m.fixed_t.FRACBITS;
-import i.IDoomSystem;
+import static com.enosistudio.doom.m.fixed_t.FRACBITS;
+import com.enosistudio.doom.i.IDoomSystem;
 
 
 public final class R_DrawTLColumn extends DoomColumnFunction<byte[],short[]> {

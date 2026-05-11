@@ -1,10 +1,10 @@
 package com.enosistudio.doom.data;
 
 import com.enosistudio.doom.data.sounds.sfxenum_t;
-import defines.statenum_t;
-import static m.fixed_t.*;
-import static p.ActiveStates.*;
-import static p.MobjFlags.*;
+import com.enosistudio.doom.defines.statenum_t;
+import static com.enosistudio.doom.m.fixed_t.*;
+import static com.enosistudio.doom.p.ActiveStates.*;
+import static com.enosistudio.doom.p.MobjFlags.*;
 
 // Emacs style mode select   -*- C++ -*- 
 //-----------------------------------------------------------------------------

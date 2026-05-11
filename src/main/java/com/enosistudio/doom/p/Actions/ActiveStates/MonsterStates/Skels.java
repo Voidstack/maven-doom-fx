@@ -17,20 +17,20 @@
  */
 package com.enosistudio.doom.p.Actions.ActiveStates.MonsterStates;
 
-import data.Tables;
-import static data.Tables.ANG180;
-import static data.Tables.BITS32;
-import static data.Tables.finecosine;
-import static data.Tables.finesine;
-import data.mobjtype_t;
-import data.sounds;
-import static m.fixed_t.FRACUNIT;
-import static m.fixed_t.FixedMul;
-import static m.fixed_t.MAPFRACUNIT;
+import com.enosistudio.doom.data.Tables;
+import static com.enosistudio.doom.data.Tables.ANG180;
+import static com.enosistudio.doom.data.Tables.BITS32;
+import static com.enosistudio.doom.data.Tables.finecosine;
+import static com.enosistudio.doom.data.Tables.finesine;
+import com.enosistudio.doom.data.mobjtype_t;
+import com.enosistudio.doom.data.sounds;
+import static com.enosistudio.doom.m.fixed_t.FRACUNIT;
+import static com.enosistudio.doom.m.fixed_t.FixedMul;
+import static com.enosistudio.doom.m.fixed_t.MAPFRACUNIT;
 import com.enosistudio.doom.p.Actions.ActionTrait;
 import static com.enosistudio.doom.p.MapUtils.AproxDistance;
 import com.enosistudio.doom.p.mobj_t;
-import static utils.C2JUtils.eval;
+import static com.enosistudio.doom.utils.C2JUtils.eval;
 
 public interface Skels extends ActionTrait {
     int TRACEANGLE = 0xC_00_00_00;

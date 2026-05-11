@@ -1,15 +1,15 @@
 package com.enosistudio.doom.data;
 
 //import m.define;
-import static data.Limits.MAXINT;
-import static data.Limits.MININT;
-import defines.ammotype_t;
-import defines.card_t;
-import doom.weapontype_t;
-import g.Signals;
-import static m.fixed_t.FRACBITS;
-import static m.fixed_t.FRACUNIT;
-import static m.fixed_t.MAPFRACUNIT;
+import static com.enosistudio.doom.data.Limits.MAXINT;
+import static com.enosistudio.doom.data.Limits.MININT;
+import com.enosistudio.doom.defines.ammotype_t;
+import com.enosistudio.doom.defines.card_t;
+import com.enosistudio.doom.doom.weapontype_t;
+import com.enosistudio.doom.g.Signals;
+import static com.enosistudio.doom.m.fixed_t.FRACBITS;
+import static com.enosistudio.doom.m.fixed_t.FRACUNIT;
+import static com.enosistudio.doom.m.fixed_t.MAPFRACUNIT;
 
 // Emacs style mode select   -*- C++ -*- 
 //-----------------------------------------------------------------------------

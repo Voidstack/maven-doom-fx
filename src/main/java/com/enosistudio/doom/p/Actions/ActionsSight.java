@@ -17,23 +17,23 @@
  */
 package com.enosistudio.doom.p.Actions;
 
-import static data.Defines.NF_SUBSECTOR;
-import static data.Defines.RANGECHECK;
-import doom.SourceCode.fixed_t;
-import static m.fixed_t.FixedDiv;
+import static com.enosistudio.doom.data.Defines.NF_SUBSECTOR;
+import static com.enosistudio.doom.data.Defines.RANGECHECK;
+import com.enosistudio.doom.doom.SourceCode.fixed_t;
+import static com.enosistudio.doom.m.fixed_t.FixedDiv;
 import com.enosistudio.doom.p.AbstractLevelLoader;
 import com.enosistudio.doom.p.MapUtils;
 import com.enosistudio.doom.p.divline_t;
 import com.enosistudio.doom.p.mobj_t;
-import rr.SceneRenderer;
-import rr.line_t;
-import static rr.line_t.ML_TWOSIDED;
-import rr.node_t;
-import rr.sector_t;
-import rr.subsector_t;
-import static utils.C2JUtils.eval;
-import static utils.C2JUtils.flags;
-import utils.TraitFactory.ContextKey;
+import com.enosistudio.doom.rr.SceneRenderer;
+import com.enosistudio.doom.rr.line_t;
+import static com.enosistudio.doom.rr.line_t.ML_TWOSIDED;
+import com.enosistudio.doom.rr.node_t;
+import com.enosistudio.doom.rr.sector_t;
+import com.enosistudio.doom.rr.subsector_t;
+import static com.enosistudio.doom.utils.C2JUtils.eval;
+import static com.enosistudio.doom.utils.C2JUtils.flags;
+import com.enosistudio.doom.utils.TraitFactory.ContextKey;
 
 public interface ActionsSight extends ActionsSectors {
 

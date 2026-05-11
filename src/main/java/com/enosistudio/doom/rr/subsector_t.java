@@ -1,6 +1,6 @@
 package com.enosistudio.doom.rr;
 
-import p.Resettable;
+import com.enosistudio.doom.p.Resettable;
 
 /**
  * 

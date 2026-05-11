@@ -17,22 +17,22 @@
  */
 package com.enosistudio.doom.p.Actions;
 
-import static data.Limits.CEILSPEED;
-import static data.Limits.MAXCEILINGS;
-import data.sounds;
-import doom.SourceCode.P_Ceiling;
-import static doom.SourceCode.P_Ceiling.EV_DoCeiling;
-import doom.thinker_t;
-import static m.fixed_t.FRACUNIT;
+import static com.enosistudio.doom.data.Limits.CEILSPEED;
+import static com.enosistudio.doom.data.Limits.MAXCEILINGS;
+import com.enosistudio.doom.data.sounds;
+import com.enosistudio.doom.doom.SourceCode.P_Ceiling;
+import static com.enosistudio.doom.doom.SourceCode.P_Ceiling.EV_DoCeiling;
+import com.enosistudio.doom.doom.thinker_t;
+import static com.enosistudio.doom.m.fixed_t.FRACUNIT;
 import com.enosistudio.doom.p.ActiveStates;
 import com.enosistudio.doom.p.ceiling_e;
 import com.enosistudio.doom.p.ceiling_t;
 import com.enosistudio.doom.p.result_e;
-import rr.line_t;
-import rr.sector_t;
-import utils.C2JUtils;
-import static utils.C2JUtils.eval;
-import utils.TraitFactory.ContextKey;
+import com.enosistudio.doom.rr.line_t;
+import com.enosistudio.doom.rr.sector_t;
+import com.enosistudio.doom.utils.C2JUtils;
+import static com.enosistudio.doom.utils.C2JUtils.eval;
+import com.enosistudio.doom.utils.TraitFactory.ContextKey;
 
 public interface ActionsCeilings extends ActionsMoveEvents, ActionsUseEvents {
 

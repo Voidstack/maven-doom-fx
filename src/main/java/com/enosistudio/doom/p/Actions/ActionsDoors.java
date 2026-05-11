@@ -17,21 +17,21 @@
  */
 package com.enosistudio.doom.p.Actions;
 
-import data.sounds;
-import defines.card_t;
-import doom.SourceCode;
-import doom.SourceCode.P_Doors;
-import static doom.SourceCode.P_Doors.P_SpawnDoorCloseIn30;
-import static doom.SourceCode.P_Doors.P_SpawnDoorRaiseIn5Mins;
-import static doom.englsh.PD_BLUEK;
-import static doom.englsh.PD_BLUEO;
-import static doom.englsh.PD_REDK;
-import static doom.englsh.PD_REDO;
-import static doom.englsh.PD_YELLOWK;
-import static doom.englsh.PD_YELLOWO;
-import doom.player_t;
-import doom.thinker_t;
-import static m.fixed_t.FRACUNIT;
+import com.enosistudio.doom.data.sounds;
+import com.enosistudio.doom.defines.card_t;
+import com.enosistudio.doom.doom.SourceCode;
+import com.enosistudio.doom.doom.SourceCode.P_Doors;
+import static com.enosistudio.doom.doom.SourceCode.P_Doors.P_SpawnDoorCloseIn30;
+import static com.enosistudio.doom.doom.SourceCode.P_Doors.P_SpawnDoorRaiseIn5Mins;
+import static com.enosistudio.doom.doom.englsh.PD_BLUEK;
+import static com.enosistudio.doom.doom.englsh.PD_BLUEO;
+import static com.enosistudio.doom.doom.englsh.PD_REDK;
+import static com.enosistudio.doom.doom.englsh.PD_REDO;
+import static com.enosistudio.doom.doom.englsh.PD_YELLOWK;
+import static com.enosistudio.doom.doom.englsh.PD_YELLOWO;
+import com.enosistudio.doom.doom.player_t;
+import com.enosistudio.doom.doom.thinker_t;
+import static com.enosistudio.doom.m.fixed_t.FRACUNIT;
 import com.enosistudio.doom.p.ActiveStates;
 import static com.enosistudio.doom.p.ActiveStates.T_VerticalDoor;
 import static com.enosistudio.doom.p.DoorDefines.VDOORSPEED;
@@ -41,9 +41,9 @@ import com.enosistudio.doom.p.plat_t;
 import com.enosistudio.doom.p.result_e;
 import com.enosistudio.doom.p.vldoor_e;
 import com.enosistudio.doom.p.vldoor_t;
-import rr.line_t;
-import rr.sector_t;
-import static utils.C2JUtils.eval;
+import com.enosistudio.doom.rr.line_t;
+import com.enosistudio.doom.rr.sector_t;
+import static com.enosistudio.doom.utils.C2JUtils.eval;
 
 public interface ActionsDoors extends ActionsMoveEvents, ActionsUseEvents {
 

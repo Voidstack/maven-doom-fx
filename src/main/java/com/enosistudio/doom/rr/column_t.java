@@ -3,8 +3,8 @@ package com.enosistudio.doom.rr;
 import java.io.IOException;
 import java.nio.ByteBuffer;
 
-import utils.C2JUtils;
-import w.CacheableDoomObject;
+import com.enosistudio.doom.utils.C2JUtils;
+import com.enosistudio.doom.w.CacheableDoomObject;
 
 /** column_t is a list of 0 or more post_t, (byte)-1 terminated
  * typedef post_t  column_t;

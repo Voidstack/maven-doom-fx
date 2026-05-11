@@ -3,7 +3,7 @@ package com.enosistudio.doom.pooling;
 import java.util.Enumeration;
 import java.util.Hashtable;
 
-import p.mobj_t;
+import com.enosistudio.doom.p.mobj_t;
 
 /** A convenient object pooling class. Currently used for AudioChunks, but
  *  could be reused for UI events and other such things. Perhaps reusing it

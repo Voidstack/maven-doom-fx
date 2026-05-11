@@ -1,7 +1,7 @@
 package com.enosistudio.doom.rr;
 
-import static utils.C2JUtils.memset;
-import v.scale.VideoScale;
+import static com.enosistudio.doom.utils.C2JUtils.memset;
+import com.enosistudio.doom.v.scale.VideoScale;
 
 /**
  * Now what is a visplane, anyway? Basically, it's a bunch of arrays buffer representing a top and a bottom boundary of

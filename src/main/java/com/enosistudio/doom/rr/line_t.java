@@ -1,27 +1,27 @@
 package com.enosistudio.doom.rr;
 
-import defines.slopetype_t;
-import doom.SourceCode;
-import doom.SourceCode.P_Spec;
-import static doom.SourceCode.P_Spec.getNextSector;
-import doom.thinker_t;
+import com.enosistudio.doom.defines.slopetype_t;
+import com.enosistudio.doom.doom.SourceCode;
+import com.enosistudio.doom.doom.SourceCode.P_Spec;
+import static com.enosistudio.doom.doom.SourceCode.P_Spec.getNextSector;
+import com.enosistudio.doom.doom.thinker_t;
 import java.io.DataInputStream;
 import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.util.Arrays;
-import static m.BBox.BOXBOTTOM;
-import static m.BBox.BOXLEFT;
-import static m.BBox.BOXRIGHT;
-import static m.BBox.BOXTOP;
-import static m.fixed_t.*;
-import p.Interceptable;
-import p.Resettable;
-import s.degenmobj_t;
-import static utils.C2JUtils.eval;
-import static utils.C2JUtils.memset;
-import w.DoomIO;
-import w.IPackableDoomObject;
-import w.IReadableDoomObject;
+import static com.enosistudio.doom.m.BBox.BOXBOTTOM;
+import static com.enosistudio.doom.m.BBox.BOXLEFT;
+import static com.enosistudio.doom.m.BBox.BOXRIGHT;
+import static com.enosistudio.doom.m.BBox.BOXTOP;
+import static com.enosistudio.doom.m.fixed_t.*;
+import com.enosistudio.doom.p.Interceptable;
+import com.enosistudio.doom.p.Resettable;
+import com.enosistudio.doom.s.degenmobj_t;
+import static com.enosistudio.doom.utils.C2JUtils.eval;
+import static com.enosistudio.doom.utils.C2JUtils.memset;
+import com.enosistudio.doom.w.DoomIO;
+import com.enosistudio.doom.w.IPackableDoomObject;
+import com.enosistudio.doom.w.IReadableDoomObject;
 
 /** This is the actual linedef */
 

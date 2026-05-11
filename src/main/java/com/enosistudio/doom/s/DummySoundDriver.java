@@ -1,8 +1,8 @@
 package com.enosistudio.doom.s;
 
-import p.mobj_t;
-import data.sounds.musicenum_t;
-import data.sounds.sfxenum_t;
+import com.enosistudio.doom.p.mobj_t;
+import com.enosistudio.doom.data.sounds.musicenum_t;
+import com.enosistudio.doom.data.sounds.sfxenum_t;
 
 /** Does nothing. Just allows me to code without
  *  commenting out ALL sound-related code. Hopefully

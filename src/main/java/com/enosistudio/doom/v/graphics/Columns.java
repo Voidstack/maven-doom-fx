@@ -21,11 +21,11 @@ import java.util.concurrent.ForkJoinPool;
 import java.util.function.IntConsumer;
 import java.util.logging.Level;
 import java.util.stream.IntStream;
-import m.Settings;
-import mochadoom.Engine;
-import mochadoom.Loggers;
-import rr.column_t;
-import rr.patch_t;
+import com.enosistudio.doom.m.Settings;
+import com.enosistudio.doom.mochadoom.Engine;
+import com.enosistudio.doom.mochadoom.Loggers;
+import com.enosistudio.doom.rr.column_t;
+import com.enosistudio.doom.rr.patch_t;
 
 /**
  * Patch columns drawing.

@@ -1,7 +1,7 @@
 package com.enosistudio.doom.rr;
 
-import data.Limits;
-import utils.C2JUtils;
+import com.enosistudio.doom.data.Limits;
+import com.enosistudio.doom.utils.C2JUtils;
 
 public class SegVars {
 	// /// FROM BSP /////////

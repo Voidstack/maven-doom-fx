@@ -21,7 +21,7 @@
 package com.enosistudio.doom.v.graphics;
 
 import java.lang.reflect.Array;
-import static utils.GenericCopy.*;
+import static com.enosistudio.doom.utils.GenericCopy.*;
 
 public interface ColorTransform {
     

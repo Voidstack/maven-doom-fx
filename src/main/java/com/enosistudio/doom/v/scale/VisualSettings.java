@@ -17,8 +17,8 @@
 
 package com.enosistudio.doom.v.scale;
 
-import doom.CVarManager;
-import doom.CommandVariable;
+import com.enosistudio.doom.doom.CVarManager;
+import com.enosistudio.doom.doom.CommandVariable;
 
 public class VisualSettings {
 
