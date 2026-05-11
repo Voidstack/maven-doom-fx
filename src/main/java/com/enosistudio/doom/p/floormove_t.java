@@ -31,7 +31,9 @@ public class floormove_t extends SectorAction implements IReadableDoomObject{
     public void read(DataInputStream f) throws IOException{
 
         super.read(f); // Call thinker reader first            
-        type=floor_e.values()[DoomIO.readLEInt(f)];
+        int floorIdx = DoomIO.readLEInt(f);
+        if (floorIdx < 0 || floorIdx >= floor_e.values().length) throw new IOException("Invalid save: bad floor type " + floorIdx);
+        type = floor_e.values()[floorIdx];
         crush=DoomIO.readIntBoolean(f);
         super.sectorid=DoomIO.readLEInt(f); // Sector index (or pointer?)
         direction=DoomIO.readLEInt(f);

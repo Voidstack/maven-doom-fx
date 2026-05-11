@@ -511,7 +511,9 @@ public class mobj_t extends thinker_t implements ISoundOrigin, Interceptable,
 		this.z = b.getInt(); // 24
 		b.getLong(); // TODO: snext, sprev. When are those set? 32
 		this.angle = Tables.BITS32 & b.getInt(); // 36
-		this.mobj_sprite = spritenum_t.values()[b.getInt()]; // 40
+		int sprIdx = b.getInt(); // 40
+		if (sprIdx < 0 || sprIdx >= spritenum_t.values().length) throw new IOException("Invalid save: bad sprite index " + sprIdx);
+		this.mobj_sprite = spritenum_t.values()[sprIdx];
 		this.mobj_frame = b.getInt(); // 44
 		b.getLong(); // TODO: bnext, bprev. When are those set? 52
 		b.getInt(); // TODO: subsector 56
@@ -523,7 +525,9 @@ public class mobj_t extends thinker_t implements ISoundOrigin, Interceptable,
 		this.momy = b.getInt(); // 80
 		this.momz = b.getInt(); // 84
 		this.validcount = b.getInt(); // 88
-		this.type = mobjtype_t.values()[b.getInt()]; // 92
+		int mobjIdx = b.getInt(); // 92
+		if (mobjIdx < 0 || mobjIdx >= mobjtype_t.values().length) throw new IOException("Invalid save: bad mobj type " + mobjIdx);
+		this.type = mobjtype_t.values()[mobjIdx];
 		b.getInt(); // TODO: mobjinfo (deduced from type) //96
 		this.mobj_tics = Tables.BITS32 & b.getInt(); // 100
 		// System.out.println("State"+f.readLEInt());

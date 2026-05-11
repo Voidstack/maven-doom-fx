@@ -2936,7 +2936,9 @@ public class DoomMain<T, V> extends DoomStatus<T, V> implements IDoomGameNetwork
         }
 
         cVarManager.with(CommandVariable.SKILL, 0, (Integer s) -> {
-            startskill = skill_t.values()[s - 1];
+            int idx = s - 1;
+            startskill = idx >= 0 && idx < skill_t.values().length
+                ? skill_t.values()[idx] : skill_t.sk_medium;
             autostart = true;
         });
 
@@ -3504,7 +3506,9 @@ public class DoomMain<T, V> extends DoomStatus<T, V> implements IDoomGameNetwork
                     if (netbuffer.player != VERSION) {
                         doomSystem.Error("Different DOOM versions cannot play a net game!");
                     }
-                    startskill = skill_t.values()[netbuffer.retransmitfrom & 15];
+                    int netSkillIdx = netbuffer.retransmitfrom & 15;
+                    startskill = netSkillIdx < skill_t.values().length
+                        ? skill_t.values()[netSkillIdx] : skill_t.sk_medium;
 
                     if (((netbuffer.retransmitfrom & 0xc0) >> 6) == 1) {
                         // Deathmatch

@@ -38,13 +38,19 @@ public class plat_t extends SectorAction implements IReadableDoomObject {
         high = DoomIO.readLEInt(f);
         wait = DoomIO.readLEInt(f);
         count = DoomIO.readLEInt(f);
-        status = plat_e.values()[DoomIO.readLEInt(f)];
-        oldstatus = plat_e.values()[DoomIO.readLEInt(f)];
+        int stIdx = DoomIO.readLEInt(f);
+        if (stIdx < 0 || stIdx >= plat_e.values().length) throw new IOException("Invalid save: bad plat status " + stIdx);
+        status = plat_e.values()[stIdx];
+        int oldStIdx = DoomIO.readLEInt(f);
+        if (oldStIdx < 0 || oldStIdx >= plat_e.values().length) throw new IOException("Invalid save: bad plat oldstatus " + oldStIdx);
+        oldstatus = plat_e.values()[oldStIdx];
         System.out.println(status);
         System.out.println(oldstatus);
         crush = DoomIO.readIntBoolean(f);
         tag = DoomIO.readLEInt(f);
-        type = plattype_e.values()[DoomIO.readLEInt(f)];
+        int typeIdx = DoomIO.readLEInt(f);
+        if (typeIdx < 0 || typeIdx >= plattype_e.values().length) throw new IOException("Invalid save: bad plat type " + typeIdx);
+        type = plattype_e.values()[typeIdx];
     }
 
     @Override

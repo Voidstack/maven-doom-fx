@@ -1400,8 +1400,12 @@ public class player_t /*extends mobj_t */ implements Cloneable, IReadableDoomObj
         DoomIO.readBooleanIntArray(f, this.cards);
         this.backpack = DoomIO.readIntBoolean(f);
         DoomIO.readIntArray(f, frags, ByteOrder.LITTLE_ENDIAN);
-        this.readyweapon = weapontype_t.values()[DoomIO.readLEInt(f)];
-        this.pendingweapon = weapontype_t.values()[DoomIO.readLEInt(f)];
+        int rwIdx = DoomIO.readLEInt(f);
+        if (rwIdx < 0 || rwIdx >= weapontype_t.values().length) throw new IOException("Invalid save: bad weapon index " + rwIdx);
+        this.readyweapon = weapontype_t.values()[rwIdx];
+        int pwIdx = DoomIO.readLEInt(f);
+        if (pwIdx < 0 || pwIdx >= weapontype_t.values().length) throw new IOException("Invalid save: bad weapon index " + pwIdx);
+        this.pendingweapon = weapontype_t.values()[pwIdx];
         DoomIO.readBooleanIntArray(f, this.weaponowned);
         DoomIO.readIntArray(f, ammo, ByteOrder.LITTLE_ENDIAN);
         DoomIO.readIntArray(f, maxammo, ByteOrder.LITTLE_ENDIAN);

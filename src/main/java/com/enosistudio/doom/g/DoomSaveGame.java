@@ -153,7 +153,8 @@ public class DoomSaveGame implements CacheableDoomObject, IReadableDoomObject, I
 
      public void toStat(DoomStatus<?, ?> DS){
          System.arraycopy(this.playeringame, 0, DS.playeringame, 0, this.playeringame.length);
-         DS.gameskill=skill_t.values()[this.gameskill];
+         int gs = this.gameskill & 0xFF;
+         DS.gameskill = gs < skill_t.values().length ? skill_t.values()[gs] : skill_t.sk_medium;
          DS.gameepisode=this.gameepisode;
          DS.gamemap=this.gamemap;
          DS.leveltime=this.leveltime;        

@@ -442,6 +442,7 @@ public class VanillaDSG<T, V> implements IDoomSaveGame {
         boolean end = false;
         while (!end) {
             int tmp = f.readUnsignedByte();
+            if (tmp >= thinkerclass_t.values().length) throw new IOException("Invalid save: bad thinker class " + tmp);
             tclass = thinkerclass_t.values()[tmp];
             switch (tclass) {
                 case tc_end:
@@ -710,6 +711,7 @@ public class VanillaDSG<T, V> implements IDoomSaveGame {
         while (true) {
             int tmp = f.readUnsignedByte();
             //tmp&=0x00ff; // To "unsigned byte"
+            if (tmp >= specials_e.values().length) throw new IOException("Invalid save: bad specials class " + tmp);
             tclass = specials_e.values()[tmp];
             switch (tclass) {
                 case tc_endspecials:

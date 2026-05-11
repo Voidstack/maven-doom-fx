@@ -64,7 +64,9 @@ public boolean wrongversion;
        String vcheckb= ("version "+VERSION);
        // no more unpacking, and report it.
        if (wrongversion = !(vcheckb.equalsIgnoreCase(vcheck))) return;
-       gameskill = skill_t.values()[buf.get()]; 
+       int skillIdx = buf.get() & 0xFF;
+       if (skillIdx >= skill_t.values().length) throw new IOException("Invalid save: bad skill index " + skillIdx);
+       gameskill = skill_t.values()[skillIdx];
        gameepisode = buf.get();
        gamemap = buf.get();
        
@@ -125,7 +127,9 @@ public boolean wrongversion;
            throws IOException {
        name= DoomIO.readNullTerminatedString(f,SAVESTRINGSIZE);
        vcheck=DoomIO.readNullTerminatedString(f,VERSIONSIZE);
-       gameskill=skill_t.values()[f.readUnsignedByte()]; 
+       int skillIdx2 = f.readUnsignedByte();
+       if (skillIdx2 >= skill_t.values().length) throw new IOException("Invalid save: bad skill index " + skillIdx2);
+       gameskill = skill_t.values()[skillIdx2];
        gameepisode=f.readByte();
        gamemap=f.readByte();
        for (int i=0 ; i<MAXPLAYERS ; i++) 

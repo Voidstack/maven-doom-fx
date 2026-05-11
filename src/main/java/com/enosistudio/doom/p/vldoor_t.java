@@ -28,7 +28,9 @@ public class vldoor_t extends SectorAction implements IReadableDoomObject{
         public void read(DataInputStream f) throws IOException{
 
             super.read(f); // Call thinker reader first            
-            type=vldoor_e.values()[DoomIO.readLEInt(f)];
+            int doorIdx = DoomIO.readLEInt(f);
+            if (doorIdx < 0 || doorIdx >= vldoor_e.values().length) throw new IOException("Invalid save: bad door type " + doorIdx);
+            type = vldoor_e.values()[doorIdx];
             super.sectorid=DoomIO.readLEInt(f); // Sector index (or pointer?)
             topheight=DoomIO.readLEInt(f);
             speed=DoomIO.readLEInt(f);

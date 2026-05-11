@@ -3,6 +3,7 @@ target/
 
 # Claude Code
 .claude/
+CLAUDE.md
 
 # WAD files
 *.wad
