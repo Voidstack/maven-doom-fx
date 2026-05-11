@@ -10,7 +10,8 @@ public class Main extends javafx.application.Application {
 
     @Override
     public void start(Stage stage) throws Exception {
-        DoomFXNode doomNode = Engine.startJavaFX(getParameters().getRaw().toArray(new String[0]));
+//        DoomFXNode doomNode = Engine.startJavaFX("C:\\ProjectJava\\freedoom1.wad");
+        DoomFXNode doomNode = Engine.startJavaFX("app\\freedoom1.wad");
 
         StackPane root = new StackPane(doomNode);
         stage.setScene(new Scene(root));

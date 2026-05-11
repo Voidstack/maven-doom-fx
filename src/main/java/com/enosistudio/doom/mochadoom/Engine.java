@@ -76,6 +76,10 @@ public class Engine {
      * Run this before showing your JavaFX stage; returns the node to embed in your scene.
      * The game loop runs in a daemon thread.
      */
+    public static DoomFXNode startJavaFX(final String wadPath) throws IOException {
+        return startJavaFX("-iwad", wadPath);
+    }
+
     public static DoomFXNode startJavaFX(final String... argv) throws IOException {
         final Engine eng;
         synchronized (Engine.class) {
