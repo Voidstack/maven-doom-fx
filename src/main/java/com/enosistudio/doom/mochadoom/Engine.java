@@ -26,6 +26,8 @@ import com.enosistudio.doom.doom.CVarManager;
 import com.enosistudio.doom.doom.CommandVariable;
 import com.enosistudio.doom.doom.ConfigManager;
 import com.enosistudio.doom.doom.DoomMain;
+import com.enosistudio.doom.javafx.DoomFXNode;
+import com.enosistudio.doom.javafx.DoomFXWindowController;
 import static com.enosistudio.doom.g.Signals.ScanCode.*;
 import com.enosistudio.doom.i.Strings;
 import java.io.IOException;
@@ -66,35 +68,62 @@ public class Engine {
     public final CVarManager cvm;
     public final ConfigManager cm;
     public final DoomWindowController<?, EventHandler> windowController;
+    private final DoomFXWindowController fxWindowController;
     private final DoomMain<?, ?> DOOM;
-    
+
+    /**
+     * Starts the engine in JavaFX mode.
+     * Run this before showing your JavaFX stage; returns the node to embed in your scene.
+     * The game loop runs in a daemon thread.
+     */
+    public static DoomFXNode startJavaFX(final String... argv) throws IOException {
+        final Engine eng;
+        synchronized (Engine.class) {
+            eng = new Engine(true, argv);
+        }
+        Thread gameThread = new Thread(() -> {
+            try {
+                eng.DOOM.setupLoop();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }, "doom-loop");
+        gameThread.setDaemon(true);
+        gameThread.start();
+        return eng.fxWindowController.getNode();
+    }
+
     @SuppressWarnings("unchecked")
     private Engine(final String... argv) throws IOException {
+        this(false, argv);
+    }
+
+    @SuppressWarnings("unchecked")
+    private Engine(final boolean fxMode, final String... argv) throws IOException {
         instance = this;
-        
-        // reads command line arguments
         this.cvm = new CVarManager(Arrays.asList(argv));
-        
-        // reads default.cfg and mochadoom.cfg
         this.cm = new ConfigManager();
-        
-        // intiializes stuff
         this.DOOM = new DoomMain<>();
-        
-        // opens a window
-        this.windowController = /*cvm.bool(CommandVariable.AWTFRAME)
-            ? */DoomWindow.createCanvasWindowController(
+
+        if (fxMode) {
+            this.fxWindowController = new DoomFXWindowController(
                 DOOM.graphicSystem::getScreenImage,
                 DOOM::PostEvent,
                 DOOM.graphicSystem.getScreenWidth(),
                 DOOM.graphicSystem.getScreenHeight()
-            )/* : DoomWindow.createJPanelWindowController(
+            );
+            this.windowController = null;
+            return;
+        }
+
+        this.fxWindowController = null;
+        this.windowController = DoomWindow.createCanvasWindowController(
                 DOOM.graphicSystem::getScreenImage,
                 DOOM::PostEvent,
                 DOOM.graphicSystem.getScreenWidth(),
                 DOOM.graphicSystem.getScreenHeight()
-            )*/;
-        
+            );
+
         windowController.getObserver().addInterest(
             new KeyStateInterest<>(obs -> {
                 EventHandler.fullscreenChanges(windowController.getObserver(), windowController.switchFullscreen());
@@ -129,11 +158,14 @@ public class Engine {
         );
     }
     
-    /**
-     * Temporary solution. Will be later moved in more detalied place
-     */
     public static void updateFrame() {
-        instance.windowController.updateFrame();
+        Engine eng = instance;
+        if (eng == null) return;
+        if (eng.fxWindowController != null) {
+            eng.fxWindowController.updateFrame();
+        } else if (eng.windowController != null) {
+            eng.windowController.updateFrame();
+        }
     }
         
     public String getWindowTitle(double frames) {

@@ -34,6 +34,11 @@ public class Signals {
     // plus 260 bytes in this
     private final static byte[] siblings = new byte[Byte.MAX_VALUE << 1];
     
+    public static ScanCode getScanCode(int awtKeyCode) {
+        if (awtKeyCode < 0 || awtKeyCode >= map.length) return ScanCode.SC_NULL;
+        return ScanCode.v[map[awtKeyCode] & 0xFF];
+    }
+
     public static ScanCode getScanCode(KeyEvent e) {
         final ScanCode ret = ScanCode.v[map[e.getKeyCode()] & 0xFF];
 

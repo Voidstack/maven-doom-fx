@@ -1,0 +1,27 @@
+package com.enosistudio.doom;
+
+import com.enosistudio.doom.javafx.DoomFXNode;
+import com.enosistudio.doom.mochadoom.Engine;
+import javafx.scene.Scene;
+import javafx.scene.layout.StackPane;
+import javafx.stage.Stage;
+
+public class Main extends javafx.application.Application {
+
+    @Override
+    public void start(Stage stage) throws Exception {
+        DoomFXNode doomNode = Engine.startJavaFX(getParameters().getRaw().toArray(new String[0]));
+
+        StackPane root = new StackPane(doomNode);
+        stage.setScene(new Scene(root));
+        stage.setTitle("Doom FX");
+        stage.setResizable(false);
+        stage.show();
+
+        doomNode.requestFocus();
+    }
+
+    public static void main(String[] args) {
+        launch(args);
+    }
+}
